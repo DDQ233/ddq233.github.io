@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>在Mac下使用Hugo搭建个人博客&nbsp;&ndash;&nbsp;DDQ的笔记</title><link rel="stylesheet" href="/css/core.min.9d9a71a2aa7bfa7cd0fa3d29cca2abd80ea10e5d886dd01abe9e6b2c1a16fb345670afedd884e7805ad44ccb9c2cc877.css" integrity="sha384-nZpxoqp7&#43;nzQ&#43;j0pzKKr2A6hDl2IbdAavp5rLBoW&#43;zRWcK/t2ITngFrUTMucLMh3"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">DDQ的笔记</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a><a class="nav item" href="https://gohugo.io/"target="_blank">Hugo</a></nav></div></span></div><div class="site slogan"><span class="title">DDQ Note Library</span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">在Mac下使用Hugo搭建个人博客</h1><p class="article date">Date : 2020-04-05</p></section><article class="article markdown-body"><p>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。</p>
+<h1 id="目录">目录</h1>
+<ul>
+<li>一、实验材料</li>
+<li>二、Homebrew 安装
+<ul>
+<li>2.1 安装方法
+<ul>
+<li>2.1.1 方法一：通过官网提供的命令安装</li>
+<li>2.1.2 方法二：直接从GitHub上clone文件</li>
+<li>2.1.3 方法三：通过bash命令下载</li>
+</ul>
+</li>
+<li>2.2 配置环境变量</li>
+<li>2.3 Homebrew 替换现有上游</li>
+<li>2.4 更新 Homebrew</li>
+<li>2.5 验证检查</li>
+</ul>
+</li>
+<li>三、通过 Homebrew 安装 Hugo
+<ul>
+<li>3.1 安装 Go 语言环境</li>
+<li>3.1.1 下载相应系统的安装包</li>
+<li>3.1.2 配置环境变量</li>
+<li>3.2 用 Homebrew 安装 Hugo</li>
+</ul>
+</li>
+<li>四、建立网站
+<ul>
+<li>4.1 建立一个网站</li>
+<li>4.2 下载主题</li>
+<li>4.3 新建文章</li>
+<li>4.4 编译项目，开启服务</li>
+<li>4.5 在浏览器浏览项目</li>
+</ul>
+</li>
+<li>参考文章</li>
+</ul>
+<br>
+<hr>
+<h1 id="一实验材料">一、实验材料</h1>
+<ul>
+<li>Mac OS X - v10.14.6</li>
+<li>Homebrew (又称brew) - v2.2.11-dirty</li>
+<li>Go语言环境 - v1.14.1</li>
+<li>Git - v2.23.0</li>
+<li>Hugo - v0.68.3</li>
+<li>Hugo主题：hugo-notepadium - v0.60.0</li>
+<li>GitHub</li>
+<li>Markdown语法</li>
+</ul>
+<br>
+<hr>
+<h1 id="二homebrew-安装">二、Homebrew 安装</h1>
+<h2 id="21-安装方法">2.1 安装方法</h2>
+<h3 id="211-方法一通过官网提供的命令安装">2.1.1 方法一：通过官网提供的命令安装</h3>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ /bin/bash -c <span class="s2">&#34;</span><span class="k">$(</span>curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh<span class="k">)</span><span class="s2">&#34;</span>
+</code></pre></div><p>在国内，这个命令通常会失败并报以下错误。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ curl: <span class="o">(</span>7<span class="o">)</span> Failed to connect to http://raw.githubusercontent.com port 443: Operation timed outOperation
+</code></pre></div><h3 id="212-方法二直接从github上clone文件换源下载">2.1.2 方法二：直接从GitHub上clone文件（换源下载）</h3>
+<p>输入命令从 <code>GitHub</code> 或者其他源克隆 <code>Homebrew</code> 的项目，放在 <code>/usr/local/Homebrew/</code> 目录下。</p>
+<p>或者</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ git clone git@github.com:Homebrew/brew.git /usr/local/Homebrew/
+</code></pre></div><p>或者</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ git clone https://github.com/Homebrew/brew.git /usr/local/Homebrew/
+</code></pre></div><h3 id="213-方法三通过bash命令下载">2.1.3 方法三：通过bash命令下载</h3>
+<p>安装时间会比较久。。。。。</p>
+<p><a href="https://codeload.github.com/Homebrew/install/zip/master"target="_blank">文件下载链接</a></p>
+<p>文件目录如下：</p>
+<ul>
+<li>install-master
+<ul>
+<li>Gemfile</li>
+<li>Gemfile.lock</li>
+<li>install</li>
+<li>install.sh</li>
+<li>LICENSE.txt</li>
+<li>README.md</li>
+<li>unstall</li>
+</ul>
+</li>
+</ul>
+<p>打开 <code>intall.sh</code> 文件，换源，大概在33～35行。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># BREW_REPO=&#34;https://github.com/Homebrew/brew&#34;</span>
+<span class="nv">BREW_REPO</span><span class="o">=</span><span class="s2">&#34;https://mirrors.ustc.edu.cn/brew.git&#34;</span>
+</code></pre></div><p>然后用 <code>终端</code> 执行 <code>install</code> 文件</p>
+<p>等待安装结束。。。。。。。</p>
+<p>成功安装会出现：======&gt; Installation successful!</p>
+<h2 id="22-配置环境变量">2.2 配置环境变量</h2>
+<ol>
+<li>进入 <code>home</code> 目录</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">cd</span> ~
+</code></pre></div><ol start="2">
+<li>创建 <code>.bash_prfoile</code> 文件</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ touch .bash_profile
+</code></pre></div><ol start="3">
+<li>打开 <code>.bash_profile</code> 进行编辑</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ vim .bash_profile
+</code></pre></div><p>用 <code>vim</code> 命令可以直接按4.添加内容</p>
+<p>不懂 <code>vim</code> 的，可以用 <code>open</code> 命令打开编辑</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ open -e .bash_profile
+</code></pre></div><ol start="4">
+<li>添加内容</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span>/usr/local/bin:<span class="nv">$PATH</span>
+</code></pre></div><ol start="5">
+<li>保存</li>
+</ol>
+<p>使用 <code>command + S</code></p>
+<ol start="6">
+<li>生效环境变量</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">source</span> .bash_profile
+</code></pre></div><h2 id="23-homebrew-替换现有上游">2.3 Homebrew 替换现有上游</h2>
+<p>只需执行第一第二条即可</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell"><span class="c1"># 以下针对 mac OS 系统上的 Homebrew</span>
+$ git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo homebrew/core<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-core.git
+$ git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo homebrew/cask<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask.git
+$ git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo homebrew/cask-fonts<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-fonts.git
+$ git -C <span class="s2">&#34;</span><span class="k">$(</span>brew --repo homebrew/cask-drivers<span class="k">)</span><span class="s2">&#34;</span> remote set-url origin https://mirrors.tuna.tsinghua.edu.cn/git/homebrew/homebrew-cask-drivers.git
+</code></pre></div><h2 id="24-更新-homebrew">2.4 更新 Homebrew</h2>
+<p>这里时间会比较久。。。。。。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ brew update
+</code></pre></div><p>更新完毕会出现：</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ brew is up-to-date
+</code></pre></div><h2 id="25-验证检查">2.5 验证检查</h2>
+<p>更新操作通过后，这里不执行，跳过也可以。</p>
+<p>这个命令是Homebrew的自我检测命令，看看有没有配置不对的地方。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ brew doctor
+</code></pre></div><p>结果会出现一大堆 <code>Warning</code> ，因为换了国内的软件源，这是没有问题的。</p>
+<br>
+<hr>
+<h1 id="三通过-homebrew-安装-hugo">三、通过 Homebrew 安装 Hugo</h1>
+<p>先安装 Go 语言环境，不然在用 Homebrew 安装 Hugo 的过程中可能会报奇奇怪怪的错误甚至安装失败，Hugo文档也是说需要安装好 Go 语言环境的。</p>
+<h2 id="31-安装-go-语言环境">3.1 安装 Go 语言环境</h2>
+<h3 id="311-下载相应系统的安装包">3.1.1 下载相应系统的安装包</h3>
+<p>安装包下载地址为：https://golang.org/dl/</p>
+<p>如果打不开可以使用这个地址：https://golang.google.cn/dl/</p>
+<p>推荐使用第二个地址。</p>
+<p>如果下载 <code>*.pkg</code> 安装包则直接根据安装器指引进行安装即可。</p>
+<p>如果下载源码包，则需要将源码包手动解压到 <code>/usr/local</code> 目录。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">tar -C /usr/local -xzf <span class="o">[</span>源码包名字<span class="o">]</span>.tar.gz
+</code></pre></div><h3 id="312-配置环境变量">3.1.2 配置环境变量</h3>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ <span class="nb">export</span> <span class="nv">PATH</span><span class="o">=</span><span class="nv">$PATH</span>:/usr/local/go/bin
+</code></pre></div><h3 id="32-用-homebrew-安装-hugo">3.2 用 Homebrew 安装 Hugo</h3>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ brew install hugo
+</code></pre></div><p>等待安装完毕。。。。。</p>
+<br>
+<hr>
+<h1 id="四建立网站">四、建立网站</h1>
+<h2 id="41-建立一个网站">4.1 建立一个网站</h2>
+<p>首先新建一个网站，名字随便起，这里以 <code>myblog</code> 为例，<code>[PATH]</code> 为自己想要存放的路径，<code>myblog</code> 为网站名。</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new site <span class="o">[</span>PATH<span class="o">]</span>/myblog
+</code></pre></div><h2 id="42-下载主题">4.2 下载主题</h2>
+<p>这里以 <a href="https://themes.gohugo.io/hugo-notepadium/"target="_blank">hugo-notepadium</a> 主题为例</p>
+<p>进入到 <code>[PATH]/myblog/</code> ，敲命令，下载主题，主题会放到 <code>[PATH]/myblog/themes/</code> 目录下</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ git clone https://github.com/cntrump/hugo-notepadium.git themes/hugo-notepadium
+</code></pre></div><h2 id="43-新建文章">4.3 新建文章</h2>
+<p><code>[PATH]/myblog/content</code> 目录是用来存放文档但地方，用作发布。</p>
+<p>新建文章</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo new post/README.md
+</code></pre></div><p>在文章输入一些内容</p>
+<div class="highlight"><pre class="chroma"><code class="language-markdown" data-lang="markdown">---
+title: &#34;README&#34;
+date: {.Date}
+tags: [&#34;Example&#34;]
+slug: &#34;readme&#34;
+categories: [&#34;Other&#34;]
+draft: false
+comment: false
+---
+
+这是一篇名为README的文章。
+</code></pre></div><p>文章 Header 说明（详见<a href="https://www.gohugo.org/"target="_blank">官方说明文档</a>）：</p>
+<ul>
+<li>title : 文章题目</li>
+<li>date : 发布日期，可以改为其他形式日期格式的日期</li>
+<li>tags : 给文章打上相应的标签，可以配置多个。在网站的配置中可以配置 <code>Tags</code> 进行自动分类</li>
+<li>slug : 文章标语</li>
+<li>categories : 文章归属分类，可以配置多个。在网站配置中可以配置 <code>Categories</code> 进行自动收录</li>
+<li>draft : 当前文章是否为草稿，true则在网站启动的过程中省略，false则在网站中发布</li>
+<li>comment : 评论功能</li>
+</ul>
+<h2 id="44-编译项目开启服务">4.4 编译项目，开启服务</h2>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">$ hugo server --theme<span class="o">=</span>hugo-notepadium --buildDrafts
+</code></pre></div><p>终端不要关闭。</p>
+<h2 id="45-在浏览器浏览项目">4.5 在浏览器浏览项目</h2>
+<p>在浏览器输入，即可查看在本地生成的网站</p>
+<pre><code class="language-url" data-lang="url">http://localhost:1313/
+</code></pre><br>
+<hr>
+<h1 id="参考文章">参考文章</h1>
+<ul>
+<li><a href="https://brew.sh/"target="_blank">Homebrew 官网</a></li>
+<li><a href="https://github.com/gohugoio/hugo/releases"target="_blank">Hugo-Releases</a></li>
+<li><a href="https://github.com/gohugoio/hugo/"target="_blank">Hugo - GitHub</a></li>
+<li><a href="https://www.gohugo.org/"target="_blank">Hugo 中文文档</a></li>
+<li><a href="https://themes.gohugo.io/"target="_blank">Huto Themes 下载</a></li>
+<li><a href="https://themes.gohugo.io/hugo-notepadium/"target="_blank">Hugo主题 - hugo-notepadium</a></li>
+<li><a href="https://themes.gohugo.io/theme/hugo-notepadium/"target="_blank">notepadium主题样例</a></li>
+<li><a href="https://www.bilibili.com/video/BV1q4411i7gL?t=393"target="_blank">手把手教你从0开始搭建自己的个人博客 - Bilibili</a></li>
+<li><a href="https://blog.csdn.net/weixin_43269020/article/details/82865542"target="_blank">使用HUGO搭建个人博客 - CSDN</a></li>
+<li><a href="https://zhuanlan.zhihu.com/p/89941189"target="_blank">Mac下安装Homebrew的经历 - 知乎</a></li>
+<li><a href="https://mirrors.tuna.tsinghua.edu.cn/help/homebrew/"target="_blank">Homebrew/Linuxbrew 镜像使用帮助</a></li>
+<li><a href="https://blog.csdn.net/sinat_38184748/article/details/99450330"target="_blank">macOS安装Homebrew太慢，换用清华镜像 - CSDN</a></li>
+<li><a href="https://www.runoob.com/go/go-environment.html"target="_blank">Go 语言环境安装 - RUNOOB</a></li>
+<li><a href="https://golang.org/dl/"target="_blank">Go 语言安装包下载链接1</a></li>
+<li><a href="https://golang.google.cn/dl/"target="_blank">Go 语言安装包下载链接2</a></li>
+</ul>
+</article><section class="article labels"><a class="category" href=/categories/configure/>Configure</a><a class="tag" href=/tags/hugo/>Hugo</a><a class="tag" href=/tags/mac/>Mac</a><a class="tag" href=/tags/configure/>Configure</a><a class="tag" href=/tags/brew/>Brew</a></section><section class="article license">01.jpeg</section></div></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">© 2020 DDQ.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
+</body>
+
+</html>
