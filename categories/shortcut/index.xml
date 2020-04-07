@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Notes on DDQ的笔记</title>
-    <link>/notes/</link>
-    <description>Recent content in Notes on DDQ的笔记</description>
+    <title>Shortcut on DDQ的笔记</title>
+    <link>/categories/shortcut/</link>
+    <description>Recent content in Shortcut on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/shortcut/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>/notes/shortcut_of_photoshop/</guid>
       <description>目录 选择功能 滤镜 视图操作 编辑操作 图像调整 加点按 图层操作 其他 1. 选择功能 全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctr</description>
-      
-    </item>
-    
-    <item>
-      <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>/notes/hugo_in_mac/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/hugo_in_mac/</guid>
-      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。 目录 一、</description>
       
     </item>
     
