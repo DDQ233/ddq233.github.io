@@ -53,6 +53,16 @@
     </item>
     
     <item>
+      <title>总线型、星型、环状、树状、网状拓扑结构</title>
+      <link>/notes/topological_tructure/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/topological_tructure/</guid>
+      <description>总线型： 总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用</description>
+      
+    </item>
+    
+    <item>
       <title>在Mac下使用Hugo搭建个人博客</title>
       <link>/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>

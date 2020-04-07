@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>总线型、星型、环状、树状、网状拓扑结构&nbsp;&ndash;&nbsp;DDQ的笔记</title><link rel="stylesheet" href="/css/core.min.9d9a71a2aa7bfa7cd0fa3d29cca2abd80ea10e5d886dd01abe9e6b2c1a16fb345670afedd884e7805ad44ccb9c2cc877.css" integrity="sha384-nZpxoqp7&#43;nzQ&#43;j0pzKKr2A6hDl2IbdAavp5rLBoW&#43;zRWcK/t2ITngFrUTMucLMh3"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">DDQ的笔记</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a></nav></div></span></div><div class="site slogan"><span class="title">DDQ Note Library</span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">总线型、星型、环状、树状、网状拓扑结构</h1><p class="article date">Date : 2020-04-07</p></section><article class="article markdown-body"><p>总线型：</p>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="TopologicalStructure-Bus.gif"><img  src="TopologicalStructure-Bus.gif"
+        alt="TopologicalStructure-Bus"/></a></p>
+<p>总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。</p>
+<br>
+<p>星型：</p>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="TopologicalStructure-Star.gif"><img  src="TopologicalStructure-Star.gif"
+        alt="TopologicalStructure-Star"/></a></p>
+<p>星型拓扑结构是一个中心，多个分节点。它结构简单，连接方便，管理和维护都相对容易，而且扩展性强。网络延迟时间较小，传输误差低。中心无故障，一般网络没问题。中心故障，网络就出问题，同时共享能力差，通信线路利用率不高。</p>
+<br>
+<p>环状：</p>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="TopologicalStructure-CyclicAnnular.gif"><img  src="TopologicalStructure-CyclicAnnular.gif"
+        alt="TopologicalStructure-CyclicAnnular"/></a></p>
+<p>环形拓扑结构是节点形成一个闭合环。工作站少，节约设备。当然，这样就导致一个节点出问题，网络就会出问题，而且不好诊断故障。</p>
+<br>
+<p>树型：</p>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="TopologicalStructure-Tree.gif"><img  src="TopologicalStructure-Tree.gif"
+        alt="TopologicalStructure-Tree"/></a></p>
+<p>树形拓扑结构从总线拓扑演变而来。形状像一棵倒置的树,顶端是树根，树根以下带分支，每个分支还可再带子分支，树根接收各站点发送的数据，然后再广播发送到全网。好扩展，容易诊断错误，但对根部要求高。</p>
+<br>
+<p>网状：<a target="_blank" rel="noopener noreferrer" 
+  href="TopologicalStructure-Net.gif"><img  src="TopologicalStructure-Net.gif"
+        alt="TopologicalStructure-Net"/></a></p>
+<p>网形拓扑结构是应用最广泛的，它的优点是不受瓶颈问题和失效问题的影响，一旦线路出问题，可以做其他线路，但太复杂，成本高。</p>
+</article><section class="article labels"><a class="category" href=/categories/note/>Note</a><a class="tag" href=/tags/network/>Network</a></section><section class="article license">01.jpeg</section></div><section class="article navigation"><p><a class="link" href="/notes/shortcut_of_photoshop/"><span class="li">&larr;</span>Photoshop 常用快捷键</a></p><p><a class="link" href="/notes/hugo_in_mac/"><span class="li">&rarr;</span>在Mac下使用Hugo搭建个人博客</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">© 2020 DDQ.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
+</body>
+
+</html>
