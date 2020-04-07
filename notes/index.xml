@@ -7,15 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Git 学习笔记</title>
+      <link>/notes/git_notes/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/git_notes/</guid>
+      <description>目录 一、Git 的优势 二、Git 的结构 三、Git 和代码托管中心 3.1 局域网环境下 3.2 外网环境下 四、本地库和远程库 4.1 本地库初始化 4.2 设置签名 五、基本操作</description>
+      
+    </item>
+    
+    <item>
       <title>Photoshop 常用快捷键</title>
       <link>/notes/shortcut_of_photoshop/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/notes/shortcut_of_photoshop/</guid>
       <description>目录 选择功能 滤镜 视图操作 编辑操作 图像调整 加点按 图层操作 其他 1. 选择功能 全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctr</description>
