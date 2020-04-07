@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>CentOS</title>
+      <link>/tags/centos/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/centos/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Configure</title>
       <link>/tags/configure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
@@ -38,6 +48,26 @@
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/git/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>/tags/linux/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/linux/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>LNMP</title>
+      <link>/tags/lnmp/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/lnmp/</guid>
       <description></description>
       
     </item>
