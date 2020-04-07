@@ -63,6 +63,16 @@
     </item>
     
     <item>
+      <title>Raspbian 中国软件源</title>
+      <link>/notes/raspbian_chinese_mirror/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/raspbian_chinese_mirror/</guid>
+      <description>中国科学技术大学 阿里云 清华大学 华中科技大学 华南农业大学（华南用户） 大连东软信息学院源（北方用户） 重庆大学源（中西部用户） 中山大学 已跳转至中国</description>
+      
+    </item>
+    
+    <item>
       <title>总线型、星型、环状、树状、网状拓扑结构</title>
       <link>/notes/topological_tructure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
