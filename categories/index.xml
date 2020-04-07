@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Configure</title>
+      <link>/categories/configure/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/configure/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Other</title>
       <link>/categories/other/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
@@ -38,16 +48,6 @@
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/categories/versioncontrol/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Configure</title>
-      <link>/categories/configure/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/categories/configure/</guid>
       <description></description>
       
     </item>

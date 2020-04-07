@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Android Studio 内存设置大小</title>
+      <link>/notes/as_memory_setting/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/as_memory_setting/</guid>
+      <description>步骤： Android Studio 的安装目录，在 bin 目录下，找到 studio64.exe.vmoptions 文件，打开。 找到↓ - Xms256m - Xmx1280m .... .... -Xms 是JVM启动的起始堆内存，堆内存是分配给对象的内存 -Xmx 是Java虚拟机</description>
+      
+    </item>
+    
+    <item>
       <title>Git 学习笔记</title>
       <link>/notes/git_notes/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>

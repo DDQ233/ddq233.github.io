@@ -13,6 +13,26 @@
     
     
     <item>
+      <title>AndroidStudio</title>
+      <link>/tags/androidstudio/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/androidstudio/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Configure</title>
+      <link>/tags/configure/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/configure/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Git</title>
       <link>/tags/git/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
@@ -68,16 +88,6 @@
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/brew/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Configure</title>
-      <link>/tags/configure/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/configure/</guid>
       <description></description>
       
     </item>
