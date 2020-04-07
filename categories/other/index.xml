@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Mac on DDQ的笔记</title>
-    <link>/tags/mac/</link>
-    <description>Recent content in Mac on DDQ的笔记</description>
+    <title>Other on DDQ的笔记</title>
+    <link>/categories/other/</link>
+    <description>Recent content in Other on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/categories/other/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>/notes/mac_note_direction/</guid>
       <description>自定便条很容易。 使您的便条突出显示并引起注意。 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼</description>
-      
-    </item>
-    
-    <item>
-      <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>/notes/hugo_in_mac/</link>
-      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/hugo_in_mac/</guid>
-      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。 目录 一、</description>
       
     </item>
     
