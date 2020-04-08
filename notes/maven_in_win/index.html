@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>在Windows下配置Maven&nbsp;&ndash;&nbsp;DDQ的笔记</title><link rel="stylesheet" href="/css/core.min.9d9a71a2aa7bfa7cd0fa3d29cca2abd80ea10e5d886dd01abe9e6b2c1a16fb345670afedd884e7805ad44ccb9c2cc877.css" integrity="sha384-nZpxoqp7&#43;nzQ&#43;j0pzKKr2A6hDl2IbdAavp5rLBoW&#43;zRWcK/t2ITngFrUTMucLMh3"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><span class="site name">DDQ的笔记</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a></nav></div></span></div><div class="site slogan"><span class="title">DDQ Note Library</span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">在Windows下配置Maven</h1><p class="article date">Date : 2020-04-08</p></section><article class="article markdown-body"><h1 id="目录">目录</h1>
+<ul>
+<li>
+<ol>
+<li>Maven 下载</li>
+</ol>
+</li>
+<li>
+<ol start="2">
+<li>配置 Maven 环境变量</li>
+</ol>
+</li>
+<li>
+<ol start="3">
+<li>查看 Maven 是否安装成功</li>
+</ol>
+</li>
+<li>
+<ol start="4">
+<li>Maven 配置文件</li>
+</ol>
+</li>
+<li>
+<ol start="5">
+<li>修改本地仓库位置</li>
+</ol>
+</li>
+<li>
+<ol start="6">
+<li>添加国内镜像源</li>
+</ol>
+</li>
+</ul>
+<br>
+<hr>
+<h1 id="1-maven-下载">1. Maven 下载</h1>
+<p><a href="http://maven.apache.org/download.cgi"target="_blank">官网下载地址：http://maven.apache.org/download.cgi</a></p>
+<p><strong>注意：</strong></p>
+<ul>
+<li>Maven 3.3+ 版本的需要 JDK 1.7 或以上</li>
+<li>Maven 必须安装在非中文目录下</li>
+</ul>
+<p><a target="_blank" rel="noopener noreferrer" 
+  href="MavenFileDownload.png"><img  src="MavenFileDownload.png"
+        alt="MavenFileDownload"/></a></p>
+<p>按需选择下载即可</p>
+<p>（示例）安装目录：C:\DevTools\apache-maven-3.6.1</p>
+<br>
+<h1 id="2-配置-maven-环境变量">2. 配置 Maven 环境变量</h1>
+<p>步骤如下：</p>
+<div class="highlight"><pre class="chroma"><code class="language-text" data-lang="text">1) 进入系统设置
+2) 高级系统设置 &gt; 系统属性 &gt; 高级 &gt; 环境变量
+3) 新建系统变量：M2_HOME
+4) 在系统变量中找到Path，在其中添加：&amp;M2_HOME&amp;\bin
+</code></pre></div><p>新建系统变量：
+<a target="_blank" rel="noopener noreferrer" 
+  href="MavenNewSystemVariables.png"><img  src="MavenNewSystemVariables.png"
+        alt="MavenNewSystemVariables"/></a></p>
+<p>编辑 Path 环境变量：
+<a target="_blank" rel="noopener noreferrer" 
+  href="MavenEditPathSystemVariables.png"><img  src="MavenEditPathSystemVariables.png"
+        alt="MavenEditPathSystemVariables"/></a></p>
+<br>
+<h1 id="3-查看-maven-是否安装成功">3. 查看 Maven 是否安装成功</h1>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">1) 打开 cmd 命令提示符
+2) 输入命令：mvn -v
+</code></pre></div><p><a target="_blank" rel="noopener noreferrer" 
+  href="MavenCheckIsInstall.png"><img  src="MavenCheckIsInstall.png"
+        alt="MavenCheckIsInstall"/></a></p>
+<h1 id="4-maven-配置文件">4. Maven 配置文件</h1>
+<p>Maven 配置文件的路径：C:\DevTools\apache-maven-3.6.1\conf\settings.xml</p>
+<br>
+<h1 id="5-修改本地仓库位置">5. 修改本地仓库位置</h1>
+<p>在&lt;<strong>localRepository</strong>&gt;标签内添加自己的本地位置路径</p>
+<p>（示例）本地仓库地址：C:\DevTools\mavenLocalRepository</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml">  <span class="c">&lt;!-- localRepository
+</span><span class="c">   | The path to the local repository maven will use to store artifacts.
+</span><span class="c">   |
+</span><span class="c">   | Default: ${user.home}/.m2/repository
+</span><span class="c">  &lt;localRepository&gt;/path/to/local/repo&lt;/localRepository&gt;
+</span><span class="c">  --&gt;</span>
+  <span class="c">&lt;!-- 本地仓库地址 --&gt;</span>
+  <span class="nt">&lt;localRepository&gt;</span>C:\DevTools\mavenLocalRepository<span class="nt">&lt;/localRepository&gt;</span>
+</code></pre></div><br>
+<h1 id="6-添加国内镜像源">6. 添加国内镜像源</h1>
+<p>添加&lt;<strong>mirrors</strong>&gt;标签下&lt;<strong>mirror</strong>&gt;，添加国内镜像源，这样下载jar包速度很快。默认的中央仓库有时候甚至连接不通。一般使用阿里云镜像库即可。</p>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="c">&lt;!-- 国内镜像源 --&gt;</span>
+
+<span class="c">&lt;!-- 阿里云仓库 --&gt;</span>
+<span class="nt">&lt;mirror&gt;</span>
+    <span class="nt">&lt;id&gt;</span>alimaven<span class="nt">&lt;/id&gt;</span>
+    <span class="nt">&lt;mirrorOf&gt;</span>central<span class="nt">&lt;/mirrorOf&gt;</span>
+    <span class="nt">&lt;name&gt;</span>aliyun maven<span class="nt">&lt;/name&gt;</span>
+    <span class="nt">&lt;url&gt;</span>http://maven.aliyun.com/nexus/content/repositories/central/<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/mirror&gt;</span>
+
+<span class="c">&lt;!-- 中央仓库1 --&gt;</span>
+<span class="nt">&lt;mirror&gt;</span>
+    <span class="nt">&lt;id&gt;</span>repo1<span class="nt">&lt;/id&gt;</span>
+    <span class="nt">&lt;mirrorOf&gt;</span>central<span class="nt">&lt;/mirrorOf&gt;</span>
+    <span class="nt">&lt;name&gt;</span>Human Readable Name for this Mirror.<span class="nt">&lt;/name&gt;</span>
+    <span class="nt">&lt;url&gt;</span>http://repo1.maven.org/maven2/<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/mirror&gt;</span>
+
+<span class="c">&lt;!-- 中央仓库2 --&gt;</span>
+<span class="nt">&lt;mirror&gt;</span>
+    <span class="nt">&lt;id&gt;</span>repo2<span class="nt">&lt;/id&gt;</span>
+    <span class="nt">&lt;mirrorOf&gt;</span>central<span class="nt">&lt;/mirrorOf&gt;</span>
+    <span class="nt">&lt;name&gt;</span>Human Readable Name for this Mirror.<span class="nt">&lt;/name&gt;</span>
+    <span class="nt">&lt;url&gt;</span>http://repo2.maven.org/maven2/<span class="nt">&lt;/url&gt;</span>
+<span class="nt">&lt;/mirror&gt;</span>
+</code></pre></div></article><section class="article labels"><a class="category" href=/categories/configure/>Configure</a><a class="tag" href=/tags/maven/>Maven</a></section></div><section class="article navigation"><p><a class="link" href="/notes/as_memory_setting/"><span class="li">&rarr;</span>Android Studio 内存设置大小</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">© 2020 DDQ.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
+</body>
+
+</html>
