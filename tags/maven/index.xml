@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>Maven 仓库地址</title>
+      <link>/notes/maven_repository_url/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/maven_repository_url/</guid>
+      <description>XML配置 &amp;lt;!-- 阿里云仓库 --&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;!-- 中央仓库1 --&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;!-- 中央仓库2 --&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;JBoss</description>
+      
+    </item>
+    
+    <item>
       <title>在Windows下配置Maven</title>
       <link>/notes/maven_in_win/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
