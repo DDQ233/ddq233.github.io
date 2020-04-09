@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Wed, 08 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/categories/configure/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>IDEAJ下配置Maven</title>
+      <link>/notes/maven_in_ideaj/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/maven_in_ideaj/</guid>
+      <description>打开设置 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven 修改 Maven 路径和本地仓库的路径 修改 Maven 目录： 修改 Maven 配置文件路径 修改 Maven 本地仓库路径 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven &amp;gt; Importing Maven 自动导包设置</description>
+      
+    </item>
     
     <item>
       <title>在Windows下配置Maven</title>
