@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>IDEAJ配置</title>
+      <link>/notes/ideaj_config/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/ideaj_config/</guid>
+      <description>一、前言 基于 IDEAJ 2019-2 插图为已改设置 JetBrains 系列的产品应该能同样适用 Android Studio 产品基本都能够适用 二、正文 1. 主题与 IDE 字体 2. Ctrl + 鼠标滚轮放大缩小代码 3. 设置鼠标悬浮</description>
+      
+    </item>
+    
+    <item>
       <title>在Windows下配置Maven</title>
       <link>/notes/maven_in_win/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
