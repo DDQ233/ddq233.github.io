@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Other on DDQ的笔记</title>
-    <link>/categories/other/</link>
+    <link>/tags/other/</link>
     <description>Recent content in Other on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/other/index.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="/tags/other/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,16 +19,6 @@
       
       <guid>/notes/different_picture_size/</guid>
       <description>目录 1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号</description>
-      
-    </item>
-    
-    <item>
-      <title>Mac便签说明</title>
-      <link>/notes/mac_note_direction/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/notes/mac_note_direction/</guid>
-      <description>自定便条很容易。 使您的便条突出显示并引起注意。 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼</description>
       
     </item>
     

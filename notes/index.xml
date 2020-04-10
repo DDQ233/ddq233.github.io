@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>各类照片格式信息</title>
+      <link>/notes/different_picture_size/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/different_picture_size/</guid>
+      <description>目录 1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号</description>
+      
+    </item>
     
     <item>
       <title>IDEAJ下配置Maven</title>
