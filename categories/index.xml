@@ -13,11 +13,11 @@
     
     
     <item>
-      <title>Other</title>
-      <link>/categories/other/</link>
+      <title>Note</title>
+      <link>/categories/note/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/other/</guid>
+      <guid>/categories/note/</guid>
       <description></description>
       
     </item>
@@ -33,11 +33,11 @@
     </item>
     
     <item>
-      <title>Note</title>
-      <link>/categories/note/</link>
+      <title>Other</title>
+      <link>/categories/other/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/note/</guid>
+      <guid>/categories/other/</guid>
       <description></description>
       
     </item>

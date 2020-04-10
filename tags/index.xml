@@ -13,11 +13,11 @@
     
     
     <item>
-      <title>Other</title>
-      <link>/tags/other/</link>
+      <title>Note</title>
+      <link>/tags/note/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/other/</guid>
+      <guid>/tags/note/</guid>
       <description></description>
       
     </item>
@@ -118,16 +118,6 @@
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>/tags/network/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Note</title>
-      <link>/tags/note/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/note/</guid>
       <description></description>
       
     </item>
