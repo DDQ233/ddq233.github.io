@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Spring数据库编程笔记</title>
+      <link>/notes/spring_database_dev/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/spring_database_dev/</guid>
+      <description>目录 1.什么是数据库连接池？ 2.传统的JDBC连接与数据库连接池连接的区别是什么？ 2.1 JDBC访问数据库对过程 2.2 数据库连接池访问数据库 3.为什</description>
+      
+    </item>
+    
+    <item>
       <title>文献的检索、阅读和管理学习笔记</title>
       <link>/notes/literature_learning_note/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
