@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>网页元信息定义</title>
+      <link>/notes/html_meta_define/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/html_meta_define/</guid>
+      <description>使用 &amp;lt;meta&amp;gt; 标签可以定义网页的元信息。 &amp;lt;meta&amp;gt; 标签位于文档的头部，&amp;lt;head&amp;gt; 标签内不包含任何内容。使用 &amp;lt;meta&amp;gt; 标签的属性可以定义与文档相关联的名</description>
+      
+    </item>
     
     <item>
       <title>Spring数据库编程笔记</title>

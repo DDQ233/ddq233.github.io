@@ -64,14 +64,14 @@
 <br>
 <hr>
 <h1 id="4-数据库连接池的优势是什么">4. 数据库连接池的优势是什么？</h1>
-<p><strong>1. 减少连接创建时间。</strong> 连接池中的连接是已准备好的、可重复使用的，获取后可以直接访问数据库，因此减少了连接创建的次数和时间。
-<strong>2. 简化的编程模式。</strong> 当使用连接池时，每一个单独的线程能够像创建一个自己的JDBC连接一样操作，允许用户直接使用JDBC编程技术。
-<strong>3. 控制资源的使用。</strong> 如果不使用连接池，每次访问数据库都需要创建一个连接，这样系统的稳定性受系统连接需求影响很大，很容易产生资源浪费和高负载异常。连接池能够使性能最大化，将资源利用控制在一定的水平之下。连接池能控制池中的连接数量，增强了系统在大量用户应用时的稳定性。</p>
+<p><strong>1. 减少连接创建时间。</strong> 连接池中的连接是已准备好的、可重复使用的，获取后可以直接访问数据库，因此减少了连接创建的次数和时间。</p>
+<p><strong>2. 简化的编程模式。</strong> 当使用连接池时，每一个单独的线程能够像创建一个自己的JDBC连接一样操作，允许用户直接使用JDBC编程技术。</p>
+<p><strong>3. 控制资源的使用。</strong> 如果不使用连接池，每次访问数据库都需要创建一个连接，这样系统的稳定性受系统连接需求影响很大，很容易产生资源浪费和高负载异常。连接池能够使性能最大化，将资源利用控制在一定的水平之下。连接池能控制池中的连接数量，增强了系统在大量用户应用时的稳定性。</p>
 <br>
 <hr>
 <h1 id="5-常见的数据库连接池">5. 常见的数据库连接池</h1>
 <h2 id="51-dbcp">5.1 DBCP</h2>
-<p>DBCP类是一个依赖 <code>Jakarta commons-pool</code> 对象池机制的数据库连接池，所以，在类路径下必须导入依赖jar包。</p>
+<p>DBCP类是一个依赖 Jakarta commons-pool 对象池机制的数据库连接池，所以，在类路径下必须导入依赖jar包。</p>
 <h2 id="52-c3p0">5.2 C3P0</h2>
 <p>C3P0：是一个开放源代码的JDBC连接池，它在lib目录中与Hibernate一起发布，包括了实现jdbc3和jdbc2扩展规范说明的Connection和Statement池的DataSources对象。</p>
 <h2 id="53-druid">5.3 Druid</h2>
@@ -86,7 +86,7 @@
 <li><a href="https://www.cnblogs.com/aspirant/p/6747238.html"target="_blank">MySql数据库连接池专题 - 博客园</a></li>
 <li><a href="https://zhuanlan.zhihu.com/p/80701813"target="_blank">数据库连接池 - 知乎</a></li>
 </ul>
-</article><section class="article labels"><a class="category" href=/categories/java/>Java</a><a class="tag" href=/tags/java/>Java</a><a class="tag" href=/tags/spring/>Spring</a></section></div><section class="article navigation"><p><a class="link" href="/notes/literature_learning_note/"><span class="li">&rarr;</span>文献的检索、阅读和管理学习笔记</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+</article><section class="article labels"><a class="category" href=/categories/java/>Java</a><a class="tag" href=/tags/java/>Java</a><a class="tag" href=/tags/spring/>Spring</a></section></div><section class="article navigation"><p><a class="link" href="/notes/html_meta_define/"><span class="li">&larr;</span>网页元信息定义</a></p><p><a class="link" href="/notes/literature_learning_note/"><span class="li">&rarr;</span>文献的检索、阅读和管理学习笔记</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
     <p class="copyright">© 2020 DDQ.</p>
     <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
         target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
