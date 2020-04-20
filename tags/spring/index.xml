@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
         <atom:link href="/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>8种常用的数据库数据源配置和相应的JDBC驱动包</title>
+      <link>/notes/spring_datasource_configure/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/spring_datasource_configure/</guid>
+      <description>Spring中数据源配置格式 &amp;lt;bean id=&amp;#34;dataSource&amp;#34; class=&amp;#34;org.apache.commons.dbcp.BasicDataSource&amp;#34; destroy-method=&amp;#34;close&amp;#34;&amp;gt; &amp;lt;property name=&amp;#34;driverClass&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;property name=&amp;#34;url&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;property name=&amp;#34;username&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;property name=&amp;#34;password&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;/bean&amp;gt; 这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。 各种</description>
+      
+    </item>
     
     <item>
       <title>Spring数据库编程笔记</title>

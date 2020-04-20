@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en"><meta charset="utf-8"><meta name="generator" content="Hugo 0.68.3" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="color-scheme" content="light dark">
+<meta name="supported-color-schemes" content="light dark"><title>8种常用的数据库数据源配置和相应的JDBC驱动包&nbsp;&ndash;&nbsp;DDQ的笔记</title><link rel="stylesheet" href="/css/core.min.9d9a71a2aa7bfa7cd0fa3d29cca2abd80ea10e5d886dd01abe9e6b2c1a16fb345670afedd884e7805ad44ccb9c2cc877.css" integrity="sha384-nZpxoqp7&#43;nzQ&#43;j0pzKKr2A6hDl2IbdAavp5rLBoW&#43;zRWcK/t2ITngFrUTMucLMh3"><body>
+    <div class="base-body"><section id="header" class="site header">
+    <div class="header wrap"><span class="header left-side"><a class="site home" href="/"><img class="site logo" src="/Logo.jpg" alt /><span class="site name">DDQ的笔记</span></a></span>
+        <span class="header right-side"><div class="nav wrap"><nav class="nav"><a class="nav item" href="/categories/">Categories</a><a class="nav item" href="/tags/">Tags</a><a class="nav item" href="/about">About</a></nav></div></span></div><div class="site slogan"><span class="title">DDQ Note Library</span></div></section><div id="content"><div class="article-container"><section class="article header">
+    <h1 class="article title">8种常用的数据库数据源配置和相应的JDBC驱动包</h1><p class="article date">Date : 2020-04-20</p></section><article class="article markdown-body"><ol>
+<li>Spring中数据源配置格式</li>
+</ol>
+<div class="highlight"><pre class="chroma"><code class="language-xml" data-lang="xml"><span class="nt">&lt;bean</span> <span class="na">id=</span><span class="s">&#34;dataSource&#34;</span> <span class="na">class=</span><span class="s">&#34;org.apache.commons.dbcp.BasicDataSource&#34;</span> <span class="na">destroy-method=</span><span class="s">&#34;close&#34;</span><span class="nt">&gt;</span>  
+　　<span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&#34;driverClass&#34;</span> <span class="na">value=</span><span class="s">&#34;&#34;</span> <span class="nt">/&gt;</span>  
+　　<span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&#34;url&#34;</span> <span class="na">value=</span><span class="s">&#34;&#34;</span> <span class="nt">/&gt;</span>
+　　<span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&#34;username&#34;</span> <span class="na">value=</span><span class="s">&#34;&#34;</span> <span class="nt">/&gt;</span>  
+　　<span class="nt">&lt;property</span> <span class="na">name=</span><span class="s">&#34;password&#34;</span> <span class="na">value=</span><span class="s">&#34;&#34;</span> <span class="nt">/&gt;</span>
+<span class="nt">&lt;/bean&gt;</span>
+</code></pre></div><p>这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。</p>
+<br>
+<ol start="2">
+<li>各种数据库及其数据源配置参数</li>
+</ol>
+<ul>
+<li>数据库：Oracle
+驱动程序：oracle.jdbc.driver.OracleDriver
+URL：jdbc:oracle:thin:@localhost:1521:orcl</li>
+</ul>
+<br>
+<ul>
+<li>数据库：DB2
+驱动程序：com.ibm.db2.jdbc.app.DB2Driver
+URL：jdbc:db2://localhost:5000/testDB</li>
+</ul>
+<br>
+<ul>
+<li>数据库：SQL Server
+驱动程序：com.microsoft.jdbc.sqlserver.SQLServerDriver
+URL：jdbc.microsoft:sqlserver://localhost:1433;DatabaseName=testDB</li>
+</ul>
+<br>
+<ul>
+<li>数据库：Sybase
+驱动程序：com.sybase.jdbc.SybDriver
+URL：jdbc:sybase:Tds:localhost:5007/testDB</li>
+</ul>
+<br>
+<ul>
+<li>数据库：Informix
+驱动程序：com.informix.jdbc.IfxDriver
+URL：jdbc:informixsqli://123.45.67.89:1533/myDB:INFORMIXSERVER=myserver</li>
+</ul>
+<br>
+<ul>
+<li>数据库：Mysql
+驱动程序：com.musql.jdbc.Driver
+URL：jdbc:mysql://localhost:3306/testDB</li>
+</ul>
+<br>
+<ul>
+<li>数据库：PostgreSQL
+驱动程序：org.postgresql.Driver
+URL：jdbc:postgresql://localhost/testDB</li>
+</ul>
+<br>
+<ul>
+<li>数据库：HSQLDB
+驱动程序：org.hsqldb.jdbcDriver
+URL：jdbc:hsqldb:hsql://llocalhost:9902</li>
+</ul>
+</article><section class="article labels"><a class="category" href=/categories/configure/>Configure</a><a class="tag" href=/tags/java/>Java</a><a class="tag" href=/tags/spring/>Spring</a></section></div><section class="article navigation"><p><a class="link" href="/notes/html_meta_define/"><span class="li">&rarr;</span>网页元信息定义</a></p></section></div><section id="footer" class="footer"><div class="footer-wrap">
+    <p class="copyright">© 2020 DDQ.</p>
+    <p class="powerby"><span>Powered by </span><a href="https://gohugo.io" 
+        target="_blank">Hugo</a><span> and the </span><a href="https://themes.gohugo.io/hugo-notepadium/" 
+        target="_blank">Notepadium</a></p>
+</div></section><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css" integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/&#43;DiW/UqRcLbRjq" crossorigin="anonymous"><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js" integrity="sha384-y23I5Q6l&#43;B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd&#43;qj&#43;o24G5ZU2zJz" crossorigin="anonymous"></script><script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script><script src="/js/hljs.min.0799348a91dce12c6be4a73f943cfe78f181f4e6f6ec35c4af0fca1de377879f77cfab03c30f03a174d675737b5a9314.js" integrity="sha384-B5k0ipHc4Sxr5Kc/lDz&#43;ePGB9Ob27DXErw/KHeN3h593z6sDww8DoXTWdXN7WpMU"></script><script>hljs.initHighlightingOnLoad();</script></div>
+</body>
+
+</html>
