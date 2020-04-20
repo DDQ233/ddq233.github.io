@@ -23,6 +23,16 @@
     </item>
     
     <item>
+      <title>Spring数据源配置属性</title>
+      <link>/notes/druid_datasource_attr/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/druid_datasource_attr/</guid>
+      <description>配置 缺省值 说明 name 配置这个属性的意义在于，如果存在多个数据源，监控的时候可以通过名字来区分开来。 如果没有配置，将会生成一个名字，格式是：&amp;ld</description>
+      
+    </item>
+    
+    <item>
       <title>Spring数据库编程笔记</title>
       <link>/notes/spring_database_dev/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
