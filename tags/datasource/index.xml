@@ -13,7 +13,7 @@
     
     
     <item>
-      <title>Spring数据源配置属性</title>
+      <title>Druid数据源配置属性</title>
       <link>/notes/druid_datasource_attr/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
