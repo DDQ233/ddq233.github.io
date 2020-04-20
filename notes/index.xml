@@ -43,6 +43,16 @@
     </item>
     
     <item>
+      <title>物联网系统传感层的设计</title>
+      <link>/notes/iot_sensing_layer_design/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/notes/iot_sensing_layer_design/</guid>
+      <description>应用场景 智能家居 可行性分析 现状 存在问题 需求分析 体验 舒适 安全 可靠 角色分析 老人 小孩 管理者 物业 功能设计 温度自动调控 识别 语音控制 硬件架构 红外遥控 几点</description>
+      
+    </item>
+    
+    <item>
       <title>网页元信息定义</title>
       <link>/notes/html_meta_define/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
