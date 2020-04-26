@@ -135,7 +135,7 @@ Maven 工程的核心配置。</p>
     <span class="nt">&lt;/dependency&gt;</span>
 <span class="nt">&lt;/dependencies&gt;</span>
 </code></pre></div><h2 id="341-依赖的范围">3.4.1 依赖的范围</h2>
-<p>        在依赖信息设置中有一个 <code>scope</code> 标签，这就是设置依赖的范围。依赖的范围有几个可选值，我们用到的是 <code>complie</code> 、 <code>test</code> 、 <code>provided</code> 三个。</p>
+<p>        在依赖信息设置中有一个 <code>scope</code> 标签，这就是设置依赖的范围。依赖的范围有几个可选值，<code>complie</code> 、 <code>provided</code> 、 <code>runtime</code> 、 <code>test</code> 、 <code>system</code>。</p>
 <p>三个属性的有效性：</p>
 <table>
 <thead>
@@ -167,6 +167,13 @@ Maven 工程的核心配置。</p>
 </tr>
 </tbody>
 </table>
+<ul>
+<li><strong>complie：</strong> 默认值，适用于所有阶段（开发、测试、部署、运行），本jar会一直存在所有阶段。</li>
+<li><strong>provided：</strong> 只在开发、测试阶段使用，目的是不让Servlet容器和你本地仓库的jar包冲突 。如servlet.jar。</li>
+<li><strong>runtime：</strong> 只在运行时使用，如JDBC驱动，适用运行和测试阶段。</li>
+<li><strong>test：</strong> 只在测试时使用，用于编译和运行测试代码。不会随项目发布。</li>
+<li><strong>system：</strong> 类似provided，需要显式提供包含依赖的jar，Maven不会在Repository中查找它。</li>
+</ul>
 <h2 id="35-仓库">3.5 仓库</h2>
 <h3 id="351-分类">3.5.1 分类</h3>
 <ul>
@@ -193,6 +200,40 @@ Maven 工程的核心配置。</p>
 <p><strong>(1) Clean Lifecycle：</strong> 在进行真正的构建之前进行一些清理工作。</p>
 <p><strong>(2) Default Lifecycle：</strong> 构建的核心部分，编译，测试，打包，安装，部署等等。</p>
 <p><strong>(3) Site Lifecycle：</strong> 生成项目报告，站点，发布站点。</p>
+<h3 id="362-clean-生命周期">3.6.2 Clean 生命周期</h3>
+<p><strong>(1) pre-clean：</strong> 执行一些需要在clean之前完成的工作</p>
+<p><strong>(2) clean：</strong> 移除所有上一次构建生成的文件</p>
+<p><strong>(3) post-clean：</strong> 执行一些需要在clean之后立刻完成的工作</p>
+<h3 id="363-site-生命周期">3.6.3 Site 生命周期</h3>
+<p><strong>(1) pre-site：</strong> 执行一些需要在生成站点文档之前完成的工作</p>
+<p><strong>(2) site：</strong> 生成项目的站点文档</p>
+<p><strong>(3) post-site：</strong> 执行一些需要在生成站点文档之后完成的工作，并且为部署做准备</p>
+<p><strong>(4) site-deploy：</strong> 将生成的站点文档部署到特定的服务器上</p>
+<h3 id="364-default-生命周期">3.6.4 Default 生命周期</h3>
+<ul>
+<li>validate</li>
+<li>generate-sources</li>
+<li>process-sources</li>
+<li>generate-resources</li>
+<li>process-resources 复制并处理资源文件，至目标目录，准备打包。</li>
+<li>compile 编译项目的源代码。</li>
+<li>process-classes</li>
+<li>generate-test-sources</li>
+<li>process-test-sources</li>
+<li>generate-test-resources</li>
+<li>process-test-resources 复制并处理资源文件，至目标测试目录。</li>
+<li>test-compile 编译测试源代码。</li>
+<li>process-test-classes</li>
+<li>test 使用合适的单元测试框架运行测试。这些测试代码不会被打包或部署。</li>
+<li>prepare-package</li>
+<li>package 接受编译好的代码，打包成可发布的格式，如 JAR。</li>
+<li>pre-integration-test</li>
+<li>integration-test</li>
+<li>post-integration-test</li>
+<li>verify</li>
+<li>install 将包安装至本地仓库，以让其它项目依赖。</li>
+<li>deploy 将最终的包复制到远程的仓库，以让其它开发人员与项目共享或部署到服务器上运行。</li>
+</ul>
 <h2 id="37-插件和目标">3.7 插件和目标</h2>
 <p>        Maven 的核心仅仅定义了抽象的生命周期，具体的任务都是交由插件完成的。</p>
 <p>        每个插件都能实现多个功能，每个功能就是一个插件目标。</p>
