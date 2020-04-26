@@ -16,7 +16,7 @@
     box-sizing: border-box;
 }
 html {
-    font-size: calc(1em + 0.33vw);
+    font-size: calc(0.9em + 0.1vw);
     font-family: Arial, Helvetica Neue, sans-serif;
     line-height: 1.5;
     color: #111;
@@ -316,8 +316,8 @@ caption {
     overflow-x: hidden;
 }
 .intro-and-nav {
-    font-size: 0.8rem;
-    width: 15rem;
+    font-size: 1.125rem;
+    width: 18rem;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -378,7 +378,7 @@ caption {
     margin-top: 0.75rem;
 }
 .patterns li {
-    line-height: 1.125;
+    line-height: 1.5;
     list-style: none;
 }
 .patterns li + li {
