@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Shortcut on DDQ的笔记</title>
-    <link>/categories/shortcut/</link>
+    <link>https://ddq233.github.io/categories/shortcut/</link>
     <description>Recent content in Shortcut on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/shortcut/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/categories/shortcut/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Photoshop常用快捷键</title>
-      <link>/notes/shortcut_of_photoshop/</link>
+      <link>https://ddq233.github.io/notes/shortcut_of_photoshop/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/shortcut_of_photoshop/</guid>
-      <description>目录 选择功能 滤镜 视图操作 编辑操作 图像调整 加点按 图层操作 其他 1. 选择功能 全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctr</description>
-      
+      <guid>https://ddq233.github.io/notes/shortcut_of_photoshop/</guid>
+      <description>目录    选择功能    滤镜    视图操作    编辑操作    图像调整    加点按    图层操作    其他     1. 选择功能  全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctrl】+【Shift】+【D】 羽化选择 【Ctrl】+【Alt】+【D】 反向选择 【Ctrl】+【Shift】+【I】 路径变选区 数字键盘的【Enter】 载入选区 【Ctrl】+点按图层、路径、通道面板中的缩略图  2. 滤镜  按上次的参数再做一次上次的滤镜 【Ctrl】+【F】 退去上次所做滤镜的效果 【Ctrl】+【Shift】+【F】 重复上次所做的滤镜(可调参数) 【Ctrl】+【Alt】+【F】 选择工具(在“3D变化”滤镜中) 【V】 立方体工具(在“3D变化”滤镜中) 【M】 球体工具(在“3D变化”滤镜中) 【N】 柱体工具(在“3D变化”滤镜中) 【C】 轨迹球(在“3D变化”滤镜中) 【R】 全景相机工具(在“3D变化”滤镜中) 【E】  3.</description>
     </item>
     
   </channel>

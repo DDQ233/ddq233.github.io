@@ -1,95 +1,87 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DDQ的笔记</title>
-    <link>/categories/</link>
+    <link>https://ddq233.github.io/categories/</link>
     <description>Recent content in Categories on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>BuildTools</title>
-      <link>/categories/buildtools/</link>
+      <link>https://ddq233.github.io/categories/buildtools/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/buildtools/</guid>
+      <guid>https://ddq233.github.io/categories/buildtools/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Configure</title>
-      <link>/categories/configure/</link>
+      <link>https://ddq233.github.io/categories/configure/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/configure/</guid>
+      <guid>https://ddq233.github.io/categories/configure/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>IOT</title>
-      <link>/categories/iot/</link>
+      <link>https://ddq233.github.io/categories/iot/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/iot/</guid>
+      <guid>https://ddq233.github.io/categories/iot/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>HTML</title>
-      <link>/categories/html/</link>
+      <link>https://ddq233.github.io/categories/html/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/html/</guid>
+      <guid>https://ddq233.github.io/categories/html/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Java</title>
-      <link>/categories/java/</link>
+      <link>https://ddq233.github.io/categories/java/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/java/</guid>
+      <guid>https://ddq233.github.io/categories/java/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Note</title>
-      <link>/categories/note/</link>
+      <link>https://ddq233.github.io/categories/note/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/note/</guid>
+      <guid>https://ddq233.github.io/categories/note/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Shortcut</title>
-      <link>/categories/shortcut/</link>
+      <link>https://ddq233.github.io/categories/shortcut/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/shortcut/</guid>
+      <guid>https://ddq233.github.io/categories/shortcut/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>VersionControl</title>
-      <link>/categories/versioncontrol/</link>
+      <link>https://ddq233.github.io/categories/versioncontrol/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/categories/versioncontrol/</guid>
+      <guid>https://ddq233.github.io/categories/versioncontrol/</guid>
       <description></description>
-      
     </item>
     
   </channel>

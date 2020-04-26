@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IOT on DDQ的笔记</title>
-    <link>/tags/iot/</link>
+    <link>https://ddq233.github.io/tags/iot/</link>
     <description>Recent content in IOT on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/iot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/iot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>物联网系统传感层的设计</title>
-      <link>/notes/iot_sensing_layer_design/</link>
+      <link>https://ddq233.github.io/notes/iot_sensing_layer_design/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/iot_sensing_layer_design/</guid>
-      <description>应用场景 智能家居 可行性分析 现状 存在问题 需求分析 体验 舒适 安全 可靠 角色分析 老人 小孩 管理者 物业 功能设计 温度自动调控 识别 语音控制 硬件架构 红外遥控 几点</description>
-      
+      <guid>https://ddq233.github.io/notes/iot_sensing_layer_design/</guid>
+      <description>应用场景  智能家居   可行性分析  现状 存在问题   需求分析  体验  舒适 安全 可靠     角色分析  老人 小孩 管理者 物业   功能设计  温度自动调控 识别 语音控制   硬件架构  红外遥控 几点起 温度传感器 空气质量监测 MCU   执行标准  国际 UL、CE 行业标准 企业标准 双方约定   硬件选型  单片机STM32 温度监测传感器 空气质量传感器 识别、控制 红外传感器 继电器 电机    对传感器对一般要求：</description>
     </item>
     
   </channel>

@@ -1,55 +1,72 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on DDQ的笔记</title>
-    <link>/categories/note/</link>
+    <link>https://ddq233.github.io/categories/note/</link>
     <description>Recent content in Note on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/categories/note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/categories/note/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>文献的检索、阅读和管理学习笔记</title>
-      <link>/notes/literature_learning_note/</link>
+      <link>https://ddq233.github.io/notes/literature_learning_note/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/literature_learning_note/</guid>
-      <description>目录 看文献的5个认识 文献检索存在的问题 文献检索常用方法 文献筛选的要点 文献阅读数量 文献类型 文献阅读的方法论 一篇具体文章如何阅读 阅读文献的方法举</description>
-      
+      <guid>https://ddq233.github.io/notes/literature_learning_note/</guid>
+      <description>目录    看文献的5个认识    文献检索存在的问题    文献检索常用方法    文献筛选的要点    文献阅读数量    文献类型    文献阅读的方法论    一篇具体文章如何阅读    阅读文献的方法举例    如何阅读一篇文献    如何速读一篇文献    精读文献    如何精读一篇文献    如何给文献做笔记   14.1 为什么要做笔记？ 14.2 哪些文献需要做笔记？ 14.3 哪些内容需要重点标记？ 14.4 如何做笔记     1.</description>
     </item>
     
     <item>
       <title>各类照片格式信息</title>
-      <link>/notes/different_picture_size/</link>
+      <link>https://ddq233.github.io/notes/different_picture_size/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/different_picture_size/</guid>
-      <description>目录 1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号</description>
-      
+      <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
+      <description>目录  1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号纸张大小尺寸  A类（公制） B类（日制） L度（美制） 信封尺寸     1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
+  2寸 3.5cm * 5.3cm 或 626像素 * 413像素
+  小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
+  身份证大头照 3.3cm * 2.2cm 或 390像素 * 260像素
+   2、证件照常见背景色为白色、红色、蓝色（RGB）   白色 R : 255 G : 255 B : 255</description>
     </item>
     
     <item>
       <title>Mac便签说明</title>
-      <link>/notes/mac_note_direction/</link>
+      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/mac_note_direction/</guid>
-      <description>自定便条很容易。 使您的便条突出显示并引起注意。 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼</description>
-      
+      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <description>自定便条很容易。
+使您的便条突出显示并引起注意。
+· 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
+“便笺”有许多其他的美妙功能，包括拼写检查器、输入和输出功能以及排列和自定便条的其他方法。而且，您将在许多应用程序中找到“制作新便笺条”服务。
+有关使用“便笺”的更多信息，请查阅帮助。
+记下它！
+便笺可让您在桌面上保存便条（就像您看到的这些）。便笺条可用来草草记下提醒信息、列表或其他信息。您也可以使用便条来储存常用的文本或图形。
+· 要关闭本便条，请点按关闭按钮。
+· 要收起本便条，请连按标题栏。
+打开“便笺”时，您的当前便条会出现。</description>
     </item>
     
     <item>
       <title>总线型、星型、环状、树状、网状拓扑结构</title>
-      <link>/notes/topological_tructure/</link>
+      <link>https://ddq233.github.io/notes/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BA%BF%E5%9E%8B%E6%98%9F%E5%9E%8B%E7%8E%AF%E7%8A%B6%E6%A0%91%E7%8A%B6%E7%BD%91%E7%8A%B6%E6%8B%93%E6%89%91%E7%BB%93%E6%9E%84/topological_tructure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/topological_tructure/</guid>
-      <description>总线型： 总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用</description>
-      
+      <guid>https://ddq233.github.io/notes/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BA%BF%E5%9E%8B%E6%98%9F%E5%9E%8B%E7%8E%AF%E7%8A%B6%E6%A0%91%E7%8A%B6%E7%BD%91%E7%8A%B6%E6%8B%93%E6%89%91%E7%BB%93%E6%9E%84/topological_tructure/</guid>
+      <description>总线型：
+总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。
+星型：
+星型拓扑结构是一个中心，多个分节点。它结构简单，连接方便，管理和维护都相对容易，而且扩展性强。网络延迟时间较小，传输误差低。中心无故障，一般网络没问题。中心故障，网络就出问题，同时共享能力差，通信线路利用率不高。
+环状：
+环形拓扑结构是节点形成一个闭合环。工作站少，节约设备。当然，这样就导致一个节点出问题，网络就会出问题，而且不好诊断故障。
+树型：
+树形拓扑结构从总线拓扑演变而来。形状像一棵倒置的树,顶端是树根，树根以下带分支，每个分支还可再带子分支，树根接收各站点发送的数据，然后再广播发送到全网。好扩展，容易诊断错误，但对根部要求高。
+网状：网形拓扑结构是应用最广泛的，它的优点是不受瓶颈问题和失效问题的影响，一旦线路出问题，可以做其他线路，但太复杂，成本高。</description>
     </item>
     
   </channel>

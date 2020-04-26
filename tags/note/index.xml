@@ -1,35 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on DDQ的笔记</title>
-    <link>/tags/note/</link>
+    <link>https://ddq233.github.io/tags/note/</link>
     <description>Recent content in Note on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Fri, 10 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>各类照片格式信息</title>
-      <link>/notes/different_picture_size/</link>
+      <link>https://ddq233.github.io/notes/different_picture_size/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/different_picture_size/</guid>
-      <description>目录 1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号</description>
-      
+      <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
+      <description>目录  1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号纸张大小尺寸  A类（公制） B类（日制） L度（美制） 信封尺寸     1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
+  2寸 3.5cm * 5.3cm 或 626像素 * 413像素
+  小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
+  身份证大头照 3.3cm * 2.2cm 或 390像素 * 260像素
+   2、证件照常见背景色为白色、红色、蓝色（RGB）   白色 R : 255 G : 255 B : 255</description>
     </item>
     
     <item>
       <title>Mac便签说明</title>
-      <link>/notes/mac_note_direction/</link>
+      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/mac_note_direction/</guid>
-      <description>自定便条很容易。 使您的便条突出显示并引起注意。 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼</description>
-      
+      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <description>自定便条很容易。
+使您的便条突出显示并引起注意。
+· 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
+“便笺”有许多其他的美妙功能，包括拼写检查器、输入和输出功能以及排列和自定便条的其他方法。而且，您将在许多应用程序中找到“制作新便笺条”服务。
+有关使用“便笺”的更多信息，请查阅帮助。
+记下它！
+便笺可让您在桌面上保存便条（就像您看到的这些）。便笺条可用来草草记下提醒信息、列表或其他信息。您也可以使用便条来储存常用的文本或图形。
+· 要关闭本便条，请点按关闭按钮。
+· 要收起本便条，请连按标题栏。
+打开“便笺”时，您的当前便条会出现。</description>
     </item>
     
   </channel>

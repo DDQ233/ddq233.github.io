@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Literature on DDQ的笔记</title>
-    <link>/tags/literature/</link>
+    <link>https://ddq233.github.io/tags/literature/</link>
     <description>Recent content in Literature on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/literature/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/literature/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>文献的检索、阅读和管理学习笔记</title>
-      <link>/notes/literature_learning_note/</link>
+      <link>https://ddq233.github.io/notes/literature_learning_note/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/literature_learning_note/</guid>
-      <description>目录 看文献的5个认识 文献检索存在的问题 文献检索常用方法 文献筛选的要点 文献阅读数量 文献类型 文献阅读的方法论 一篇具体文章如何阅读 阅读文献的方法举</description>
-      
+      <guid>https://ddq233.github.io/notes/literature_learning_note/</guid>
+      <description>目录    看文献的5个认识    文献检索存在的问题    文献检索常用方法    文献筛选的要点    文献阅读数量    文献类型    文献阅读的方法论    一篇具体文章如何阅读    阅读文献的方法举例    如何阅读一篇文献    如何速读一篇文献    精读文献    如何精读一篇文献    如何给文献做笔记   14.1 为什么要做笔记？ 14.2 哪些文献需要做笔记？ 14.3 哪些内容需要重点标记？ 14.4 如何做笔记     1.</description>
     </item>
     
   </channel>

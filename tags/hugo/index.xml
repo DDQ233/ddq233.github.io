@@ -1,25 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Hugo on DDQ的笔记</title>
-    <link>/tags/hugo/</link>
-    <description>Recent content in Hugo on DDQ的笔记</description>
+    <title>hugo on DDQ的笔记</title>
+    <link>https://ddq233.github.io/tags/hugo/</link>
+    <description>Recent content in hugo on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 05 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>/notes/hugo_in_mac/</link>
+      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/hugo_in_mac/</guid>
-      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。 目录 一、</description>
+      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+目录  一、实验材料 二、Homebrew 安装  2.1 安装方法  2.1.1 方法一：通过官网提供的命令安装 2.1.2 方法二：直接从GitHub上clone文件 2.1.3 方法三：通过bash命令下载   2.2 配置环境变量 2.3 Homebrew 替换现有上游 2.4 更新 Homebrew 2.5 验证检查   三、通过 Homebrew 安装 Hugo  3.1 安装 Go 语言环境 3.1.1 下载相应系统的安装包 3.1.2 配置环境变量 3.2 用 Homebrew 安装 Hugo   四、建立网站  4.1 建立一个网站 4.2 下载主题 4.3 新建文章 4.4 编译项目，开启服务 4.5 在浏览器浏览项目   参考文章   一、实验材料  Mac OS X - v10.</description>
+    </item>
+    
+    <item>
+      <title>Cupper Typography</title>
+      <link>https://ddq233.github.io/notes/cupper-typography/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
       
+      <guid>https://ddq233.github.io/notes/cupper-typography/</guid>
+      <description>Headings # Heading 1## Heading 2### Heading 3#### Heading 4##### Heading 5###### Heading 6 Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic*_This will also be italic_**This text will be bold**__This will also be bold___You **can** combine them_ This text will be italic
+This will also be italic
+This text will be bold</description>
     </item>
     
   </channel>

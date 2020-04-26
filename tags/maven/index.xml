@@ -1,55 +1,68 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maven on DDQ的笔记</title>
-    <link>/tags/maven/</link>
+    <link>https://ddq233.github.io/tags/maven/</link>
     <description>Recent content in Maven on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Maven习笔记</title>
-      <link>/notes/maven_notes/</link>
+      <link>https://ddq233.github.io/notes/maven_notes/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/maven_notes/</guid>
-      <description>目录 为什么要使用 Maven ？ 什么是 Maven ？ 2.1 构建 2.3 构建的主要环节 Maven 的核心概念 3.1 约定的目录结构 3.2 POM 3.3 坐标 3.4 依赖 3.4.1 依赖的范围 3.5 仓库 3.5.1 分类 3.5.2 仓库的文件 3.6 生命周</description>
-      
+      <guid>https://ddq233.github.io/notes/maven_notes/</guid>
+      <description>目录    为什么要使用 Maven ？    什么是 Maven ？   2.1 构建 2.3 构建的主要环节    Maven 的核心概念   3.1 约定的目录结构 3.2 POM 3.3 坐标 3.4 依赖  3.4.1 依赖的范围   3.5 仓库  3.5.1 分类 3.5.2 仓库的文件   3.6 生命周期  3.6.1 Maven 的生命周期   3.7 插件和目标 3.8 继承 3.9 聚合     前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具</description>
     </item>
     
     <item>
       <title>IDEAJ下配置Maven</title>
-      <link>/notes/maven_in_ideaj/</link>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEideaj%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_ideaj/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/maven_in_ideaj/</guid>
-      <description>打开设置 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven 修改 Maven 路径和本地仓库的路径 修改 Maven 目录： 修改 Maven 配置文件路径 修改 Maven 本地仓库路径 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven &amp;gt; Importing Maven 自动导包设置</description>
-      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEideaj%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_ideaj/</guid>
+      <description>打开设置
+Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven
+修改 Maven 路径和本地仓库的路径
+修改 Maven 目录：
+修改 Maven 配置文件路径
+修改 Maven 本地仓库路径
+ Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven &amp;gt; Importing
+Maven 自动导包设置
+可能出现的问题：
+ 设置了自定义的 Maven，但每次启动创建工程 IDEAJ 都会改回它内置的 Maven 通过 【Setting For New Project】 方法设置 Maven 也出现同样的问题  解决办法：
+出现的问题可能是因为 IDEAJ 版本（version：2019-2）本身存在的 bug，更换版本就能够解决。
+如果不想更换版本，那么可以用自定义的配置文件覆盖默认的配置文件，同时在自定义的配置文件中更改仓库路径。但这样只能够使用 IDEAJ 内置的 Maven。</description>
     </item>
     
     <item>
       <title>Maven仓库地址</title>
-      <link>/notes/maven_repository_url/</link>
+      <link>https://ddq233.github.io/notes/maven_repository_url/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/maven_repository_url/</guid>
-      <description>XML配置 &amp;lt;!-- 阿里云仓库 --&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;!-- 中央仓库1 --&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;!-- 中央仓库2 --&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt; &amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt; &amp;lt;/mirror&amp;gt; &amp;lt;mirror&amp;gt; &amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt; &amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt; &amp;lt;name&amp;gt;JBoss</description>
-      
+      <guid>https://ddq233.github.io/notes/maven_repository_url/</guid>
+      <description>XML配置
+&amp;lt;!-- 阿里云仓库 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库1 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库2 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;JBoss Public Repository Group&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repository.jboss.org/nexus/content/groups/public&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库在中国的镜像 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;maven.net.cn&amp;lt;/id&amp;gt;&amp;lt;name&amp;gt;oneof the central mirrors in china&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.</description>
     </item>
     
     <item>
       <title>在Windows下配置Maven</title>
-      <link>/notes/maven_in_win/</link>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AE%E5%9C%A8windows%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_win/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/maven_in_win/</guid>
-      <description>目录 Maven 下载 配置 Maven 环境变量 查看 Maven 是否安装成功 Maven 配置文件 修改本地仓库位置 添加国内镜像源 1. Maven 下载 官网下载地址：http://maven.apach</description>
-      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AE%E5%9C%A8windows%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_win/</guid>
+      <description>目录    Maven 下载    配置 Maven 环境变量    查看 Maven 是否安装成功    Maven 配置文件    修改本地仓库位置    添加国内镜像源     1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
+注意：
+ Maven 3.3+ 版本的需要 JDK 1.7 或以上 Maven 必须安装在非中文目录下  按需选择下载即可
+（示例）安装目录：C:\DevTools\apache-maven-3.6.1
+2. 配置 Maven 环境变量 步骤如下：
+1) 进入系统设置2) 高级系统设置 &amp;gt; 系统属性 &amp;gt; 高级 &amp;gt; 环境变量3) 新建系统变量：M2_HOME4) 在系统变量中找到Path，在其中添加：&amp;amp;M2_HOME&amp;amp;\bin 新建系统变量： 编辑 Path 环境变量： 3.</description>
     </item>
     
   </channel>

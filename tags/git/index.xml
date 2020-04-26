@@ -1,25 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on DDQ的笔记</title>
-    <link>/tags/git/</link>
+    <link>https://ddq233.github.io/tags/git/</link>
     <description>Recent content in Git on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Git学习笔记</title>
-      <link>/notes/git_notes/</link>
+      <link>https://ddq233.github.io/notes/git_notes/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/git_notes/</guid>
-      <description>目录 一、Git 的优势 二、Git 的结构 三、Git 和代码托管中心 3.1 局域网环境下 3.2 外网环境下 四、本地库和远程库 4.1 本地库初始化 4.2 设置签名 五、基本操作</description>
-      
+      <guid>https://ddq233.github.io/notes/git_notes/</guid>
+      <description>目录  一、Git 的优势 二、Git 的结构 三、Git 和代码托管中心  3.1 局域网环境下 3.2 外网环境下   四、本地库和远程库  4.1 本地库初始化 4.2 设置签名   五、基本操作  5.1 状态查看操作 5.2 添加操作 5.3 提交操作 5.4 查看历史纪录 5.5 前进后退版本 5.6 reset 命令的三个参数对比 5.7 删除文件后找回 5.8 比较文件差异   六、分支管理  6.1 分支的意义 6.2 分支的好处 6.3 分支操作   七、Git 的原理  7.1 Hash 算法介绍   八、远程库操作  8.1 查看远程库 8.2 推送操作 8.3 克隆 8.</description>
     </item>
     
   </channel>

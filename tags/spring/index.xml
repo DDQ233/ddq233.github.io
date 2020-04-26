@@ -1,55 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Spring on DDQ的笔记</title>
-    <link>/tags/spring/</link>
+    <link>https://ddq233.github.io/tags/spring/</link>
     <description>Recent content in Spring on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Mon, 20 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/spring/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/spring/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>8种常用的数据库数据源配置和相应的JDBC驱动包</title>
-      <link>/notes/spring_datasource_configure/</link>
+      <link>https://ddq233.github.io/notes/spring_datasource_configure/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/spring_datasource_configure/</guid>
-      <description>Spring中数据源配置格式 &amp;lt;bean id=&amp;#34;dataSource&amp;#34; class=&amp;#34;org.apache.commons.dbcp.BasicDataSource&amp;#34; destroy-method=&amp;#34;close&amp;#34;&amp;gt; &amp;lt;property name=&amp;#34;driverClass&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;property name=&amp;#34;url&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;property name=&amp;#34;username&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;property name=&amp;#34;password&amp;#34; value=&amp;#34;&amp;#34; /&amp;gt; &amp;lt;/bean&amp;gt; 这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。 各种</description>
-      
+      <guid>https://ddq233.github.io/notes/spring_datasource_configure/</guid>
+      <description>Spring中数据源配置格式  &amp;lt;bean id=&amp;quot;dataSource&amp;quot; class=&amp;quot;org.apache.commons.dbcp.BasicDataSource&amp;quot; destroy-method=&amp;quot;close&amp;quot;&amp;gt; &amp;lt;property name=&amp;quot;driverClass&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;url&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;username&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;password&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/bean&amp;gt;  这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。
+各种数据库及其数据源配置参数  数据库：Oracle 驱动程序：oracle.jdbc.driver.OracleDriver URL：jdbc:oracle:thin:@localhost:1521:orcl
+数据库：DB2 驱动程序：com.ibm.db2.jdbc.app.DB2Driver URL：jdbc:db2://localhost:5000/testDB
+数据库：SQL Server 驱动程序：com.microsoft.jdbc.sqlserver.SQLServerDriver URL：jdbc.microsoft:sqlserver://localhost:1433;DatabaseName=testDB
+数据库：Sybase 驱动程序：com.sybase.jdbc.SybDriver URL：jdbc:sybase:Tds:localhost:5007/testDB
+数据库：Informix 驱动程序：com.informix.jdbc.IfxDriver URL：jdbc:informixsqli://123.45.67.89:1533/myDB:INFORMIXSERVER=myserver
+数据库：Mysql 驱动程序：com.musql.jdbc.Driver URL：jdbc:mysql://localhost:3306/testDB
+数据库：PostgreSQL 驱动程序：org.postgresql.Driver URL：jdbc:postgresql://localhost/testDB
+数据库：HSQLDB 驱动程序：org.hsqldb.jdbcDriver URL：jdbc:hsqldb:hsql://llocalhost:9902</description>
     </item>
     
     <item>
       <title>Druid数据源配置属性</title>
-      <link>/notes/druid_datasource_attr/</link>
+      <link>https://ddq233.github.io/notes/druid_datasource_attr/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/druid_datasource_attr/</guid>
-      <description>配置 缺省值 说明 name 配置这个属性的意义在于，如果存在多个数据源，监控的时候可以通过名字来区分开来。 如果没有配置，将会生成一个名字，格式是：&amp;ld</description>
-      
+      <guid>https://ddq233.github.io/notes/druid_datasource_attr/</guid>
+      <description>配置 缺省值 说明     name  配置这个属性的意义在于，如果存在多个数据源，监控的时候可以通过名字来区分开来。 如果没有配置，将会生成一个名字，格式是：&amp;ldquo;DataSource-&amp;rdquo; + System.identityHashCode(this)   jdbcUrl  连接数据库的url，不同数据库不一样。例如： mysql : jdbc:mysql://10.20.153.104:3306/druid2 oracle : jdbc:oracle:thin:@10.20.149.85:1521:ocnauto   username  连接数据库的用户名   password  连接数据库的密码。如果你不希望密码直接写在配置文件中，可以使用ConfigFilter。详细看这里：https://github.com/alibaba/druid/wiki/%E4%BD%BF%E7%94%A8ConfigFilter   driverClassName 根据url自动识别 这一项可配可不配，如果不配置druid会根据url自动识别dbType，然后选择相应的driverClassName(建议配置下)   initialSize 0 初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时   maxActive 8 最大连接池数量   maxIdle 8 已经不再使用，配置了也没效果   minIdle  最小连接池数量   maxWait  获取连接时最大等待时间，单位毫秒。配置了maxWait之后，缺省启用公平锁，并发效率会有所下降，如果需要可以通过配置useUnfairLock属性为true使用非公平锁。   poolPreparedStatements false 是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。   maxOpenPreparedStatements -1 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。在Druid中，不会存在Oracle下PSCache占用内存过多的问题，可以把这个数值配置大一些，比如说100   validationQuery  用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。   testOnBorrow true 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。   testOnReturn false 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能   testWhileIdle false 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。   timeBetweenEvictionRunsMillis  有两个含义： 1) Destroy线程会检测连接的间隔时间2) testWhileIdle的判断依据，详细看testWhileIdle属性的说明   numTestsPerEvictionRun  不再使用，一个DruidDataSource只支持一个EvictionRun   minEvictableIdleTimeMillis     connectionInitSqls  物理连接初始化的时候执行的sql   exceptionSorter 根据dbType自动识别 当数据库抛出一些不可恢复的异常时，抛弃连接   filters  属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有： 监控统计用的filter:stat日志用的filter:log4j防御sql注入的filter:wall   proxyFilters  类型是List&amp;lt;com.</description>
     </item>
     
     <item>
       <title>国际化资源文件命名规则</title>
-      <link>/notes/international_res_name_rule/</link>
+      <link>https://ddq233.github.io/notes/international_res_name_rule/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/international_res_name_rule/</guid>
-      <description>命名规则：package_语言名_国家名.properties 中国：package_zh_CN.propertie 台湾：package_zh</description>
-      
+      <guid>https://ddq233.github.io/notes/international_res_name_rule/</guid>
+      <description>命名规则：package_语言名_国家名.properties
+ 中国：package_zh_CN.propertie 台湾：package_zh_TW.properties 香港：package_zh_HK.properties 美国：package_en_US.properties 英国：package_en_GB.properties 加拿大：package_en_CA.properties 澳大利亚：package_en_AU.properties 日本：package_ja_JP.properties 法国：package_fr_FR.properties   日本 : ja_JP 秘鲁 : es_PE 巴拿马 : es_PA 波斯尼亚和黑山共和国 : sr_BA 危地马拉 : es_GT 阿拉伯联合酋长国 : ar_AE 挪威 : no_NO 阿尔巴尼亚 : sq_AL 伊拉克 : ar_IQ 也门 : ar_YE 葡萄牙 : pt_PT 塞浦路斯 : el_CY 卡塔尔 : ar_QA 马其顿王国 : mk_MK 瑞士 : de_CH 美国 : en_US 芬兰 : fi_FI 马耳他 : en_MT 斯洛文尼亚 : sl_SI 斯洛伐克 : sk_SK 土耳其 : tr_TR 沙特阿拉伯 : ar_SA 英国 : en_GB 塞尔维亚及黑山 : sr_CS 新西兰 : en_NZ 挪威 : no_NO 立陶宛 : lt_LT 尼加拉瓜 : es_NI 爱尔兰 : ga_IE 比利时 : fr_BE 西班牙 : es_ES 黎巴嫩 : ar_LB 加拿大 : fr_CA 爱沙尼亚 : et_EE 科威特 : ar_KW 塞尔维亚 : sr_RS 美国 : es_US 墨西哥 : es_MX 苏丹 : ar_SD 印度尼西亚 : in_ID 乌拉圭 : es_UY 拉脱维亚 : lv_LV 巴西 : pt_BR 叙利亚 : ar_SY 多米尼加共和国 : es_DO 瑞士 : fr_CH 印度 : hi_IN 委内瑞拉 : es_VE 巴林 : ar_BH 菲律宾 : en_PH 突尼斯 : ar_TN 奥地利 : de_AT 荷兰 : nl_NL 厄瓜多尔 : es_EC 台湾地区 : zh_TW 约旦 : ar_JO 冰岛 : is_IS 哥伦比亚 : es_CO 哥斯达黎加 : es_CR 智利 : es_CL 埃及 : ar_EG 南非 : en_ZA 泰国 : th_TH 希腊 : el_GR 意大利 : it_IT 匈牙利 : hu_HU 爱尔兰 : en_IE 乌克兰 : uk_UA 波兰 : pl_PL 卢森堡 : fr_LU 比利时 : nl_BE 印度 : en_IN 西班牙 : ca_ES 摩洛哥 : ar_MA 玻利维亚 : es_BO 澳大利亚 : en_AU 新加坡 : zh_SG 萨尔瓦多 : es_SV 俄罗斯 : ru_RU 韩国 : ko_KR 阿尔及利亚 : ar_DZ 越南 : vi_VN 黑山 : sr_ME 利比亚 : ar_LY 中国 : zh_CN 台湾：zh_TW 香港 : zh_HK 白俄罗斯 : be_BY 以色列 : iw_IL 保加利亚 : bg_BG 马耳他 : mt_MT 巴拉圭 : es_PY 法国 : fr_FR 捷克共和国 : cs_CZ 瑞士 : it_CH 罗马尼亚 : ro_RO 波多黎哥 : es_PR 加拿大 : en_CA 德国 : de_DE 卢森堡 : de_LU 阿根廷 : es_AR 马来西亚 : ms_MY 克罗地亚 : hr_HR 新加坡 : en_SG 阿曼 : ar_OM 泰国 : th_TH 瑞典 : sv_SE 丹麦 : da_DK 洪都拉斯 : es_HN  </description>
     </item>
     
     <item>
       <title>Spring数据库编程笔记</title>
-      <link>/notes/spring_database_dev/</link>
+      <link>https://ddq233.github.io/notes/spring_database_dev/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/spring_database_dev/</guid>
-      <description>目录 1.什么是数据库连接池？ 2.传统的JDBC连接与数据库连接池连接的区别是什么？ 2.1 JDBC访问数据库对过程 2.2 数据库连接池访问数据库 3.为什</description>
-      
+      <guid>https://ddq233.github.io/notes/spring_database_dev/</guid>
+      <description>目录  1.什么是数据库连接池？ 2.传统的JDBC连接与数据库连接池连接的区别是什么？  2.1 JDBC访问数据库对过程 2.2 数据库连接池访问数据库   3.为什么要使用数据库连接池？ 4.数据库连接池的优势是什么？ 5.常见的数据库连接池  5.1 DBCP 5.2 C3P0 5.3 Druid 5.4 Proxool   参考文章   1. 什么是数据库连接池？ 数据库连接池（Connection pooling）是程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由程序动态地对池中对连接进行申请，使用，释放。
+连接数据库是一个耗时的操作，一个数据库连接对象均对应一个物理数据库连接，每次操作都打开一个物理连接，使用完都关闭，这样会造成系统性能低。
+因此，在程序初始化对时候，集中创建多个数据库连接，并把它们进行集中管理，这样可以提高系统性能。
+2. 传统的JDBC连接与数据库连接池连接的区别是什么？ 2.1 JDBC访问数据库对过程  装载数据库驱动程序 通过JDBC建立数据库连接 访问数据库，执行SQL语句 组装结果 关闭数据库资源  2.2 数据库连接池访问数据库  程序初始化时创建连接池 使用时向连接池申请可用连接 使用完毕，将连接返还给连接池 程序退出时，断开所有连接并释放资源  3. 为什么要使用数据库连接池？ 数据库连接是一种关键的有限的昂贵的资源，这一点在多用户的网页应用程序中体现的尤为突出。对数据库连接的管理能显著影响到整个应用程序的伸缩性和健壮性，影响到程序的性能指标。
+数据库连接池正式针对这个问题提出来的。
+数据库连接池负责分配，管理和释放数据库连接，它允许应用程序重复使用一个现有的数据库连接，而不是重新建立一个。
+在应用程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由应用程序动态地对池中对连接进行申请、使用和释放。应用程序可以根据池中对使用率，动态地增加或者减少池中对连接数，提高了服务器的运行效率。
+举个简单例子：
+有一个大仓库（数据库），负责存放大量商家的物品。
+大仓库有一个专业的管理团队（数据库连接池），负责对物品进行管理。
+商家（用户）对他们自己商品进行提取或存放，作为一次业务请求。
+商家每提交一次业务请求，就需要与一位管理员对接，业务请求完毕后，管理员等待下一次的业务请求。
+在一个大仓库中，有不同的商家的商品在大仓库中存储物品，管理团队负责管理仓库。商家只需要把经历放在自己的生意上，而提货存货这类操作交给仓库的管理团队即可，免去了亲自去把商品存储到仓库或者从仓库提取货物出来这些繁琐的事情，提高了效率。
+ 4. 数据库连接池的优势是什么？ 1. 减少连接创建时间。 连接池中的连接是已准备好的、可重复使用的，获取后可以直接访问数据库，因此减少了连接创建的次数和时间。</description>
     </item>
     
   </channel>

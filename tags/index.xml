@@ -1,255 +1,240 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on DDQ的笔记</title>
-    <link>/tags/</link>
+    <link>https://ddq233.github.io/tags/</link>
     <description>Recent content in Tags on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Maven</title>
-      <link>/tags/maven/</link>
+      <link>https://ddq233.github.io/tags/maven/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/maven/</guid>
+      <guid>https://ddq233.github.io/tags/maven/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>DataSource</title>
-      <link>/tags/datasource/</link>
+      <link>https://ddq233.github.io/tags/datasource/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/datasource/</guid>
+      <guid>https://ddq233.github.io/tags/datasource/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Druid</title>
-      <link>/tags/druid/</link>
+      <link>https://ddq233.github.io/tags/druid/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/druid/</guid>
+      <guid>https://ddq233.github.io/tags/druid/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>IOT</title>
-      <link>/tags/iot/</link>
+      <link>https://ddq233.github.io/tags/iot/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/iot/</guid>
+      <guid>https://ddq233.github.io/tags/iot/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Java</title>
-      <link>/tags/java/</link>
+      <link>https://ddq233.github.io/tags/java/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/java/</guid>
+      <guid>https://ddq233.github.io/tags/java/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Sensor</title>
-      <link>/tags/sensor/</link>
+      <link>https://ddq233.github.io/tags/sensor/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/sensor/</guid>
+      <guid>https://ddq233.github.io/tags/sensor/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Spring</title>
-      <link>/tags/spring/</link>
+      <link>https://ddq233.github.io/tags/spring/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/spring/</guid>
+      <guid>https://ddq233.github.io/tags/spring/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>HTML</title>
-      <link>/tags/html/</link>
+      <link>https://ddq233.github.io/tags/html/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/html/</guid>
+      <guid>https://ddq233.github.io/tags/html/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Literature</title>
-      <link>/tags/literature/</link>
+      <link>https://ddq233.github.io/tags/literature/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/literature/</guid>
+      <guid>https://ddq233.github.io/tags/literature/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Note</title>
-      <link>/tags/note/</link>
+      <link>https://ddq233.github.io/tags/note/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/note/</guid>
+      <guid>https://ddq233.github.io/tags/note/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>IDEAJ</title>
-      <link>/tags/ideaj/</link>
+      <link>https://ddq233.github.io/tags/ideaj/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ideaj/</guid>
+      <guid>https://ddq233.github.io/tags/ideaj/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>AndroidStudio</title>
-      <link>/tags/androidstudio/</link>
+      <link>https://ddq233.github.io/tags/androidstudio/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/androidstudio/</guid>
+      <guid>https://ddq233.github.io/tags/androidstudio/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>CentOS</title>
-      <link>/tags/centos/</link>
+      <link>https://ddq233.github.io/tags/centos/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/centos/</guid>
+      <guid>https://ddq233.github.io/tags/centos/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Configure</title>
-      <link>/tags/configure/</link>
+      <link>https://ddq233.github.io/tags/configure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/configure/</guid>
+      <guid>https://ddq233.github.io/tags/configure/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Git</title>
-      <link>/tags/git/</link>
+      <link>https://ddq233.github.io/tags/git/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://ddq233.github.io/tags/git/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Linux</title>
-      <link>/tags/linux/</link>
+      <link>https://ddq233.github.io/tags/linux/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/linux/</guid>
+      <guid>https://ddq233.github.io/tags/linux/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>LNMP</title>
-      <link>/tags/lnmp/</link>
+      <link>https://ddq233.github.io/tags/lnmp/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/lnmp/</guid>
+      <guid>https://ddq233.github.io/tags/lnmp/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Mac</title>
-      <link>/tags/mac/</link>
+      <link>https://ddq233.github.io/tags/mac/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/mac/</guid>
+      <guid>https://ddq233.github.io/tags/mac/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Network</title>
-      <link>/tags/network/</link>
+      <link>https://ddq233.github.io/tags/network/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/network/</guid>
+      <guid>https://ddq233.github.io/tags/network/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Photoshop</title>
-      <link>/tags/photoshop/</link>
+      <link>https://ddq233.github.io/tags/photoshop/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/photoshop/</guid>
+      <guid>https://ddq233.github.io/tags/photoshop/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>RaspbianPi</title>
-      <link>/tags/raspbianpi/</link>
+      <link>https://ddq233.github.io/tags/raspbianpi/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/raspbianpi/</guid>
+      <guid>https://ddq233.github.io/tags/raspbianpi/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Shortcut</title>
-      <link>/tags/shortcut/</link>
+      <link>https://ddq233.github.io/tags/shortcut/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/shortcut/</guid>
+      <guid>https://ddq233.github.io/tags/shortcut/</guid>
       <description></description>
-      
     </item>
     
     <item>
       <title>Brew</title>
-      <link>/tags/brew/</link>
+      <link>https://ddq233.github.io/tags/brew/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/brew/</guid>
+      <guid>https://ddq233.github.io/tags/brew/</guid>
       <description></description>
-      
     </item>
     
     <item>
-      <title>Hugo</title>
-      <link>/tags/hugo/</link>
+      <title>hugo</title>
+      <link>https://ddq233.github.io/tags/hugo/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/hugo/</guid>
+      <guid>https://ddq233.github.io/tags/hugo/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://ddq233.github.io/tags/markdown/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
       
+      <guid>https://ddq233.github.io/tags/markdown/</guid>
+      <description></description>
     </item>
     
   </channel>

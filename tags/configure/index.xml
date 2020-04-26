@@ -1,45 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configure on DDQ的笔记</title>
-    <link>/tags/configure/</link>
+    <link>https://ddq233.github.io/tags/configure/</link>
     <description>Recent content in Configure on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/configure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/configure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AndroidStudio内存设置大小</title>
-      <link>/notes/as_memory_setting/</link>
+      <link>https://ddq233.github.io/notes/as_memory_setting/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/as_memory_setting/</guid>
-      <description>步骤： Android Studio 的安装目录，在 bin 目录下，找到 studio64.exe.vmoptions 文件，打开。 找到↓ - Xms256m - Xmx1280m .... .... -Xms 是JVM启动的起始堆内存，堆内存是分配给对象的内存 -Xmx 是Java虚拟机</description>
-      
+      <guid>https://ddq233.github.io/notes/as_memory_setting/</guid>
+      <description>步骤：
+   Android Studio 的安装目录，在 bin 目录下，找到 studio64.exe.vmoptions 文件，打开。      找到↓    - Xms256m- Xmx1280m........  -Xms 是JVM启动的起始堆内存，堆内存是分配给对象的内存 -Xmx 是Java虚拟机启动时的参数，用于限制最大堆内存
+   修改后重启 Android Studio      完成    </description>
     </item>
     
     <item>
       <title>CentOS 7 搭建 Nextcloud</title>
-      <link>/notes/nextcloud_in_centos7/</link>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEcentos7%E6%90%ADnextcloud/nextcloud_in_centos7/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/nextcloud_in_centos7/</guid>
-      <description>一、环境准备 CentOS 7.5 64位 LNMP Nginx - 1.16.0 MySQL - 5.6.44 Pure-Ftpd - 1.0.49 PHP - 7.2 phpMyAdmin - 4.7 Nextcloud - 17.0.0 注意事项： MySQL 5.5 建议安装内存小于 1GB MySQL 5.6 建议安装内存大于 1GB MySQL 5.7 建议安装内存大于 2GB 二、</description>
-      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEcentos7%E6%90%ADnextcloud/nextcloud_in_centos7/</guid>
+      <description>一、环境准备  CentOS 7.5 64位 LNMP  Nginx - 1.16.0 MySQL - 5.6.44 Pure-Ftpd - 1.0.49 PHP - 7.2 phpMyAdmin - 4.7   Nextcloud - 17.0.0  注意事项：
+ MySQL 5.5 建议安装内存小于 1GB MySQL 5.6 建议安装内存大于 1GB MySQL 5.7 建议安装内存大于 2GB  二、安装步骤 1. 在 CentOS 安装宝塔面板
+一键安装脚本（在 root 用户下执行命令）
+yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;amp;&amp;amp; sh install.sh 宝塔面板安装完成
+可以在 CentOS 查看宝塔面板
+命令：
+# bt 2.</description>
     </item>
     
     <item>
       <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>/notes/hugo_in_mac/</link>
+      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/hugo_in_mac/</guid>
-      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。 目录 一、</description>
-      
+      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+目录  一、实验材料 二、Homebrew 安装  2.1 安装方法  2.1.1 方法一：通过官网提供的命令安装 2.1.2 方法二：直接从GitHub上clone文件 2.1.3 方法三：通过bash命令下载   2.2 配置环境变量 2.3 Homebrew 替换现有上游 2.4 更新 Homebrew 2.5 验证检查   三、通过 Homebrew 安装 Hugo  3.1 安装 Go 语言环境 3.1.1 下载相应系统的安装包 3.1.2 配置环境变量 3.2 用 Homebrew 安装 Hugo   四、建立网站  4.1 建立一个网站 4.2 下载主题 4.3 新建文章 4.4 编译项目，开启服务 4.5 在浏览器浏览项目   参考文章   一、实验材料  Mac OS X - v10.</description>
     </item>
     
   </channel>

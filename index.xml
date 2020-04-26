@@ -1,35 +1,302 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>DDQ的笔记</title>
-    <link>/</link>
+    <link>https://ddq233.github.io/</link>
     <description>Recent content on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Mon, 06 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Notes</title>
-      <link>/notes/</link>
+      <title>Maven习笔记</title>
+      <link>https://ddq233.github.io/notes/maven_notes/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/</guid>
-      <description></description>
+      <guid>https://ddq233.github.io/notes/maven_notes/</guid>
+      <description>目录    为什么要使用 Maven ？    什么是 Maven ？   2.1 构建 2.3 构建的主要环节    Maven 的核心概念   3.1 约定的目录结构 3.2 POM 3.3 坐标 3.4 依赖  3.4.1 依赖的范围   3.5 仓库  3.5.1 分类 3.5.2 仓库的文件   3.6 生命周期  3.6.1 Maven 的生命周期   3.7 插件和目标 3.8 继承 3.9 聚合     前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具</description>
+    </item>
+    
+    <item>
+      <title>8种常用的数据库数据源配置和相应的JDBC驱动包</title>
+      <link>https://ddq233.github.io/notes/spring_datasource_configure/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
+      <guid>https://ddq233.github.io/notes/spring_datasource_configure/</guid>
+      <description>Spring中数据源配置格式  &amp;lt;bean id=&amp;quot;dataSource&amp;quot; class=&amp;quot;org.apache.commons.dbcp.BasicDataSource&amp;quot; destroy-method=&amp;quot;close&amp;quot;&amp;gt; &amp;lt;property name=&amp;quot;driverClass&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;url&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;username&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;password&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/bean&amp;gt;  这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。
+各种数据库及其数据源配置参数  数据库：Oracle 驱动程序：oracle.jdbc.driver.OracleDriver URL：jdbc:oracle:thin:@localhost:1521:orcl
+数据库：DB2 驱动程序：com.ibm.db2.jdbc.app.DB2Driver URL：jdbc:db2://localhost:5000/testDB
+数据库：SQL Server 驱动程序：com.microsoft.jdbc.sqlserver.SQLServerDriver URL：jdbc.microsoft:sqlserver://localhost:1433;DatabaseName=testDB
+数据库：Sybase 驱动程序：com.sybase.jdbc.SybDriver URL：jdbc:sybase:Tds:localhost:5007/testDB
+数据库：Informix 驱动程序：com.informix.jdbc.IfxDriver URL：jdbc:informixsqli://123.45.67.89:1533/myDB:INFORMIXSERVER=myserver
+数据库：Mysql 驱动程序：com.musql.jdbc.Driver URL：jdbc:mysql://localhost:3306/testDB
+数据库：PostgreSQL 驱动程序：org.postgresql.Driver URL：jdbc:postgresql://localhost/testDB
+数据库：HSQLDB 驱动程序：org.hsqldb.jdbcDriver URL：jdbc:hsqldb:hsql://llocalhost:9902</description>
+    </item>
+    
+    <item>
+      <title>Druid数据源配置属性</title>
+      <link>https://ddq233.github.io/notes/druid_datasource_attr/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/druid_datasource_attr/</guid>
+      <description>配置 缺省值 说明     name  配置这个属性的意义在于，如果存在多个数据源，监控的时候可以通过名字来区分开来。 如果没有配置，将会生成一个名字，格式是：&amp;ldquo;DataSource-&amp;rdquo; + System.identityHashCode(this)   jdbcUrl  连接数据库的url，不同数据库不一样。例如： mysql : jdbc:mysql://10.20.153.104:3306/druid2 oracle : jdbc:oracle:thin:@10.20.149.85:1521:ocnauto   username  连接数据库的用户名   password  连接数据库的密码。如果你不希望密码直接写在配置文件中，可以使用ConfigFilter。详细看这里：https://github.com/alibaba/druid/wiki/%E4%BD%BF%E7%94%A8ConfigFilter   driverClassName 根据url自动识别 这一项可配可不配，如果不配置druid会根据url自动识别dbType，然后选择相应的driverClassName(建议配置下)   initialSize 0 初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时   maxActive 8 最大连接池数量   maxIdle 8 已经不再使用，配置了也没效果   minIdle  最小连接池数量   maxWait  获取连接时最大等待时间，单位毫秒。配置了maxWait之后，缺省启用公平锁，并发效率会有所下降，如果需要可以通过配置useUnfairLock属性为true使用非公平锁。   poolPreparedStatements false 是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。   maxOpenPreparedStatements -1 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。在Druid中，不会存在Oracle下PSCache占用内存过多的问题，可以把这个数值配置大一些，比如说100   validationQuery  用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。   testOnBorrow true 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。   testOnReturn false 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能   testWhileIdle false 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。   timeBetweenEvictionRunsMillis  有两个含义： 1) Destroy线程会检测连接的间隔时间2) testWhileIdle的判断依据，详细看testWhileIdle属性的说明   numTestsPerEvictionRun  不再使用，一个DruidDataSource只支持一个EvictionRun   minEvictableIdleTimeMillis     connectionInitSqls  物理连接初始化的时候执行的sql   exceptionSorter 根据dbType自动识别 当数据库抛出一些不可恢复的异常时，抛弃连接   filters  属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有： 监控统计用的filter:stat日志用的filter:log4j防御sql注入的filter:wall   proxyFilters  类型是List&amp;lt;com.</description>
+    </item>
+    
+    <item>
+      <title>国际化资源文件命名规则</title>
+      <link>https://ddq233.github.io/notes/international_res_name_rule/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/international_res_name_rule/</guid>
+      <description>命名规则：package_语言名_国家名.properties
+ 中国：package_zh_CN.propertie 台湾：package_zh_TW.properties 香港：package_zh_HK.properties 美国：package_en_US.properties 英国：package_en_GB.properties 加拿大：package_en_CA.properties 澳大利亚：package_en_AU.properties 日本：package_ja_JP.properties 法国：package_fr_FR.properties   日本 : ja_JP 秘鲁 : es_PE 巴拿马 : es_PA 波斯尼亚和黑山共和国 : sr_BA 危地马拉 : es_GT 阿拉伯联合酋长国 : ar_AE 挪威 : no_NO 阿尔巴尼亚 : sq_AL 伊拉克 : ar_IQ 也门 : ar_YE 葡萄牙 : pt_PT 塞浦路斯 : el_CY 卡塔尔 : ar_QA 马其顿王国 : mk_MK 瑞士 : de_CH 美国 : en_US 芬兰 : fi_FI 马耳他 : en_MT 斯洛文尼亚 : sl_SI 斯洛伐克 : sk_SK 土耳其 : tr_TR 沙特阿拉伯 : ar_SA 英国 : en_GB 塞尔维亚及黑山 : sr_CS 新西兰 : en_NZ 挪威 : no_NO 立陶宛 : lt_LT 尼加拉瓜 : es_NI 爱尔兰 : ga_IE 比利时 : fr_BE 西班牙 : es_ES 黎巴嫩 : ar_LB 加拿大 : fr_CA 爱沙尼亚 : et_EE 科威特 : ar_KW 塞尔维亚 : sr_RS 美国 : es_US 墨西哥 : es_MX 苏丹 : ar_SD 印度尼西亚 : in_ID 乌拉圭 : es_UY 拉脱维亚 : lv_LV 巴西 : pt_BR 叙利亚 : ar_SY 多米尼加共和国 : es_DO 瑞士 : fr_CH 印度 : hi_IN 委内瑞拉 : es_VE 巴林 : ar_BH 菲律宾 : en_PH 突尼斯 : ar_TN 奥地利 : de_AT 荷兰 : nl_NL 厄瓜多尔 : es_EC 台湾地区 : zh_TW 约旦 : ar_JO 冰岛 : is_IS 哥伦比亚 : es_CO 哥斯达黎加 : es_CR 智利 : es_CL 埃及 : ar_EG 南非 : en_ZA 泰国 : th_TH 希腊 : el_GR 意大利 : it_IT 匈牙利 : hu_HU 爱尔兰 : en_IE 乌克兰 : uk_UA 波兰 : pl_PL 卢森堡 : fr_LU 比利时 : nl_BE 印度 : en_IN 西班牙 : ca_ES 摩洛哥 : ar_MA 玻利维亚 : es_BO 澳大利亚 : en_AU 新加坡 : zh_SG 萨尔瓦多 : es_SV 俄罗斯 : ru_RU 韩国 : ko_KR 阿尔及利亚 : ar_DZ 越南 : vi_VN 黑山 : sr_ME 利比亚 : ar_LY 中国 : zh_CN 台湾：zh_TW 香港 : zh_HK 白俄罗斯 : be_BY 以色列 : iw_IL 保加利亚 : bg_BG 马耳他 : mt_MT 巴拉圭 : es_PY 法国 : fr_FR 捷克共和国 : cs_CZ 瑞士 : it_CH 罗马尼亚 : ro_RO 波多黎哥 : es_PR 加拿大 : en_CA 德国 : de_DE 卢森堡 : de_LU 阿根廷 : es_AR 马来西亚 : ms_MY 克罗地亚 : hr_HR 新加坡 : en_SG 阿曼 : ar_OM 泰国 : th_TH 瑞典 : sv_SE 丹麦 : da_DK 洪都拉斯 : es_HN  </description>
+    </item>
+    
+    <item>
+      <title>物联网系统传感层的设计</title>
+      <link>https://ddq233.github.io/notes/iot_sensing_layer_design/</link>
+      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/iot_sensing_layer_design/</guid>
+      <description>应用场景  智能家居   可行性分析  现状 存在问题   需求分析  体验  舒适 安全 可靠     角色分析  老人 小孩 管理者 物业   功能设计  温度自动调控 识别 语音控制   硬件架构  红外遥控 几点起 温度传感器 空气质量监测 MCU   执行标准  国际 UL、CE 行业标准 企业标准 双方约定   硬件选型  单片机STM32 温度监测传感器 空气质量传感器 识别、控制 红外传感器 继电器 电机    对传感器对一般要求：</description>
+    </item>
+    
+    <item>
+      <title>网页元信息定义</title>
+      <link>https://ddq233.github.io/notes/html_meta_define/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/html_meta_define/</guid>
+      <description>使用 &amp;lt;meta&amp;gt; 标签可以定义网页的元信息。
+&amp;lt;meta&amp;gt; 标签位于文档的头部，&amp;lt;head&amp;gt; 标签内不包含任何内容。使用 &amp;lt;meta&amp;gt; 标签的属性可以定义与文档相关联的名称/值对。
+&amp;lt;meta&amp;gt;标签属性表
+   属性 说明     content 必须的，定义与 http-equiv 或 name 属性相关联的元信息   http-equiv 把 content 属性关联到HTTP头部，取值包括：content-type、expires、refresh、set-cookie   name 把 content 关联到一个名称，取值包括：author、description、keywords、generator、revised 等   scheme 定义用于翻译 content 属性值的格式   charset 定义文档的字符编码    示例代码：
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- 设置编码 --&amp;gt; &amp;lt;meta http-equiv=&amp;quot;content-type&amp;quot; content=&amp;quot;text/html;charset=utf-8&amp;quot; /&amp;gt; &amp;lt;!-- 设置页面语言 --&amp;gt; &amp;lt;meta http-equiv=&amp;quot;content-language&amp;quot; content=&amp;quot;zh-CN&amp;quot; /&amp;gt; &amp;lt;!-- 设置页面刷新时间或跳转页面 --&amp;gt; &amp;lt;meta http-equiv=&amp;quot;refresh&amp;quot; content=&amp;quot;5; url=https://cn.</description>
+    </item>
+    
+    <item>
+      <title>Spring数据库编程笔记</title>
+      <link>https://ddq233.github.io/notes/spring_database_dev/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/spring_database_dev/</guid>
+      <description>目录  1.什么是数据库连接池？ 2.传统的JDBC连接与数据库连接池连接的区别是什么？  2.1 JDBC访问数据库对过程 2.2 数据库连接池访问数据库   3.为什么要使用数据库连接池？ 4.数据库连接池的优势是什么？ 5.常见的数据库连接池  5.1 DBCP 5.2 C3P0 5.3 Druid 5.4 Proxool   参考文章   1. 什么是数据库连接池？ 数据库连接池（Connection pooling）是程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由程序动态地对池中对连接进行申请，使用，释放。
+连接数据库是一个耗时的操作，一个数据库连接对象均对应一个物理数据库连接，每次操作都打开一个物理连接，使用完都关闭，这样会造成系统性能低。
+因此，在程序初始化对时候，集中创建多个数据库连接，并把它们进行集中管理，这样可以提高系统性能。
+2. 传统的JDBC连接与数据库连接池连接的区别是什么？ 2.1 JDBC访问数据库对过程  装载数据库驱动程序 通过JDBC建立数据库连接 访问数据库，执行SQL语句 组装结果 关闭数据库资源  2.2 数据库连接池访问数据库  程序初始化时创建连接池 使用时向连接池申请可用连接 使用完毕，将连接返还给连接池 程序退出时，断开所有连接并释放资源  3. 为什么要使用数据库连接池？ 数据库连接是一种关键的有限的昂贵的资源，这一点在多用户的网页应用程序中体现的尤为突出。对数据库连接的管理能显著影响到整个应用程序的伸缩性和健壮性，影响到程序的性能指标。
+数据库连接池正式针对这个问题提出来的。
+数据库连接池负责分配，管理和释放数据库连接，它允许应用程序重复使用一个现有的数据库连接，而不是重新建立一个。
+在应用程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由应用程序动态地对池中对连接进行申请、使用和释放。应用程序可以根据池中对使用率，动态地增加或者减少池中对连接数，提高了服务器的运行效率。
+举个简单例子：
+有一个大仓库（数据库），负责存放大量商家的物品。
+大仓库有一个专业的管理团队（数据库连接池），负责对物品进行管理。
+商家（用户）对他们自己商品进行提取或存放，作为一次业务请求。
+商家每提交一次业务请求，就需要与一位管理员对接，业务请求完毕后，管理员等待下一次的业务请求。
+在一个大仓库中，有不同的商家的商品在大仓库中存储物品，管理团队负责管理仓库。商家只需要把经历放在自己的生意上，而提货存货这类操作交给仓库的管理团队即可，免去了亲自去把商品存储到仓库或者从仓库提取货物出来这些繁琐的事情，提高了效率。
+ 4. 数据库连接池的优势是什么？ 1. 减少连接创建时间。 连接池中的连接是已准备好的、可重复使用的，获取后可以直接访问数据库，因此减少了连接创建的次数和时间。</description>
+    </item>
+    
+    <item>
+      <title>文献的检索、阅读和管理学习笔记</title>
+      <link>https://ddq233.github.io/notes/literature_learning_note/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/literature_learning_note/</guid>
+      <description>目录    看文献的5个认识    文献检索存在的问题    文献检索常用方法    文献筛选的要点    文献阅读数量    文献类型    文献阅读的方法论    一篇具体文章如何阅读    阅读文献的方法举例    如何阅读一篇文献    如何速读一篇文献    精读文献    如何精读一篇文献    如何给文献做笔记   14.1 为什么要做笔记？ 14.2 哪些文献需要做笔记？ 14.3 哪些内容需要重点标记？ 14.4 如何做笔记     1.</description>
+    </item>
+    
+    <item>
+      <title>各类照片格式信息</title>
+      <link>https://ddq233.github.io/notes/different_picture_size/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
+      <description>目录  1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号纸张大小尺寸  A类（公制） B类（日制） L度（美制） 信封尺寸     1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
+  2寸 3.5cm * 5.3cm 或 626像素 * 413像素
+  小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
+  身份证大头照 3.3cm * 2.2cm 或 390像素 * 260像素
+   2、证件照常见背景色为白色、红色、蓝色（RGB）   白色 R : 255 G : 255 B : 255</description>
+    </item>
+    
+    <item>
+      <title>IDEAJ下配置Maven</title>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEideaj%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_ideaj/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEideaj%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_ideaj/</guid>
+      <description>打开设置
+Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven
+修改 Maven 路径和本地仓库的路径
+修改 Maven 目录：
+修改 Maven 配置文件路径
+修改 Maven 本地仓库路径
+ Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven &amp;gt; Importing
+Maven 自动导包设置
+可能出现的问题：
+ 设置了自定义的 Maven，但每次启动创建工程 IDEAJ 都会改回它内置的 Maven 通过 【Setting For New Project】 方法设置 Maven 也出现同样的问题  解决办法：
+出现的问题可能是因为 IDEAJ 版本（version：2019-2）本身存在的 bug，更换版本就能够解决。
+如果不想更换版本，那么可以用自定义的配置文件覆盖默认的配置文件，同时在自定义的配置文件中更改仓库路径。但这样只能够使用 IDEAJ 内置的 Maven。</description>
+    </item>
+    
+    <item>
+      <title>IDEAJ配置</title>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEideaj%E9%85%8D%E7%BD%AE/ideaj_config/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEideaj%E9%85%8D%E7%BD%AE/ideaj_config/</guid>
+      <description>一、前言  基于 IDEAJ 2019-2 插图为已改设置 JetBrains 系列的产品应该能同样适用 Android Studio 产品基本都能够适用   二、正文 1. 主题与 IDE 字体 2. Ctrl + 鼠标滚轮放大缩小代码 3. 设置鼠标悬浮提示 4. 自动导包、导包校对  Add unambiguous imports on the fly : 自动导入不明确的结构
+Optimize imports on the fly : 自动帮我们优化导入的包
+ 5. 设置显示行号和方法间的分隔符 6. 忽略大小写提示 7. 设置取消单行显示文件标签 8. 设置默认的字体、字体大小、字体行间距 9. 修改类头的文档注释信息 10. 设置项目文件编码 11. 设置自动编译 12. 设置快捷键 13. 显示内存占用 14. 修改 IDEAJ 启动内存与最大内存 </description>
+    </item>
+    
+    <item>
+      <title>Maven仓库地址</title>
+      <link>https://ddq233.github.io/notes/maven_repository_url/</link>
+      <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/maven_repository_url/</guid>
+      <description>XML配置
+&amp;lt;!-- 阿里云仓库 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库1 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库2 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;JBoss Public Repository Group&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repository.jboss.org/nexus/content/groups/public&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库在中国的镜像 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;maven.net.cn&amp;lt;/id&amp;gt;&amp;lt;name&amp;gt;oneof the central mirrors in china&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.</description>
+    </item>
+    
+    <item>
+      <title>在Windows下配置Maven</title>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AE%E5%9C%A8windows%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_win/</link>
+      <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AE%E5%9C%A8windows%E4%B8%8B%E9%85%8D%E7%BD%AEmaven/maven_in_win/</guid>
+      <description>目录    Maven 下载    配置 Maven 环境变量    查看 Maven 是否安装成功    Maven 配置文件    修改本地仓库位置    添加国内镜像源     1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
+注意：
+ Maven 3.3+ 版本的需要 JDK 1.7 或以上 Maven 必须安装在非中文目录下  按需选择下载即可
+（示例）安装目录：C:\DevTools\apache-maven-3.6.1
+2. 配置 Maven 环境变量 步骤如下：
+1) 进入系统设置2) 高级系统设置 &amp;gt; 系统属性 &amp;gt; 高级 &amp;gt; 环境变量3) 新建系统变量：M2_HOME4) 在系统变量中找到Path，在其中添加：&amp;amp;M2_HOME&amp;amp;\bin 新建系统变量： 编辑 Path 环境变量： 3.</description>
+    </item>
+    
+    <item>
+      <title>AndroidStudio内存设置大小</title>
+      <link>https://ddq233.github.io/notes/as_memory_setting/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/as_memory_setting/</guid>
+      <description>步骤：
+   Android Studio 的安装目录，在 bin 目录下，找到 studio64.exe.vmoptions 文件，打开。      找到↓    - Xms256m- Xmx1280m........  -Xms 是JVM启动的起始堆内存，堆内存是分配给对象的内存 -Xmx 是Java虚拟机启动时的参数，用于限制最大堆内存
+   修改后重启 Android Studio      完成    </description>
+    </item>
+    
+    <item>
+      <title>CentOS 7 搭建 Nextcloud</title>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEcentos7%E6%90%ADnextcloud/nextcloud_in_centos7/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEcentos7%E6%90%ADnextcloud/nextcloud_in_centos7/</guid>
+      <description>一、环境准备  CentOS 7.5 64位 LNMP  Nginx - 1.16.0 MySQL - 5.6.44 Pure-Ftpd - 1.0.49 PHP - 7.2 phpMyAdmin - 4.7   Nextcloud - 17.0.0  注意事项：
+ MySQL 5.5 建议安装内存小于 1GB MySQL 5.6 建议安装内存大于 1GB MySQL 5.7 建议安装内存大于 2GB  二、安装步骤 1. 在 CentOS 安装宝塔面板
+一键安装脚本（在 root 用户下执行命令）
+yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/install/install_6.0.sh &amp;amp;&amp;amp; sh install.sh 宝塔面板安装完成
+可以在 CentOS 查看宝塔面板
+命令：
+# bt 2.</description>
+    </item>
+    
+    <item>
+      <title>Git学习笔记</title>
+      <link>https://ddq233.github.io/notes/git_notes/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_notes/</guid>
+      <description>目录  一、Git 的优势 二、Git 的结构 三、Git 和代码托管中心  3.1 局域网环境下 3.2 外网环境下   四、本地库和远程库  4.1 本地库初始化 4.2 设置签名   五、基本操作  5.1 状态查看操作 5.2 添加操作 5.3 提交操作 5.4 查看历史纪录 5.5 前进后退版本 5.6 reset 命令的三个参数对比 5.7 删除文件后找回 5.8 比较文件差异   六、分支管理  6.1 分支的意义 6.2 分支的好处 6.3 分支操作   七、Git 的原理  7.1 Hash 算法介绍   八、远程库操作  8.1 查看远程库 8.2 推送操作 8.3 克隆 8.</description>
+    </item>
+    
+    <item>
+      <title>Mac便签说明</title>
+      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <description>自定便条很容易。
+使您的便条突出显示并引起注意。
+· 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
+“便笺”有许多其他的美妙功能，包括拼写检查器、输入和输出功能以及排列和自定便条的其他方法。而且，您将在许多应用程序中找到“制作新便笺条”服务。
+有关使用“便笺”的更多信息，请查阅帮助。
+记下它！
+便笺可让您在桌面上保存便条（就像您看到的这些）。便笺条可用来草草记下提醒信息、列表或其他信息。您也可以使用便条来储存常用的文本或图形。
+· 要关闭本便条，请点按关闭按钮。
+· 要收起本便条，请连按标题栏。
+打开“便笺”时，您的当前便条会出现。</description>
+    </item>
+    
+    <item>
+      <title>Photoshop常用快捷键</title>
+      <link>https://ddq233.github.io/notes/shortcut_of_photoshop/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/shortcut_of_photoshop/</guid>
+      <description>目录    选择功能    滤镜    视图操作    编辑操作    图像调整    加点按    图层操作    其他     1. 选择功能  全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctrl】+【Shift】+【D】 羽化选择 【Ctrl】+【Alt】+【D】 反向选择 【Ctrl】+【Shift】+【I】 路径变选区 数字键盘的【Enter】 载入选区 【Ctrl】+点按图层、路径、通道面板中的缩略图  2. 滤镜  按上次的参数再做一次上次的滤镜 【Ctrl】+【F】 退去上次所做滤镜的效果 【Ctrl】+【Shift】+【F】 重复上次所做的滤镜(可调参数) 【Ctrl】+【Alt】+【F】 选择工具(在“3D变化”滤镜中) 【V】 立方体工具(在“3D变化”滤镜中) 【M】 球体工具(在“3D变化”滤镜中) 【N】 柱体工具(在“3D变化”滤镜中) 【C】 轨迹球(在“3D变化”滤镜中) 【R】 全景相机工具(在“3D变化”滤镜中) 【E】  3.</description>
+    </item>
+    
+    <item>
+      <title>Raspbian中国软件源</title>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <description>中国科学技术大学 : http://mirrors.ustc.edu.cn/raspbian/raspbian/ 阿里云 : http://mirrors.aliyun.com/raspbian/raspbian/ 清华大学 : http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ 华中科技大学 : http://mirrors.hustunique.com/raspbian/raspbian/ 华南农业大学（华南用户） : http://mirrors.scau.edu.cn/raspbian/ 大连东软信息学院源（北方用户） : http://mirrors.neusoft.edu.cn/raspbian/raspbian/ 重庆大学源（中西部用户） : http://mirrors.cqu.edu.cn/Raspbian/raspbian/ 中山大学 已跳转至中国科学技术大学源 : http://mirror.sysu.edu.cn/raspbian/raspbian/ 新加坡国立大学 : http://mirror.nus.edu.sg/raspbian/raspbian 牛津大学 : http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian/ 韩国KAIST大学 : http://ftp.kaist.ac.kr/raspbian/raspbian/   使用说明 备份原始文件（可选步骤） $ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak$ sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bak 编辑软件源配置 1、编辑 /etc/apt/sources.list 文件（软件源），参考如下命令：
+$ sudo nano /etc/apt/sources.list 2、删除原文件所有内容，buster 系统用以下内容取代：
+deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freedeb-src http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-free 注：网址末尾的raspbian重复两次是必须的。因为Raspbian的仓库中除了APT软件源还包含其他代码。APT软件源不在仓库的根目录，而在raspbian/子目录下。</description>
+    </item>
+    
+    <item>
+      <title>总线型、星型、环状、树状、网状拓扑结构</title>
+      <link>https://ddq233.github.io/notes/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BA%BF%E5%9E%8B%E6%98%9F%E5%9E%8B%E7%8E%AF%E7%8A%B6%E6%A0%91%E7%8A%B6%E7%BD%91%E7%8A%B6%E6%8B%93%E6%89%91%E7%BB%93%E6%9E%84/topological_tructure/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/%E7%AC%94%E8%AE%B0%E6%80%BB%E7%BA%BF%E5%9E%8B%E6%98%9F%E5%9E%8B%E7%8E%AF%E7%8A%B6%E6%A0%91%E7%8A%B6%E7%BD%91%E7%8A%B6%E6%8B%93%E6%89%91%E7%BB%93%E6%9E%84/topological_tructure/</guid>
+      <description>总线型：
+总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。
+星型：
+星型拓扑结构是一个中心，多个分节点。它结构简单，连接方便，管理和维护都相对容易，而且扩展性强。网络延迟时间较小，传输误差低。中心无故障，一般网络没问题。中心故障，网络就出问题，同时共享能力差，通信线路利用率不高。
+环状：
+环形拓扑结构是节点形成一个闭合环。工作站少，节约设备。当然，这样就导致一个节点出问题，网络就会出问题，而且不好诊断故障。
+树型：
+树形拓扑结构从总线拓扑演变而来。形状像一棵倒置的树,顶端是树根，树根以下带分支，每个分支还可再带子分支，树根接收各站点发送的数据，然后再广播发送到全网。好扩展，容易诊断错误，但对根部要求高。
+网状：网形拓扑结构是应用最广泛的，它的优点是不受瓶颈问题和失效问题的影响，一旦线路出问题，可以做其他线路，但太复杂，成本高。</description>
     </item>
     
     <item>
       <title>个人简介</title>
-      <link>/about/</link>
+      <link>https://ddq233.github.io/about/</link>
       <pubDate>Mon, 06 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/about/</guid>
-      <description>Name : Mr.feng Q Q : 731845863 Email : 731845863@qq.com Job : Student Location : GuangZhou</description>
+      <guid>https://ddq233.github.io/about/</guid>
+      <description>
+ Name : Mr.feng Q Q : 731845863 Email : 731845863@qq.com Job : Student Location : GuangZhou  </description>
+    </item>
+    
+    <item>
+      <title>在Mac下使用Hugo搭建个人博客</title>
+      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
+      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+目录  一、实验材料 二、Homebrew 安装  2.1 安装方法  2.1.1 方法一：通过官网提供的命令安装 2.1.2 方法二：直接从GitHub上clone文件 2.1.3 方法三：通过bash命令下载   2.2 配置环境变量 2.3 Homebrew 替换现有上游 2.4 更新 Homebrew 2.5 验证检查   三、通过 Homebrew 安装 Hugo  3.1 安装 Go 语言环境 3.1.1 下载相应系统的安装包 3.1.2 配置环境变量 3.2 用 Homebrew 安装 Hugo   四、建立网站  4.1 建立一个网站 4.2 下载主题 4.3 新建文章 4.4 编译项目，开启服务 4.5 在浏览器浏览项目   参考文章   一、实验材料  Mac OS X - v10.</description>
+    </item>
+    
+    <item>
+      <title>Cupper Typography</title>
+      <link>https://ddq233.github.io/notes/cupper-typography/</link>
+      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/cupper-typography/</guid>
+      <description>Headings # Heading 1## Heading 2### Heading 3#### Heading 4##### Heading 5###### Heading 6 Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic*_This will also be italic_**This text will be bold**__This will also be bold___You **can** combine them_ This text will be italic
+This will also be italic
+This text will be bold</description>
     </item>
     
   </channel>

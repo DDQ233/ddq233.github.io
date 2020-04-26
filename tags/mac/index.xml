@@ -1,35 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on DDQ的笔记</title>
-    <link>/tags/mac/</link>
+    <link>https://ddq233.github.io/tags/mac/</link>
     <description>Recent content in Mac on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-        <atom:link href="/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac便签说明</title>
-      <link>/notes/mac_note_direction/</link>
+      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/mac_note_direction/</guid>
-      <description>自定便条很容易。 使您的便条突出显示并引起注意。 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼</description>
-      
+      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <description>自定便条很容易。
+使您的便条突出显示并引起注意。
+· 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
+“便笺”有许多其他的美妙功能，包括拼写检查器、输入和输出功能以及排列和自定便条的其他方法。而且，您将在许多应用程序中找到“制作新便笺条”服务。
+有关使用“便笺”的更多信息，请查阅帮助。
+记下它！
+便笺可让您在桌面上保存便条（就像您看到的这些）。便笺条可用来草草记下提醒信息、列表或其他信息。您也可以使用便条来储存常用的文本或图形。
+· 要关闭本便条，请点按关闭按钮。
+· 要收起本便条，请连按标题栏。
+打开“便笺”时，您的当前便条会出现。</description>
     </item>
     
     <item>
       <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>/notes/hugo_in_mac/</link>
+      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>/notes/hugo_in_mac/</guid>
-      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。 目录 一、</description>
-      
+      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+目录  一、实验材料 二、Homebrew 安装  2.1 安装方法  2.1.1 方法一：通过官网提供的命令安装 2.1.2 方法二：直接从GitHub上clone文件 2.1.3 方法三：通过bash命令下载   2.2 配置环境变量 2.3 Homebrew 替换现有上游 2.4 更新 Homebrew 2.5 验证检查   三、通过 Homebrew 安装 Hugo  3.1 安装 Go 语言环境 3.1.1 下载相应系统的安装包 3.1.2 配置环境变量 3.2 用 Homebrew 安装 Hugo   四、建立网站  4.1 建立一个网站 4.2 下载主题 4.3 新建文章 4.4 编译项目，开启服务 4.5 在浏览器浏览项目   参考文章   一、实验材料  Mac OS X - v10.</description>
     </item>
     
   </channel>
