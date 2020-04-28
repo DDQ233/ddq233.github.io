@@ -146,7 +146,8 @@ deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freed
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
-      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+      <description>[TOC]
+Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
 目录  一、实验材料 二、Homebrew 安装  2.1 安装方法  2.1.1 方法一：通过官网提供的命令安装 2.1.2 方法二：直接从GitHub上clone文件 2.1.3 方法三：通过bash命令下载   2.2 配置环境变量 2.3 Homebrew 替换现有上游 2.4 更新 Homebrew 2.5 验证检查   三、通过 Homebrew 安装 Hugo  3.1 安装 Go 语言环境 3.1.1 下载相应系统的安装包 3.1.2 配置环境变量 3.2 用 Homebrew 安装 Hugo   四、建立网站  4.1 建立一个网站 4.2 下载主题 4.3 新建文章 4.4 编译项目，开启服务 4.5 在浏览器浏览项目   参考文章   一、实验材料  Mac OS X - v10.</description>
     </item>
     
