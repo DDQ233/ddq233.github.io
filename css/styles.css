@@ -11,16 +11,17 @@
     font-family: inherit;
     background-color: inherit;
     color: inherit;
-    margin: 0;
+    margin: 0px 0px 5px 0px;
     padding: 0;
     box-sizing: border-box;
 }
 html {
-    font-size: calc(0.9em + 0.3vw);
+    font-size: calc(0.8em + 0.3vw);
     font-family: Arial, Helvetica Neue, sans-serif;
-    line-height: 1.5;
+    line-height: 1.7;
     color: #111;
     background-color: #fefefe;
+    letter-spacing: 1.3px;
 }
 template {
   display: none !important;
@@ -353,7 +354,7 @@ caption {
     margin-left: 15rem;
 }
 .main-and-footer > div {
-    max-width: 40rem;
+    max-width: 50rem;
     margin: 0 auto;
     padding: 2.25rem;
 }
