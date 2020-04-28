@@ -18,7 +18,18 @@
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/maven_notes/</guid>
-      <description>目录    为什么要使用 Maven ？    什么是 Maven ？   2.1 构建 2.3 构建的主要环节    Maven 的核心概念   3.1 约定的目录结构 3.2 POM 3.3 坐标 3.4 依赖  3.4.1 依赖的范围   3.5 仓库  3.5.1 分类 3.5.2 仓库的文件   3.6 生命周期  3.6.1 Maven 的生命周期   3.7 插件和目标 3.8 继承 3.9 聚合     前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具</description>
+      <description>前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具
+1. 为什么要使用 Maven ？ 为什么要使用 Maven ？它能帮助我们解决什么问题？
+(1) 轻松添加第三方 jar 包
+ 在开发过程中，同样的 jar 包会出现在不同的工程项目中，开发人员需要不停地做 jar 包的复制粘贴工作。这些操作会导致工作区中存在大量重复的文件，让工程显得很臃肿。
+ 使用 Maven 后，只需要把 jar 包保存在【仓库】中，需要用到 jar 包的工程只需要以坐标的方式简单引用一下即可。
+ 使用 Maven 的好处就是极大的节约了存储空间，让项目更轻巧，避免了重复文件太多而造成的混乱。
+(2) 解决 jar 包之间的依赖关系的问题
+ jar 包往往不是孤立存在的，有时候一个 jar 包的正常工作需要依赖另一个或多个 jar 包。而作为开发人员，不可能知道所有 jar 包之间的依赖关系并正确导入工程项目中，极大地浪费了我们导入包的时间成本，也极大地增加了学习成本。
+ 引入 Maven 后，Maven 就可以替我们自动的将当前 jar 包所依赖的其他所有 jar 包全部导入进来，无需人工参与，节约了我们大量的时间和精力。
+(3) 获取第三方 jar 包
+ 在开发过程中使用到的 jar 包种类繁多，不可能把精力都花在到互联网寻找 jar 包上面，费时费力。
+ 因此，借助 Maven 可以帮助我们解决问题。我们只需要在项目中以坐标的方式依赖一个 jar 包，Maven 就会自动从中央仓库进行下载 jar 包和这个 jar 包所依赖的其他 jar 包。</description>
     </item>
     
     <item>
@@ -85,7 +96,7 @@
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/spring_database_dev/</guid>
-      <description>目录  1.什么是数据库连接池？ 2.传统的JDBC连接与数据库连接池连接的区别是什么？  2.1 JDBC访问数据库对过程 2.2 数据库连接池访问数据库   3.为什么要使用数据库连接池？ 4.数据库连接池的优势是什么？ 5.常见的数据库连接池  5.1 DBCP 5.2 C3P0 5.3 Druid 5.4 Proxool   参考文章   1. 什么是数据库连接池？ 数据库连接池（Connection pooling）是程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由程序动态地对池中对连接进行申请，使用，释放。
+      <description>1. 什么是数据库连接池？ 数据库连接池（Connection pooling）是程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由程序动态地对池中对连接进行申请，使用，释放。
 连接数据库是一个耗时的操作，一个数据库连接对象均对应一个物理数据库连接，每次操作都打开一个物理连接，使用完都关闭，这样会造成系统性能低。
 因此，在程序初始化对时候，集中创建多个数据库连接，并把它们进行集中管理，这样可以提高系统性能。
 2. 传统的JDBC连接与数据库连接池连接的区别是什么？ 2.1 JDBC访问数据库对过程  装载数据库驱动程序 通过JDBC建立数据库连接 访问数据库，执行SQL语句 组装结果 关闭数据库资源  2.2 数据库连接池访问数据库  程序初始化时创建连接池 使用时向连接池申请可用连接 使用完毕，将连接返还给连接池 程序退出时，断开所有连接并释放资源  3. 为什么要使用数据库连接池？ 数据库连接是一种关键的有限的昂贵的资源，这一点在多用户的网页应用程序中体现的尤为突出。对数据库连接的管理能显著影响到整个应用程序的伸缩性和健壮性，影响到程序的性能指标。
@@ -98,7 +109,14 @@
 商家（用户）对他们自己商品进行提取或存放，作为一次业务请求。
 商家每提交一次业务请求，就需要与一位管理员对接，业务请求完毕后，管理员等待下一次的业务请求。
 在一个大仓库中，有不同的商家的商品在大仓库中存储物品，管理团队负责管理仓库。商家只需要把经历放在自己的生意上，而提货存货这类操作交给仓库的管理团队即可，免去了亲自去把商品存储到仓库或者从仓库提取货物出来这些繁琐的事情，提高了效率。
- 4. 数据库连接池的优势是什么？ 1. 减少连接创建时间。 连接池中的连接是已准备好的、可重复使用的，获取后可以直接访问数据库，因此减少了连接创建的次数和时间。</description>
+ 4. 数据库连接池的优势是什么？ 1. 减少连接创建时间。 连接池中的连接是已准备好的、可重复使用的，获取后可以直接访问数据库，因此减少了连接创建的次数和时间。
+2. 简化的编程模式。 当使用连接池时，每一个单独的线程能够像创建一个自己的JDBC连接一样操作，允许用户直接使用JDBC编程技术。
+3. 控制资源的使用。 如果不使用连接池，每次访问数据库都需要创建一个连接，这样系统的稳定性受系统连接需求影响很大，很容易产生资源浪费和高负载异常。连接池能够使性能最大化，将资源利用控制在一定的水平之下。连接池能控制池中的连接数量，增强了系统在大量用户应用时的稳定性。
+ 5. 常见的数据库连接池 5.1 DBCP DBCP类是一个依赖 Jakarta commons-pool 对象池机制的数据库连接池，所以，在类路径下必须导入依赖jar包。
+5.2 C3P0 C3P0：是一个开放源代码的JDBC连接池，它在lib目录中与Hibernate一起发布，包括了实现jdbc3和jdbc2扩展规范说明的Connection和Statement池的DataSources对象。
+5.3 Druid Druid是阿里巴巴开发的号称为监控而生的数据库连接池，目前最好的数据库连接池。
+结合了C3P0、DBCP、PROXOOL等DB池的优点，同时加入了日志监控，可以很好的监控DB池连接和SQL的执行情况。
+5.4 Proxool Proxool：是一个Java SQL Driver驱动程序，提供了对选择的其它类型的驱动程序的连接池封装。可以非常简单的移植到现存的代码中，完全可配置，快速、成熟、健壮。可以透明地为现存的JDBC驱动程序增加连接池功能。</description>
     </item>
     
     <item>
@@ -107,7 +125,14 @@
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/literature_learning_note/</guid>
-      <description>目录    看文献的5个认识    文献检索存在的问题    文献检索常用方法    文献筛选的要点    文献阅读数量    文献类型    文献阅读的方法论    一篇具体文章如何阅读    阅读文献的方法举例    如何阅读一篇文献    如何速读一篇文献    精读文献    如何精读一篇文献    如何给文献做笔记   14.1 为什么要做笔记？ 14.2 哪些文献需要做笔记？ 14.3 哪些内容需要重点标记？ 14.4 如何做笔记     1.</description>
+      <description>1. 看文献的5个认识  看文献是科研的基本功 变被动为主动 小处着手，放眼全部 多多交流 不要迷信文献   2. 文献检索存在的问题  不清楚不同的文献该采用怎样的检索系统 对数据库用法不了解，不太会检索 检索结果不理想，太多或太少 无法得到全文，也不知道如何去下载 对最新的文献不关注，或者不知道如何跟踪   3. 文献检索常用方法   常规法： 利用检索工具查找文献，即以主题、分类、作者等途径，通过检索工具查找
+  浏览法： 本专业或本学科相关的核心期刊，比如 Nature，每出一期就浏览阅读
+  追溯法： 查看一篇参考价值大的文献之后，以后面附的参考文献为线索查找文献
+   4. 文献筛选的要点  重点关注：最新文献、核心文献 英文为主，中文为辅 读标题摘要进行初筛，能不下载就不下载 结合全文进一步筛选 按重要性进行分级，定期回顾、清理  5. 文献阅读数量 阅读数量不是绝对的，但是量变确实可以质变
+重视文章的质量，分层次阅读
+ 6. 文献类型 中文综述 → 中文博士/硕士论文 → 英文综述 → 英文研究型文章
+ 7. 文献阅读的方法论   围绕科研课题阅读文献，围绕科研课题寻找相关知识点，形成相关的知识体系
+  目标为导向</description>
     </item>
     
     <item>
@@ -116,11 +141,13 @@
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
-      <description>目录  1、证件照常用大小 2、证件照常见背景色为白色、红色、蓝色（RGB） 3、数码相机和可冲印照片最大尺寸对照表 4、名片尺寸标准大小 5、各种型号纸张大小尺寸  A类（公制） B类（日制） L度（美制） 信封尺寸     1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
+      <description>1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
   2寸 3.5cm * 5.3cm 或 626像素 * 413像素
   小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
   身份证大头照 3.3cm * 2.2cm 或 390像素 * 260像素
-   2、证件照常见背景色为白色、红色、蓝色（RGB）   白色 R : 255 G : 255 B : 255</description>
+   2、证件照常见背景色为白色、红色、蓝色（RGB）   白色 R : 255 G : 255 B : 255
+  红色 R : 255 G : 0 B:0
+  蓝色 R : 67 G : 142 B : 219</description>
     </item>
     
     <item>
@@ -170,12 +197,15 @@ Optimize imports on the fly : 自动帮我们优化导入的包
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/maven_in_win/</guid>
-      <description>目录    Maven 下载    配置 Maven 环境变量    查看 Maven 是否安装成功    Maven 配置文件    修改本地仓库位置    添加国内镜像源     1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
+      <description>1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
 注意：
  Maven 3.3+ 版本的需要 JDK 1.7 或以上 Maven 必须安装在非中文目录下  按需选择下载即可
 （示例）安装目录：C:\DevTools\apache-maven-3.6.1
 2. 配置 Maven 环境变量 步骤如下：
-1) 进入系统设置2) 高级系统设置 &amp;gt; 系统属性 &amp;gt; 高级 &amp;gt; 环境变量3) 新建系统变量：M2_HOME4) 在系统变量中找到Path，在其中添加：&amp;amp;M2_HOME&amp;amp;\bin 新建系统变量： 编辑 Path 环境变量： 3.</description>
+1) 进入系统设置2) 高级系统设置 &amp;gt; 系统属性 &amp;gt; 高级 &amp;gt; 环境变量3) 新建系统变量：M2_HOME4) 在系统变量中找到Path，在其中添加：&amp;amp;M2_HOME&amp;amp;\bin 新建系统变量： 编辑 Path 环境变量： 3. 查看 Maven 是否安装成功 1) 打开 cmd 命令提示符2) 输入命令：mvn -v 4. Maven 配置文件 Maven 配置文件的路径：C:\DevTools\apache-maven-3.6.1\conf\settings.xml
+5. 修改本地仓库位置 在&amp;lt;localRepository&amp;gt;标签内添加自己的本地位置路径
+（示例）本地仓库地址：C:\DevTools\mavenLocalRepository
+&amp;lt;!-- localRepository| The path to the local repository maven will use to store artifacts.</description>
     </item>
     
     <item>
@@ -210,7 +240,10 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/git_notes/</guid>
-      <description>目录  一、Git 的优势 二、Git 的结构 三、Git 和代码托管中心  3.1 局域网环境下 3.2 外网环境下   四、本地库和远程库  4.1 本地库初始化 4.2 设置签名   五、基本操作  5.1 状态查看操作 5.2 添加操作 5.3 提交操作 5.4 查看历史纪录 5.5 前进后退版本 5.6 reset 命令的三个参数对比 5.7 删除文件后找回 5.8 比较文件差异   六、分支管理  6.1 分支的意义 6.2 分支的好处 6.3 分支操作   七、Git 的原理  7.1 Hash 算法介绍   八、远程库操作  8.1 查看远程库 8.2 推送操作 8.3 克隆 8.</description>
+      <description>一、Git 的优势  大部分操作在本地完成，不需要联网 完整性保证 尽可能添加数据而不是删除或修改数据 分支操作非常快捷流畅 与 Linux 命令全面兼容   二、Git 的结构  工作区（写代码） 暂存区（临时存储） 本地库（历史版本）   三、Git 和代码托管中心 代码托管中心的任务：维护远程库
+3.1 局域网环境下  GitLab 服务器  3.2 外网环境下  GitHub 码云   四、本地库和远程库  团队内部协作 跨团队协作  4.1 本地库初始化  $ git init
+ 注意：.git 目录中存放的是本地库相关的子目录和文件，不要删除，也不要胡乱修改。
+4.2 设置签名  形式  用户名：XXX Email 地址：XXX@XXX.com   作用：区分不同开发人员的身份 辨析：签名和登录远程库（代码托管中心）的账号、密码没有任何关系 命令  项目级别 / 仓库级别  作用范围：仅在当前本地库范围内有效 命令：git config user.</description>
     </item>
     
     <item>
@@ -237,7 +270,7 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/shortcut_of_photoshop/</guid>
-      <description>目录    选择功能    滤镜    视图操作    编辑操作    图像调整    加点按    图层操作    其他     1. 选择功能  全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctrl】+【Shift】+【D】 羽化选择 【Ctrl】+【Alt】+【D】 反向选择 【Ctrl】+【Shift】+【I】 路径变选区 数字键盘的【Enter】 载入选区 【Ctrl】+点按图层、路径、通道面板中的缩略图  2. 滤镜  按上次的参数再做一次上次的滤镜 【Ctrl】+【F】 退去上次所做滤镜的效果 【Ctrl】+【Shift】+【F】 重复上次所做的滤镜(可调参数) 【Ctrl】+【Alt】+【F】 选择工具(在“3D变化”滤镜中) 【V】 立方体工具(在“3D变化”滤镜中) 【M】 球体工具(在“3D变化”滤镜中) 【N】 柱体工具(在“3D变化”滤镜中) 【C】 轨迹球(在“3D变化”滤镜中) 【R】 全景相机工具(在“3D变化”滤镜中) 【E】  3.</description>
+      <description>1. 选择功能  全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctrl】+【Shift】+【D】 羽化选择 【Ctrl】+【Alt】+【D】 反向选择 【Ctrl】+【Shift】+【I】 路径变选区 数字键盘的【Enter】 载入选区 【Ctrl】+点按图层、路径、通道面板中的缩略图  2. 滤镜  按上次的参数再做一次上次的滤镜 【Ctrl】+【F】 退去上次所做滤镜的效果 【Ctrl】+【Shift】+【F】 重复上次所做的滤镜(可调参数) 【Ctrl】+【Alt】+【F】 选择工具(在“3D变化”滤镜中) 【V】 立方体工具(在“3D变化”滤镜中) 【M】 球体工具(在“3D变化”滤镜中) 【N】 柱体工具(在“3D变化”滤镜中) 【C】 轨迹球(在“3D变化”滤镜中) 【R】 全景相机工具(在“3D变化”滤镜中) 【E】  3. 视图操作  显示彩色通道 【Ctrl】+【~】 显示单色通道 【Ctrl】+【数字】 显示复合通道 【~】 以CMYK方式预览(开关) 【Ctrl】+【Y】 打开/关闭色域警告 【Ctrl】+【Shift】+【Y】 放大视图 【Ctrl】+【+】 缩小视图 【Ctrl】+【-】 满画布显示 【Ctrl】+【0】 实际象素显示 【Ctrl】+【Alt】+【0】 向上卷动一屏 【PageUp】 向下卷动一屏 【PageDown】 向左卷动一屏 【Ctrl】+【PageUp】 向右卷动一屏 【Ctrl】+【PageDown】 向上卷动10 个单位 【Shift】+【PageUp】 向下卷动10 个单位 【Shift】+【PageDown】 向左卷动10 个单位 【Shift】+【Ctrl】+【PageUp】 向右卷动10 个单位 【Shift】+【Ctrl】+【PageDown】 将视图移到左上角 【Home】 将视图移到右下角 【End】 显示/隐藏选择区域 【Ctrl】+【H】 显示/隐藏路径 【Ctrl】+【Shift】+【H】 显示/隐藏标尺 【Ctrl】+【R】 显示/隐藏参考线 【Ctrl】+【;】 显示/隐藏网格 【Ctrl】+【”】 贴紧参考线 【Ctrl】+【Shift】+【;】 锁定参考线 【Ctrl】+【Alt】+【;】 贴紧网格 【Ctrl】+【Shift】+【”】 显示/隐藏“画笔”面板 【F5】 显示/隐藏“颜色”面板 【F6】 显示/隐藏“图层”面板 【F7】 显示/隐藏“信息”面板 【F8】 显示/隐藏“动作”面板 【F9】 显示/隐藏所有命令面板 【TAB】 显示或隐藏工具箱以外的所有调板 【Shift】+【TAB】 文字处理(在”文字工具”对话框中) 左对齐或顶对齐 【Ctrl】+【Shift】+【L】 中对齐 【Ctrl】+【Shift】+【C】 右对齐或底对齐 【Ctrl】+【Shift】+【R】 左／右选择 1 个字符 【Shift】+【←】/【→】 下／上选择 1 行 【Shift】+【↑】/【↓】 选择所有字符 【Ctrl】+【A】 选择从插入点到鼠标点按点的字符 【Shift】加点按 左／右移动 1 个字符 【←】/【→】 下／上移动 1 行 【↑】/【↓】 左／右移动1个字 【Ctrl】+【←】/【→】 将所选文本的文字大小减小2 点象素 【Ctrl】+【Shift】+【&amp;lt;】 将所选文本的文字大小增大2 点象素 【Ctrl】+【Shift】+【&amp;gt;】 将所选文本的文字大小减小10 点象素 【Ctrl】+【Alt】+【Shift】+【&amp;lt;】 将所选文本的文字大小增大10 点象素 【Ctrl】+【Alt】+【Shift】+【&amp;gt;】 将行距减小2点象素 【Alt】+【↓】 将行距增大2点象素 【Alt】+【↑】 基线位移减小2点象素 【Shift】+【Alt】+【↓】 将基线位移增加2点象素 【Shift】+【Alt】+【↑】 将字距微调或字距调整减小20/1000ems 【Alt】+【←】 将字距微调或字距调整增加20/1000ems 【Alt】+【→】 将字距微调或字距调整减小100/1000ems 【Ctrl】+【Alt】+【←】 将字距微调或字距调整增加100/1000ems 【Ctrl】+【Alt】+【→】 设置“增效工具与暂存盘”(在预置对话框中) 【Ctrl】+【7】 设置“内存与图像高速缓存”(在预置对话框中) 【Ctrl】+【8】  4.</description>
     </item>
     
     <item>
@@ -274,20 +307,11 @@ deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freed
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
-      <description>[TOC]
-Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
-目录  一、实验材料 二、Homebrew 安装  2.1 安装方法  2.1.1 方法一：通过官网提供的命令安装 2.1.2 方法二：直接从GitHub上clone文件 2.1.3 方法三：通过bash命令下载   2.2 配置环境变量 2.3 Homebrew 替换现有上游 2.4 更新 Homebrew 2.5 验证检查   三、通过 Homebrew 安装 Hugo  3.1 安装 Go 语言环境 3.1.1 下载相应系统的安装包 3.1.2 配置环境变量 3.2 用 Homebrew 安装 Hugo   四、建立网站  4.1 建立一个网站 4.2 下载主题 4.3 新建文章 4.4 编译项目，开启服务 4.5 在浏览器浏览项目   参考文章   一、实验材料  Mac OS X - v10.</description>
-    </item>
-    
-    <item>
-      <title>Cupper Typography</title>
-      <link>https://ddq233.github.io/notes/cupper-typography/</link>
-      <pubDate>Thu, 14 Feb 2019 15:36:09 -0600</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/cupper-typography/</guid>
-      <description>Headings # Heading 1 ## Heading 2 ### Heading 3 #### Heading 4 ##### Heading 5 ###### Heading 6  Heading 1 Heading 2 Heading 3 Heading 4 Heading 5 Heading 6 Text *This text will be italic* _This will also be italic_ **This text will be bold** __This will also be bold__ _You **can** combine them_  This text will be italic
-This will also be italic
-This text will be bold</description>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+一、实验材料  Mac OS X - v10.14.6 Homebrew (又称brew) - v2.2.11-dirty Go语言环境 - v1.14.1 Git - v2.23.0 Hugo - v0.68.3 Hugo主题：hugo-notepadium - v0.60.0 GitHub Markdown语法   二、Homebrew 安装 2.1 安装方法 2.1.1 方法一：通过官网提供的命令安装 $ /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;  在国内，这个命令通常会失败并报以下错误。
+$ curl: (7) Failed to connect to http://raw.githubusercontent.com port 443: Operation timed outOperation  2.1.2 方法二：直接从GitHub上clone文件（换源下载） 输入命令从 GitHub 或者其他源克隆 Homebrew 的项目，放在 /usr/local/Homebrew/ 目录下。
+或者
+$ git clone git@github.com:Homebrew/brew.git /usr/local/Homebrew/  或者</description>
     </item>
     
   </channel>
