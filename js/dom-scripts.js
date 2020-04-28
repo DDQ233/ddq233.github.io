@@ -51,6 +51,7 @@
 }());
 
 /* Add "link here" links to <h2> headings */
+/*
 (function () {
   var headings = document.querySelectorAll('main > h2');
 
@@ -68,7 +69,7 @@
       heading.parentNode.insertBefore(container, heading);
 
       var link = document.createElement('a');
-      link.setAttribute('href', '#' + id);
+      link.setAttribute('href', '##' + id);
       var headingText = heading.textContent;
       link.setAttribute('aria-label', 'This ' + headingText + ' section');
       link.innerHTML = '<svg aria-hidden="true" class="link-icon" viewBox="0 0 50 50" focusable="false"> <use xlink:href="#link"></use> </svg>';
@@ -79,6 +80,7 @@
     }
   })
 }());
+*/
 
 /* Enable scrolling by keyboard of code samples */
 (function () {

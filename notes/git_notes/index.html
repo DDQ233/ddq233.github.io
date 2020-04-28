@@ -131,7 +131,7 @@
   <div>
     <div class="intro">
       <a class="logo" href="/" aria-label="DDQ的笔记 home page">
-        <img src="https://ddq233.github.io/images/Logo.jpg" alt="Logo">
+        <img src="https://ddq233.github.io/images/logo.jpg" alt="logo">
       </a>
       <p class="library-desc">
         
@@ -223,7 +223,130 @@
         <div>
           
   <main id="main">
-    <h1>Git学习笔记</h1>
+    <h1>
+
+      Git学习笔记
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Apr 7, 2020
+      
+        
+      
+    </div>
+
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/git/">Git</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
+      
+
+
+
+    <div id="toc" class="toc">
+      <h2 id="toc-heading">Table of contents</h2><nav id="TableOfContents">
+  <ul>
+    <li><a href="#目录">目录</a></li>
+    <li><a href="#一git-的优势">一、Git 的优势</a></li>
+    <li><a href="#二git-的结构">二、Git 的结构</a></li>
+    <li><a href="#三git-和代码托管中心">三、Git 和代码托管中心</a>
+      <ul>
+        <li><a href="#31-局域网环境下">3.1 局域网环境下</a></li>
+        <li><a href="#32-外网环境下">3.2 外网环境下</a></li>
+      </ul>
+    </li>
+    <li><a href="#四本地库和远程库">四、本地库和远程库</a>
+      <ul>
+        <li><a href="#41-本地库初始化">4.1 本地库初始化</a></li>
+        <li><a href="#42-设置签名">4.2 设置签名</a></li>
+      </ul>
+    </li>
+    <li><a href="#五基本操作">五、基本操作</a>
+      <ul>
+        <li><a href="#51-状态查看操作">5.1 状态查看操作</a></li>
+        <li><a href="#52-添加操作">5.2 添加操作</a></li>
+        <li><a href="#53-提交操作">5.3 提交操作</a></li>
+        <li><a href="#54-查看历史纪录">5.4 查看历史纪录</a></li>
+        <li><a href="#55-前进后退版本">5.5 前进后退版本</a></li>
+        <li><a href="#56-reset-命令的三个参数对比">5.6 reset 命令的三个参数对比</a></li>
+        <li><a href="#57-删除文件后找回">5.7 删除文件后找回</a></li>
+        <li><a href="#58-比较文件差异">5.8 比较文件差异</a></li>
+      </ul>
+    </li>
+    <li><a href="#六分支管理">六、分支管理</a>
+      <ul>
+        <li><a href="#61-分支的意义">6.1 分支的意义</a></li>
+        <li><a href="#62-分支的好处">6.2 分支的好处</a></li>
+        <li><a href="#63-分支操作">6.3 分支操作</a></li>
+      </ul>
+    </li>
+    <li><a href="#七git-的原理">七、Git 的原理</a>
+      <ul>
+        <li><a href="#71-hash-算法介绍">7.1 Hash 算法介绍</a></li>
+      </ul>
+    </li>
+    <li><a href="#八远程库操作">八、远程库操作</a>
+      <ul>
+        <li><a href="#81-查看远程库">8.1 查看远程库</a></li>
+        <li><a href="#82-推送操作">8.2 推送操作</a></li>
+        <li><a href="#83-克隆">8.3 克隆</a></li>
+        <li><a href="#84-拉取">8.4 拉取</a></li>
+        <li><a href="#85-解决冲突">8.5 解决冲突</a></li>
+        <li><a href="#86-跨团队协作">8.6 跨团队协作</a></li>
+      </ul>
+    </li>
+    <li><a href="#九ssh-登录">九、SSH 登录</a></li>
+    <li><a href="#十eclipce-操作">十、Eclipce 操作</a>
+      <ul>
+        <li><a href="#101-工程初始化为本地库">10.1 工程初始化为本地库</a></li>
+        <li><a href="#102-eclipse-中忽略文件">10.2 Eclipse 中忽略文件</a>
+          <ul>
+            <li><a href="#1021-概念eclipse-特定文件">10.2.1 概念：Eclipse 特定文件</a></li>
+            <li><a href="#1022-为什么要忽略-eclipse-特定文件呢">10.2.2 为什么要忽略 Eclipse 特定文件呢？</a></li>
+            <li><a href="#1023-github-官网样例文件">10.2.3 GitHub 官网样例文件</a></li>
+            <li><a href="#1024-引入上述文件">10.2.4 引入上述文件</a></li>
+          </ul>
+        </li>
+        <li><a href="#103-推送到远程库">10.3 推送到远程库</a></li>
+      </ul>
+    </li>
+    <li><a href="#十一gitlab-服务器搭建过程">十一、Gitlab 服务器搭建过程</a>
+      <ul>
+        <li><a href="#111-官网地址">11.1 官网地址</a></li>
+        <li><a href="#112-安装命令摘录">11.2 安装命令摘录</a></li>
+        <li><a href="#113-调整后的安装过程">11.3 调整后的安装过程</a></li>
+        <li><a href="#114-gitlab-服务操作">11.4 gitlab 服务操作</a>
+          <ul>
+            <li><a href="#1141-初始化配置-gitlab">11.4.1 初始化配置 gitlab</a></li>
+            <li><a href="#1142-启动-gitlab-服务">11.4.2 启动 gitlab 服务</a></li>
+            <li><a href="#1143-停止-gitlab-服务">11.4.3 停止 gitlab 服务</a></li>
+          </ul>
+        </li>
+        <li><a href="#115-浏览器访问">11.5 浏览器访问</a></li>
+        <li><a href="#116-其他安装-gitlab-的教程">11.6 其他安装 Gitlab 的教程</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav></div>
+  
+    
+
     <h1 id="目录">目录</h1>
 <ul>
 <li>一、Git 的优势</li>
@@ -753,6 +876,10 @@ sudo EXTERNAL_URL=&quot;http://gitlab.example.com&quot;yum -y install gitlab-ce
 </ul>
 
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
