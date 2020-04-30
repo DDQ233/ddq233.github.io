@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.github.io/notes/">
+  <link rel="canonical" href="https://ddq233.github.io/notes/java_dev_maven_dependencies/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Notes | DDQ的笔记</title>
+  <title>Java开发可能用到对Maven依赖 | DDQ的笔记</title>
   
 </head>
 
@@ -225,264 +225,285 @@
         <div>
           
   <main id="main">
-    <h1>Notes</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      Java开发可能用到对Maven依赖
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Apr 30, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/as_gradle_modified_res/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            修改AndroidStudio默认的Gradle软件源
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/java/">Java</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/maven/">Maven</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/java_dev_maven_dependencies/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Java开发可能用到对Maven依赖
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/maven_notes/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Maven习笔记
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/iot_sensing_layer_design/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            物联网系统传感层的设计
-          </a>
-        </h2>
-      </li>        
+      
+
+  
+      <div id="toc" class="toc">
+        <h2 id="toc-heading">Table of contents</h2><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-其他依赖">1. 其他依赖</a>
+      <ul>
+        <li><a href="#11-单元测试">1.1 单元测试</a></li>
+        <li><a href="#12-日志">1.2 日志</a></li>
+        <li><a href="#13-代理">1.3 代理</a></li>
+        <li><a href="#14-json">1.4 Json</a></li>
+        <li><a href="#15-数据库连接">1.5 数据库连接</a></li>
+        <li><a href="#16-整合包">1.6 整合包</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-数据源">2. 数据源</a>
+      <ul>
+        <li><a href="#11-c3p0">1.1 c3p0</a></li>
+        <li><a href="#12-dbcp">1.2 dbcp</a></li>
+        <li><a href="#13-druid">1.3 Druid</a></li>
+        <li><a href="#14-proxool">1.4 proxool</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-spring-依赖">2. Spring 依赖</a>
+      <ul>
+        <li><a href="#21-spring-核心依赖">2.1 Spring 核心依赖</a></li>
+        <li><a href="#22-spring-aop-依赖">2.2 Spring AOP 依赖</a></li>
+        <li><a href="#23-spring-dao-依赖">2.3 Spring Dao 依赖</a></li>
+        <li><a href="#24-spring-web-依赖">2.4 Spring Web 依赖</a></li>
+      </ul>
+    </li>
+    <li><a href="#3-mybatis">3. MyBatis</a></li>
+  </ul>
+</nav></div>
+      <br>
+      <hr>
+      <br>
+  
+
+
+
+
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/international_res_name_rule/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            国际化资源文件命名规则
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/druid_datasource_attr/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Druid数据源配置属性
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/spring_datasource_configure/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            8种常用的数据库数据源配置和相应的JDBC驱动包
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/html_meta_define/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            网页元信息定义
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/literature_learning_note/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            文献的检索、阅读和管理学习笔记
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/spring_database_dev/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Spring数据库编程笔记
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/different_picture_size/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            各类照片格式信息
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/maven_repository_url/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Maven仓库地址
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/ideaj_config/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            IDEAJ配置
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/maven_in_ideaj/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            IDEAJ下配置Maven
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/maven_in_win/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            在Windows下配置Maven
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/topological_tructure/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            总线型、星型、环状、树状、网状拓扑结构
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Raspbian中国软件源
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/shortcut_of_photoshop/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Photoshop常用快捷键
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/mac_note_direction/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Mac便签说明
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_notes/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git学习笔记
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/nextcloud_in_centos7/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            CentOS 7 搭建 Nextcloud
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/as_memory_setting/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            AndroidStudio内存设置大小
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/hugo_in_mac/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            在Mac下使用Hugo搭建个人博客
-          </a>
-        </h2>
-      </li>        
-    
-    </ul>
+
+    <p>Java开发可能用到对Maven依赖</p>
+<br>
+<h1 id="1-其他依赖">1. 其他依赖</h1>
+<h2 id="11-单元测试">1.1 单元测试</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;junit&lt;/groupId&gt;
+    &lt;artifactId&gt;junit&lt;/artifactId&gt;
+    &lt;version&gt;4.11&lt;/version&gt;
+    &lt;scope&gt;test&lt;/scope&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="12-日志">1.2 日志</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;log4j&lt;/groupId&gt;
+    &lt;artifactId&gt;log4j&lt;/artifactId&gt;
+    &lt;version&gt;1.2.17&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.apache.logging.log4j&lt;/groupId&gt;
+    &lt;artifactId&gt;log4j-core&lt;/artifactId&gt;
+    &lt;version&gt;2.9.1&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.apache.logging.log4j&lt;/groupId&gt;
+    &lt;artifactId&gt;log4j-api&lt;/artifactId&gt;
+    &lt;version&gt;2.9.1&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;commons-logging&lt;/groupId&gt;
+    &lt;artifactId&gt;commons-logging&lt;/artifactId&gt;
+    &lt;version&gt;1.2&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="13-代理">1.3 代理</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;cglib&lt;/groupId&gt;
+    &lt;artifactId&gt;cglib&lt;/artifactId&gt;
+    &lt;version&gt;3.3.0&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="14-json">1.4 Json</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;
+    &lt;artifactId&gt;jackson-core&lt;/artifactId&gt;
+    &lt;version&gt;2.11.0&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;
+    &lt;artifactId&gt;jackson-annotations&lt;/artifactId&gt;
+    &lt;version&gt;2.11.0&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;com.fasterxml.jackson.core&lt;/groupId&gt;
+    &lt;artifactId&gt;jackson-databind&lt;/artifactId&gt;
+    &lt;version&gt;2.11.0&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="15-数据库连接">1.5 数据库连接</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;mysql&lt;/groupId&gt;
+    &lt;artifactId&gt;mysql-connector-java&lt;/artifactId&gt;
+    &lt;version&gt;5.1.8&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="16-整合包">1.6 整合包</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.mybatis&lt;/groupId&gt;
+    &lt;artifactId&gt;mybatis-spring&lt;/artifactId&gt;
+    &lt;version&gt;2.0.4&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h1 id="2-数据源">2. 数据源</h1>
+<h2 id="11-c3p0">1.1 c3p0</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;com.mchange&lt;/groupId&gt;
+    &lt;artifactId&gt;c3p0&lt;/artifactId&gt;
+    &lt;version&gt;0.9.5.2&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="12-dbcp">1.2 dbcp</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.apache.commons&lt;/groupId&gt;
+    &lt;artifactId&gt;commons-dbcp2&lt;/artifactId&gt;
+    &lt;version&gt;2.6.0&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="13-druid">1.3 Druid</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;com.alibaba&lt;/groupId&gt;
+    &lt;artifactId&gt;druid&lt;/artifactId&gt;
+    &lt;version&gt;1.0.9&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="14-proxool">1.4 proxool</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;com.cloudhopper.proxool&lt;/groupId&gt;
+    &lt;artifactId&gt;proxool&lt;/artifactId&gt;
+    &lt;version&gt;0.9.1&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<br>
+<h1 id="2-spring-依赖">2. Spring 依赖</h1>
+<h2 id="21-spring-核心依赖">2.1 Spring 核心依赖</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-core&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-beans&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-context&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-expression&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="22-spring-aop-依赖">2.2 Spring AOP 依赖</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-aop&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.aspectj&lt;/groupId&gt;
+    &lt;artifactId&gt;aspectjrt&lt;/artifactId&gt;
+    &lt;version&gt;1.9.1&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.aspectj&lt;/groupId&gt;
+    &lt;artifactId&gt;aspectjweaver&lt;/artifactId&gt;
+    &lt;version&gt;1.9.1&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-aspects&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;aopalliance&lt;/groupId&gt;
+    &lt;artifactId&gt;aopalliance&lt;/artifactId&gt;
+    &lt;version&gt;1.0&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="23-spring-dao-依赖">2.3 Spring Dao 依赖</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-jdbc&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-tx&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-orm&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h2 id="24-spring-web-依赖">2.4 Spring Web 依赖</h2>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-web&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+&lt;dependency&gt;
+    &lt;groupId&gt;org.springframework&lt;/groupId&gt;
+    &lt;artifactId&gt;spring-webmvc&lt;/artifactId&gt;
+    &lt;version&gt;5.2.3.RELEASE&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+<h1 id="3-mybatis">3. MyBatis</h1>
+<pre><code class="language-xml">&lt;dependency&gt;
+    &lt;groupId&gt;org.mybatis&lt;/groupId&gt;
+    &lt;artifactId&gt;mybatis&lt;/artifactId&gt;
+    &lt;version&gt;3.5.4&lt;/version&gt;
+&lt;/dependency&gt;
+</code></pre>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
