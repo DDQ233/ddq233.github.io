@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Gradle on DDQ的笔记</title>
+    <link>https://ddq233.github.io/tags/gradle/</link>
+    <description>Recent content in Gradle on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 DDQ.</copyright>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.github.io/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>修改AndroidStudio默认的Gradle软件源</title>
+      <link>https://ddq233.github.io/notes/as_gradle_modified_res/</link>
+      <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/as_gradle_modified_res/</guid>
+      <description>Android Studio 使用的构建工具是 Gradle ，而默认的软件源是 google、jcenter ，在开发过程中，下载依赖包比较慢，修改成国内源即可解决问题。
+方法：修改 build.gradle.ftl 模版文件
+1. 找到 Android Studio 的安装目录：
+示例：
+Windows：
+C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-projects\NewAndroidProject\root\  Mac：
+/Applications/Android Studio.app/Contents/plugins/android/lib/templates/gradle-projects/NewAndroidProject/root/   MacOS 不能在终端进入应用程序内查看文件，也不能在 Finder 直接进入应用内查看文件，需要进行此操作：在应用程序中找到 Android Studio.app ，鼠标右键 &amp;mdash;&amp;gt; 显示包内容
+2. 编辑 build.gradle.ftl 文件
+提示： 编辑之前建议备份一下原来的文件
+原文件：
+// Top-level build file where you can add configuration options common to all sub-projects/modules. buildscript { &amp;lt;#if generateKotlin&amp;gt;ext.kotlin_version = &#39;${kotlinVersion}&#39;&amp;lt;/#if&amp;gt; repositories { google() jcenter() &amp;lt;#if includeKotlinEapRepo!false&amp;gt;maven { url &#39;${kotlinEapRepoUrl}&#39; }&amp;lt;/#if&amp;gt; } dependencies { classpath &#39;com.</description>
+    </item>
+    
+  </channel>
+</rss>

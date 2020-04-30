@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ddq233.github.io/categories/buildtools/</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
+    <loc>https://ddq233.github.io/categories/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ddq233.github.io/categories/</loc>
+    <loc>https://ddq233.github.io/categories/configure/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/tags/gradle/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/notes/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/tags/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/notes/as_gradle_modified_res/</loc>
+    <lastmod>2020-04-30T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/categories/buildtools/</loc>
     <lastmod>2020-04-26T00:00:00+00:00</lastmod>
   </url>
   
@@ -23,22 +48,7 @@
   </url>
   
   <url>
-    <loc>https://ddq233.github.io/notes/</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.github.io/tags/</loc>
-    <lastmod>2020-04-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ddq233.github.io/notes/spring_datasource_configure/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.github.io/categories/configure/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url>
   
