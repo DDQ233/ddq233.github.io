@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git使用总结(1)</title>
+      <link>https://ddq233.github.io/notes/git_use_cmd_1/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_use_cmd_1/</guid>
+      <description>1. 初始化配置
+建仓第一步，先配置使用用户，区分不同的开发人员身份
+$ git config user.name XXXXX $ git config user.email XXXXX  2. 添加/删除远程仓库链接
+在开发时，使用到远程仓库时，需要对远程仓库链接进行管理
+查看远程仓库
+$ git remote -v  添加远程仓库地址
+$ git remote add origin [项目地址]  删除远程仓库地址
+$ git remote rm origin  向远程仓库推送代码
+$ git push origin master  </description>
+    </item>
     
     <item>
       <title>Java开发可能用到对Maven依赖</title>

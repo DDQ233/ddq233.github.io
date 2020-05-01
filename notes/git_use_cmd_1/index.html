@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.github.io/categories/">
+  <link rel="canonical" href="https://ddq233.github.io/notes/git_use_cmd_1/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Categories | DDQ的笔记</title>
+  <title>Git使用总结(1) | DDQ的笔记</title>
   
 </head>
 
@@ -170,7 +170,7 @@
       
       
       
-      <a href="/notes/" >
+      <a href="/notes/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -183,7 +183,7 @@
       
       
       
-      <a href="/categories/" aria-current="page">
+      <a href="/categories/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -225,99 +225,72 @@
         <div>
           
   <main id="main">
-    <h1>Categories</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      Git使用总结(1)
+    </h1>
+
+    <div class="date">
       
-        <li>
-          <h2>
-            <a href="/categories/buildtools/">
+      
+      <strong aria-hidden="true">Publish date: </strong>May 1, 2020
+      
+        
+      
+    </div>
+
+    
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
               <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
                 <use xlink:href="#tag"></use>
               </svg>
-              (1) BuildTools
-            </a>
-          </h2>
-        </li>
+              
+              <a href="https://ddq233.github.io/tags/git/">Git</a>
+            </li>
+          
+        </ul>
+      </div>
+    
+    
+    
       
-        <li>
-          <h2>
-            <a href="/categories/configure/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (13) Configure
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/html/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (1) HTML
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/iot/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (1) IOT
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/java/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (1) Java
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/note/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (4) Note
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/shortcut/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (1) Shortcut
-            </a>
-          </h2>
-        </li>
-      
-        <li>
-          <h2>
-            <a href="/categories/versioncontrol/">
-              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
-                <use xlink:href="#tag"></use>
-              </svg>
-              (2) VersionControl
-            </a>
-          </h2>
-        </li>
-      
-    </ul>
+
+
+
+
+
+    
+
+    <p><strong>1. 初始化配置</strong></p>
+<p>建仓第一步，先配置使用用户，区分不同的开发人员身份</p>
+<pre><code class="language-shell">$ git config user.name XXXXX
+$ git config user.email XXXXX
+</code></pre>
+<br>
+<p><strong>2. 添加/删除远程仓库链接</strong></p>
+<p>在开发时，使用到远程仓库时，需要对远程仓库链接进行管理</p>
+<p>查看远程仓库</p>
+<pre><code class="language-shell">$ git remote -v
+</code></pre>
+<p>添加远程仓库地址</p>
+<pre><code class="language-shell">$ git remote add origin [项目地址]
+</code></pre>
+<p>删除远程仓库地址</p>
+<pre><code class="language-shell">$ git remote rm origin
+</code></pre>
+<p>向远程仓库推送代码</p>
+<pre><code class="language-shell">$ git push origin master
+</code></pre>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
