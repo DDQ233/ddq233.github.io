@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.github.io/tags/java/">
+  <link rel="canonical" href="https://ddq233.github.io/notes/java_springmvc_workflow/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Java | DDQ的笔记</title>
+  <title>SpringMVC的工作流程 | DDQ的笔记</title>
   
 </head>
 
@@ -170,7 +170,7 @@
       
       
       
-      <a href="/notes/" >
+      <a href="/notes/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -196,7 +196,7 @@
       
       
       
-      <a href="/tags/" aria-current="page">
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -225,77 +225,122 @@
         <div>
           
   <main id="main">
-    <h1>Java</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      SpringMVC的工作流程
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>May 2, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/java_springmvc_workflow/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            SpringMVC的工作流程
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/java/">Java</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/ssm/">SSM</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/springmvc/">SpringMVC</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/java_dev_maven_dependencies/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Java开发可能用到对Maven依赖
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/international_res_name_rule/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            国际化资源文件命名规则
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/druid_datasource_attr/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Druid数据源配置属性
-          </a>
-        </h2>
-      </li>        
+      
+
+
+
+
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/spring_datasource_configure/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            8种常用的数据库数据源配置和相应的JDBC驱动包
-          </a>
-        </h2>
-      </li>        
-    
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/spring_database_dev/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Spring数据库编程笔记
-          </a>
-        </h2>
-      </li>        
-    
-    </ul>
+
+    <p><strong>Spring MVC 的工作流程（简单）：</strong></p>
+<br>
+<p><img src="SpringMVC-Workflow-Simple.png" alt="img - Spring MVC 的工作流程"></p>
+<br>
+<p>        在 Spring MVC 框架汇总，Controller 替代 Servlet 来担负控制器的职责，Controller 接受请求，调用相应的 Model 进行处理，处理器完成业务处理后返回处理结果。Controller 调用相应的 View 并对处理结果进行视图渲染，最终传送响应消息到客户端。</p>
+<br>
+<hr>
+<p><strong>Spring MVC 的工作流程（详细）：</strong></p>
+<br>
+<p><img src="SpringMVC-Workflow-Details.png" alt="img - Spring MVC 的工作流程"></p>
+<br>
+<ol>
+<li>用户通过浏览器向服务器发送请求，请求会被 Spring MVC 的前端控制器 DispatcherServlet 所拦截。</li>
+</ol>
+<br>
+<ol start="2">
+<li>DispatcherServlet 拦截到请求后，会调用 HandlerMapping 处理器映射器。</li>
+</ol>
+<br>
+<ol start="3">
+<li>处理器映射器根据请求URL找到具体的处理器，生成处理器对象及处理器拦截器（如果有则生成）一并返回给 DispatcherServlet。</li>
+</ol>
+<br>
+<ol start="4">
+<li>DispatcherServlet 会通过返回信息选择合适的 HandlerAdapter（处理器适配器）。</li>
+</ol>
+<br>
+<ol start="5">
+<li>HandlerAdapter 会调用并执行 Handler（处理器），这里的处理器指的就是程序中编写的 Controller 类，也被称之为后端控制器。</li>
+</ol>
+<br>
+<ol start="6">
+<li>Controller 执行完成后，会返回一个 ModelAndView 对象，该对象中会包含视图名或包含模型和视图名</li>
+</ol>
+<br>
+<ol start="7">
+<li>HandlerAdapter 将 ModelAndView 对象返回给 DispatcherServlet</li>
+</ol>
+<br>
+<ol start="8">
+<li>DispatcherServlet 会根据 ModelAndView 对象选择一个合适的 ViewReslover（视图解析器）</li>
+</ol>
+<br>
+<ol start="9">
+<li>ViewReslover 解析后，会向DispatcherServlet中返回具体的 View（视图）</li>
+</ol>
+<br>
+<ol start="10">
+<li>DispatcherServlet 对 View 进行渲染（即将模型数据填充至视图中）</li>
+</ol>
+<br>
+<ol start="11">
+<li>视图渲染结果会返回给客户端浏览器显示。</li>
+</ol>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

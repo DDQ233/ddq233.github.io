@@ -13,6 +13,18 @@
     
     
     <item>
+      <title>SpringMVC的工作流程</title>
+      <link>https://ddq233.github.io/notes/java_springmvc_workflow/</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/java_springmvc_workflow/</guid>
+      <description>Spring MVC 的工作流程（简单）：
+ 在 Spring MVC 框架汇总，Controller 替代 Servlet 来担负控制器的职责，Controller 接受请求，调用相应的 Model 进行处理，处理器完成业务处理后返回处理结果。Controller 调用相应的 View 并对处理结果进行视图渲染，最终传送响应消息到客户端。
+ Spring MVC 的工作流程（详细）：
+ 用户通过浏览器向服务器发送请求，请求会被 Spring MVC 的前端控制器 DispatcherServlet 所拦截。  DispatcherServlet 拦截到请求后，会调用 HandlerMapping 处理器映射器。  处理器映射器根据请求URL找到具体的处理器，生成处理器对象及处理器拦截器（如果有则生成）一并返回给 DispatcherServlet。  DispatcherServlet 会通过返回信息选择合适的 HandlerAdapter（处理器适配器）。  HandlerAdapter 会调用并执行 Handler（处理器），这里的处理器指的就是程序中编写的 Controller 类，也被称之为后端控制器。  Controller 执行完成后，会返回一个 ModelAndView 对象，该对象中会包含视图名或包含模型和视图名  HandlerAdapter 将 ModelAndView 对象返回给 DispatcherServlet  DispatcherServlet 会根据 ModelAndView 对象选择一个合适的 ViewReslover（视图解析器）  ViewReslover 解析后，会向DispatcherServlet中返回具体的 View（视图）  DispatcherServlet 对 View 进行渲染（即将模型数据填充至视图中）  视图渲染结果会返回给客户端浏览器显示。  </description>
+    </item>
+    
+    <item>
       <title>Git使用总结(1)</title>
       <link>https://ddq233.github.io/notes/git_use_cmd_1/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
