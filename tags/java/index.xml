@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Sat, 02 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spring注解解释(1)</title>
+      <link>https://ddq233.github.io/notes/java_spring_annotation/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/java_spring_annotation/</guid>
+      <description>1. @Controller 该注解类型用于指示 Spring 类对实例是一个控制器，对应 SpringMVC 控制层，主要用户接受用户请求并调用 Service 层返回数据给前端页面。
+2. @RequestMapping 该注解类型用于映射一个请求或一个方法，可指定控制器内部对每一个请求的处理情况。使用时，标注在一个方法或一个类上，默认属性是 value 。
+3. @Autowired 对 Bean 的属性、属性的 setter 方法及构造方法进行标注，配合对应的注解处理器完成 Bean 的自动装配，默认是 byType 的自动装配。
+4. @Service 将业务层（Service）的类标识为 Spring 中的 Bean。
+5. @RequestParam 将请求参数区数据（ URL 请求中的参数或提交表单中的参数）映射到功能处理方法的参数上。用于获取查询参数。
+6. @PathVariable 映射 URL 中的占位符到目标方法的参数中。用于获取路径参数。
+7. @CookieValue 将请求的 Cookie 数据映射到处理方法的参数上。
+8. @RequestHeader 将请求的头信息区数据映射到处理方法的参数上。在控制器的方法参数中使用。@RequestHeader 注解，能够从 Http 请求头中提取指定的某个请求头，等价于 HttpServletRequest.getHeader(String) 。
+9. @SessionAttributes 让 SpringMVC 把模型中对应对属性暂存到 HttpSession 中，作为多个请求之间的共用属性数据。
+10. @Resource 功能同 @Autowired ，有两个重要属性：name 和 type 。分别解析为 Bean 实例的名称和类型.</description>
+    </item>
     
     <item>
       <title>SpringMVC的工作流程</title>
