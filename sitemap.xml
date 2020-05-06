@@ -3,12 +3,37 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ddq233.github.io/tags/annotation/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+    <loc>https://ddq233.github.io/categories/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ddq233.github.io/categories/</loc>
+    <loc>https://ddq233.github.io/tags/linux/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/categories/linux/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/notes/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/tags/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/notes/fonts_install_in_linux/</loc>
+    <lastmod>2020-05-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/tags/annotation/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,11 +53,6 @@
   </url>
   
   <url>
-    <loc>https://ddq233.github.io/notes/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://ddq233.github.io/tags/spring/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
@@ -44,11 +64,6 @@
   
   <url>
     <loc>https://ddq233.github.io/tags/ssm/</loc>
-    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.github.io/tags/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -254,11 +269,6 @@
   
   <url>
     <loc>https://ddq233.github.io/notes/git_notes/</loc>
-    <lastmod>2020-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.github.io/tags/linux/</loc>
     <lastmod>2020-04-07T00:00:00+00:00</lastmod>
   </url>
   
