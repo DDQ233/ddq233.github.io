@@ -7,23 +7,10 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Sun, 10 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/categories/javaframework/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>*论文答辩思路</title>
-      <link>https://ddq233.github.io/notes/paper_persentation_thinking/</link>
-      <pubDate>Sun, 10 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/paper_persentation_thinking/</guid>
-      <description>1. 你的课题主要研究了什么？ 是否能够将公司业务上的实践经验运用到公司团建中，并达到宣传效果。
-2. 论文课题中概念的相关内容提问？ 主题、特色、意义、后勤
-3. 你的课题研究的主要目的是什么？ 目的是为了更好地把公司业务上的实践经验运用到公司团建中，并增加员工对于公司的归属感，同时达到宣传效果。
-4. 你的课题框架是什么？  活动方案简介 活动地背景 活动的意义 活动举办方优势 活动宣传活动形式 物资与后勤保障  5. 你的课题研究有什么亮点是什么？  公司实力强： 无论大小公司都可以举办活动，实力强的公司有更好的资源和活动举办经验，人员管理和调动迅速，能够给客人更好的活动体验。 主题利于二次元文化的传播与公司的宣传：  6. 论文是你写的吗？ 是我写的，除了有几处地方是参考了张智老师的《会议管理》之外，例如：经费预算、礼品费用这两方面。
-7. 你觉得你的课题哪些地方需要改进？  活动物资申请方便不够具体不够详细 员工具体责任不够具体与明确 座次安排问题  7.1 那你觉得应该要怎样改进？  应该完善活动物资申请的人员安排、申请地点、物资运送 具体员工的负责事项应该写的更加具体 座次安排不够妥当  8. 还有哪些问题自己还没有搞清楚，在论文中论述得不够透彻。  活动形式  9. 你的论文价值是什么？ 价值在于如何把业务上的实践经验运用到公司团建中，并增加员工对于公司的归属感，同时达到宣传效果。</description>
-    </item>
     
     <item>
       <title>SpringMVC项目配置文件模版</title>

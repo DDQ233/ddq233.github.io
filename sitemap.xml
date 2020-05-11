@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://ddq233.github.io/notes/paper_persentation_issue/</loc>
+    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ddq233.github.io/notes/paper_persentation_thinking/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url>
@@ -13,12 +18,7 @@
   </url>
   
   <url>
-    <loc>https://ddq233.github.io/categories/java/</loc>
-    <lastmod>2020-05-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.github.io/categories/javaframework/</loc>
+    <loc>https://ddq233.github.io/categories/note/</loc>
     <lastmod>2020-05-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -54,6 +54,16 @@
   
   <url>
     <loc>https://ddq233.github.io/tags/java/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/categories/java/</loc>
+    <lastmod>2020-05-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.github.io/categories/javaframework/</loc>
     <lastmod>2020-05-03T00:00:00+00:00</lastmod>
   </url>
   
@@ -199,11 +209,6 @@
   
   <url>
     <loc>https://ddq233.github.io/tags/literature/</loc>
-    <lastmod>2020-04-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.github.io/categories/note/</loc>
     <lastmod>2020-04-13T00:00:00+00:00</lastmod>
   </url>
   
