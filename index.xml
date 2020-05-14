@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Java基础混合(1)</title>
+      <link>https://ddq233.github.io/problemset/java_kp_mix_1/</link>
+      <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/problemset/java_kp_mix_1/</guid>
+      <description>任务书：
+ 从键盘接收三个类型分别为 int float double 的数据并输出。 从键盘接收类型为 int 的两个数据并输出，计算两者的 和、差、积、商 ，带提示语并分行输出计算结果。 循环输出 1 ～ 10。 输出九九乘法表。 从键盘输入两个数，比较两者大小，输出比较结果。 整合上一题，写一个方法，方法功能为比较两者大小，从键盘接收数据后调用方法，输出比较结果。 定义一组 int 类型的数组：{1, 40, 38, 50, 28, 48, 8}，找出当中的最大值，可以尝试把 找最大值 封装成一个方法在主函数调用。 利用 条件表达式 实现比较大小功能。 编写程序，输入一个整数，打印出它是技术还是偶数。 编写程序，输入三个整数，打印出最大者（用条件语句实现）。  </description>
+    </item>
+    
+    <item>
       <title>在Linux安装字体</title>
       <link>https://ddq233.github.io/notes/fonts_install_in_linux/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
@@ -335,6 +345,15 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
 可以在 CentOS 查看宝塔面板
 命令：
 # bt 2.</description>
+    </item>
+    
+    <item>
+      <title>CentOS 7 搭建 Nextcloud</title>
+      <link>https://ddq233.github.io/notes/nextcloud_in_centos7/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/nextcloud_in_centos7/</guid>
+      <description></description>
     </item>
     
     <item>
