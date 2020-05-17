@@ -26,6 +26,9 @@ html {
 template {
   display: none !important;
 }
+p {
+    line-height: 1.8;
+}
 * + * {
     margin-top: 2.25rem;
 }
