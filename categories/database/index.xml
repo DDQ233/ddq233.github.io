@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Database on DDQ的笔记</title>
+    <link>https://ddq233.github.io/categories/database/</link>
+    <description>Recent content in Database on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 DDQ.</copyright>
+    <lastBuildDate>Sun, 17 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.github.io/categories/database/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>MySql Access Denied 问题的解决</title>
+      <link>https://ddq233.github.io/notes/mysql_access_denied_issue/</link>
+      <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/mysql_access_denied_issue/</guid>
+      <description>1. 问题
+机器配置：
+ 宿主机：Windows 10 x64 开发机：Ubuntu 20.04 MySql版本：v5.7.25-log 宿主机IP：192.168.0.107 开发机IP：192.168.0.108 MySql用户名：root MySql密码：root 连接的数据库：studytest   在做物联网网关开发作业的时候，需要在 Linux 系统用 C 语言连接 MySql 数据库。
+代码如下：
+#include &amp;lt;stdio.h&amp;gt; #include &amp;lt;mysql/mysql.h&amp;gt; int main() { MYSQL com_mysql; if (mysql_init(&amp;amp;com_mysql) == NULL) { printf(&amp;quot;Cannot init mysql &amp;quot;\n&amp;quot;); return 0; } if (mysql_real_connect(&amp;amp;com_mysql, &amp;quot;192.168.0.107&amp;quot;, &amp;quot;root&amp;quot;, &amp;quot;root&amp;quot;, &amp;quot;studytest&amp;quot;, 0, NULL, 0) == NULL) { printf(&amp;quot;%s\n&amp;quot;, mysql_error(&amp;amp;com_mysql)); return0; } return 0; }  连接数据库的时候报如下错误：
+Access denied for user &#39;root&#39;@&#39;192.</description>
+    </item>
+    
+  </channel>
+</rss>
