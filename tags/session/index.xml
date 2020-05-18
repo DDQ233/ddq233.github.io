@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Session on DDQ的笔记</title>
+    <link>https://ddq233.github.io/tags/session/</link>
+    <description>Recent content in Session on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2020 DDQ.</copyright>
+    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.github.io/tags/session/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>会话管理</title>
+      <link>https://ddq233.github.io/notes/cookie_session_note/</link>
+      <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/cookie_session_note/</guid>
+      <description>一、基本概念 1. 会话： 一次会话中包含多次请求和相应
+2. 一次会话： 浏览器第一次给服务器发送请求，会话建立，知道有一方断开为止
+3. 功能： 在一次会话的范围内多次请求间，共享数据
+4. 方式：
+ 客户端会话技术：Cookie 服务端会话技术：Session  5. Cookie： 客户端会话技术Cookie是存储在客户端计算机上的文本文件，并保留各种跟踪信息
+6. Session： 服务端会话技术在一次会话的多次请求间共享数据，将数据保存在服务端的对象中
+ 二、Cookie 1. 实现原理： 基于相应头 set-cookie 和请求头 cookie 实现
+2. 一次可不可以发送多个 Cookie ？
+可以，可以创建多个 Cookie 对象，使用 respinse 调用 addCookie() 方法发送 Cookie 即可
+3. Cookie 在浏览器中保存多长时间 ？
+ 默认情况下当浏览器关闭后，Cookie数据被销毁 使用 setMaxAge(int seconds) 方法能够持久化存储 setMaxAge(int seconds) 方法  参数为正数：将Cookie数据写道硬盘文件中持久化存储并指定Cookie存活时间，时间到后，Cookie 文件自动失效 参数为负数：默认值 参数为零：删除 Cookie 信息    4. Cookie 能不能存中文 ？</description>
+    </item>
+    
+  </channel>
+</rss>
