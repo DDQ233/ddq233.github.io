@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>HTTP协议和MQTT协议的特点和适用范围</title>
+      <link>https://ddq233.github.io/notes/http_mqtt_compared/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/http_mqtt_compared/</guid>
+      <description>REST/HTTP（松耦合服务调用） REST （Representational State Transfer）：
+表征状态转换，是基于HTTP协议开发的一种通信风格，目前还不是标准。
+适用范围： REST/HTTP主要为了简化互联网中的系统架构，快速实现客户端和服务器之间交互的松耦合，降低了客户端和服务器之间的交互延迟。因此适合在物联网的应用层面，通过REST开放物联网中资源，实现服务被其他应用所调用。
+特点：
+ REST 指的是一组架构约束条件和原则。满足这些约束条件和原则的应用程序或设计就是RESTful。 客户端和服务器之间的交互在请求之间是无状态的。 在服务器端，应用程序状态和功能可以分为各种资源，它向客户端公开。资源的例子有：应用程序对象、数据库记录、算法等等。每个资源都使用 URI （Universal Resource Identifier） 得到一个惟一的地址。所有资源都共享统一的界面，以便在客户端和服务器之间传输状态。 使用的是标准的 HTTP 方法，比如 GET、PUT、POST 和 DELETE  点评： REST/HTTP其实是互联网中服务调用API封装风格，物联网中数据采集到物联网应用系统中，在物联网应用系统中，可以通过开放REST API的方式，把数据服务开放出去，被互联网中其他应用所调用。
+ MQTT协议（低带宽） MQTT（Message Queuing Telemetry Transport ）：
+消息队列遥测传输，由IBM开发的即时通讯协议，相比来说比较适合物联网场景的通讯协议。MQTT协议采用发布/订阅模式，所有的物联网终端都通过TCP连接到云端，云端通过主题的方式管理各个设备关注的通讯内容，负责将设备与设备之间消息的转发。
+MQTT 在协议设计时就考虑到不同设备的计算性能的差异，所以所有的协议都是采用二进制格式编解码，并且编解码格式都非常易于开发和实现。最小的数据包只有2个字节，对于低功耗低速网络也有很好的适应性。有非常完善的QOS机制，根据业务场景可以选择最多一次、至少一次、刚好一次三种消息送达模式。运行在TCP协议之上，同时支持TLS（TCP+SSL）协议，并且由于所有数据通信都经过云端，安全性得到了较好地保障。
+适用范围： 在低带宽、不可靠的网络下提供基于云平台的远程设备的数据传输和监控。
+特点：
+ 使用基于代理的发布/订阅消息模式，提供一对多的消息发布 使用 TCP/IP 提供网络连接 小型传输，开销很小（固定长度的头部是 2 字节），协议交换最小化，以降低网络流量 支持QoS，有三种消息发布服务质量：“至多一次”， “至少一次”， “只有一次”  协议主要实现和应用：
+ 已经有PHP，JAVA，Python，C，C#等多个语言版本的协议框架 IBM Bluemix 的一个重要部分是其 IoT Foundation 服务，这是一项基于云的 MQTT 实例 移动应用程序也早就开始使用MQTT，如 Facebook Messenger 和 com 等  点评： MQTT协议一般适用于设备数据采集到端（Device &amp;mdash;&amp;gt; Server，Device &amp;mdash;&amp;gt; Gateway），集中星型网络架构（hub-and-spoke），不适用设备与设备之间通信，设备控制能力弱，另外实时性较差，一般都在秒级。</description>
+    </item>
     
     <item>
       <title>会话管理</title>

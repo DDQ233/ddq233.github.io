@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>IOT on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/iot/</link>
-    <description>Recent content in IOT on DDQ的笔记</description>
+    <title>Protocol on DDQ的笔记</title>
+    <link>https://ddq233.github.io/tags/protocol/</link>
+    <description>Recent content in Protocol on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/iot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/protocol/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -30,15 +30,6 @@ MQTT 在协议设计时就考虑到不同设备的计算性能的差异，所以
 特点：
  使用基于代理的发布/订阅消息模式，提供一对多的消息发布 使用 TCP/IP 提供网络连接 小型传输，开销很小（固定长度的头部是 2 字节），协议交换最小化，以降低网络流量 支持QoS，有三种消息发布服务质量：“至多一次”， “至少一次”， “只有一次”  协议主要实现和应用：
  已经有PHP，JAVA，Python，C，C#等多个语言版本的协议框架 IBM Bluemix 的一个重要部分是其 IoT Foundation 服务，这是一项基于云的 MQTT 实例 移动应用程序也早就开始使用MQTT，如 Facebook Messenger 和 com 等  点评： MQTT协议一般适用于设备数据采集到端（Device &amp;mdash;&amp;gt; Server，Device &amp;mdash;&amp;gt; Gateway），集中星型网络架构（hub-and-spoke），不适用设备与设备之间通信，设备控制能力弱，另外实时性较差，一般都在秒级。</description>
-    </item>
-    
-    <item>
-      <title>物联网系统传感层的设计</title>
-      <link>https://ddq233.github.io/notes/iot_sensing_layer_design/</link>
-      <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/iot_sensing_layer_design/</guid>
-      <description>应用场景  智能家居   可行性分析  现状 存在问题   需求分析  体验  舒适 安全 可靠     角色分析  老人 小孩 管理者 物业   功能设计  温度自动调控 识别 语音控制   硬件架构  红外遥控 几点起 温度传感器 空气质量监测 MCU   执行标准  国际 UL、CE 行业标准 企业标准 双方约定   硬件选型  单片机STM32 温度监测传感器 空气质量传感器 识别、控制 红外传感器 继电器 电机    对传感器对一般要求：</description>
     </item>
     
   </channel>
