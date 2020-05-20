@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Fri, 01 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/categories/versioncontrol/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git常用命令速查手册</title>
+      <link>https://ddq233.github.io/notes/git_cmd_man/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_cmd_man/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Git使用总结(1)</title>
