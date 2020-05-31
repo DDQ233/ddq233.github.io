@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>更换CentOS软件源</title>
+      <link>https://ddq233.github.io/notes/alter_centos_res_of_software/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/alter_centos_res_of_software/</guid>
+      <description>前言  配置文件名：CentOS-Base.repo 配置文件目录：/etc/yum.repos.d/  方法一：直接修改配置文件 1. 进入软件源配置目录
+# cd /etc/yum.repos.d  2. 备份原来的配置文件
+# cp CentOS-Base.repo CentOS-Base.repo.backup  3. 修改配置文件
+修改 CentOS-Base.repo 文件
+修改后的内容：(更换成阿里云的软件源)
+# CentOS-Base.repo # # The mirror system uses the connecting IP address of the client and the # update status of each mirror to pick mirrors that are updated to and # geographically close to the client. You should use this for CentOS updates # unless you are manually picking other mirrors.</description>
+    </item>
     
     <item>
       <title>Git常用命令速查手册</title>
@@ -397,15 +411,6 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
 可以在 CentOS 查看宝塔面板
 命令：
 # bt 2.</description>
-    </item>
-    
-    <item>
-      <title>CentOS 7 搭建 Nextcloud</title>
-      <link>https://ddq233.github.io/notes/nextcloud_in_centos7/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/nextcloud_in_centos7/</guid>
-      <description></description>
     </item>
     
     <item>

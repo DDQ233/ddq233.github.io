@@ -27,14 +27,5 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
 # bt 2.</description>
     </item>
     
-    <item>
-      <title>CentOS 7 搭建 Nextcloud</title>
-      <link>https://ddq233.github.io/notes/nextcloud_in_centos7/</link>
-      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/nextcloud_in_centos7/</guid>
-      <description></description>
-    </item>
-    
   </channel>
 </rss>
