@@ -13,6 +13,26 @@
     
     
     <item>
+      <title>Git使用总结(3)</title>
+      <link>https://ddq233.github.io/notes/git_use_cmd_3/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_use_cmd_3/</guid>
+      <description>7. Git 远程分支与本地分支合并
+查看远程仓库：
+$ git remote -v  方法一：拉取远程仓库到本地直接合并
+从远程的 origin 仓库的 master 分支下载代码到本地的 origin master
+$ git fetch origin master  比较本地的仓库和远程参考的区别
+$ git log -p master.. origin/master  把远程下载下来的代码合并到本地仓库，远程的和本地的合并
+$ git merge origin/master  方法二：拉取远程仓库到本地新分支再进行合并（更安全）
+从远程的 origin 仓库的 master 分支下载到本地并新建一个分支 temp
+$ git fetch origin master:temp  比较master分支和temp分支的不同
+$ git diff temp  合并 temp 分支到 master 分支
+$ git merge temp  如果不想要 temp 分支可以删除
+$ git branch -d temp  </description>
+    </item>
+    
+    <item>
       <title>更换CentOS软件源</title>
       <link>https://ddq233.github.io/notes/alter_centos_res_of_software/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
@@ -40,15 +60,6 @@ No LSB modules are available. Distributor ID: Ubuntu Description: Ubuntu 20.04 L
 $ cp /etc/apt/sources.list /etc/apt/sources.list.backup  3. 修改 sources.list 文件
 修改后的内容：
 # 阿里云源 deb http://mirrors.aliyun.com/ubuntu/ [版本代号] main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ [版本代号]-security main restricted universe multiverse deb-src http://mirrors.</description>
-    </item>
-    
-    <item>
-      <title>Git常用命令速查手册</title>
-      <link>https://ddq233.github.io/notes/git_cmd_man/</link>
-      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/git_cmd_man/</guid>
-      <description></description>
     </item>
     
     <item>

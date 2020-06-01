@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.github.io/tags/git/">
+  <link rel="canonical" href="https://ddq233.github.io/notes/git_use_cmd_3/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Git | DDQ的笔记</title>
+  <title>Git使用总结(3) | DDQ的笔记</title>
   
 </head>
 
@@ -170,7 +170,7 @@
       
       
       
-      <a href="/notes/" >
+      <a href="/notes/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -196,7 +196,7 @@
       
       
       
-      <a href="/tags/" aria-current="page">
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -238,44 +238,80 @@
         <div>
           
   <main id="main">
-    <h1>Git</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      Git使用总结(3)
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Jun 1, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_use_cmd_3/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git使用总结(3)
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/git/">Git</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_use_cmd_1/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git使用总结(1)
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_notes/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git学习笔记
-          </a>
-        </h2>
-      </li>        
     
-    </ul>
+      
+
+
+
+
+
+    
+
+    <p><strong>7. Git 远程分支与本地分支合并</strong></p>
+<p>查看远程仓库：</p>
+<pre><code class="language-shell">$ git remote -v
+</code></pre>
+<p><strong>方法一：拉取远程仓库到本地直接合并</strong></p>
+<p>从远程的 origin 仓库的 master 分支下载代码到本地的 origin master</p>
+<pre><code class="language-shell">$ git fetch origin master
+</code></pre>
+<p>比较本地的仓库和远程参考的区别</p>
+<pre><code class="language-shell">$ git log -p master.. origin/master
+</code></pre>
+<p>把远程下载下来的代码合并到本地仓库，远程的和本地的合并</p>
+<pre><code class="language-shell">$ git merge origin/master
+</code></pre>
+<br>
+<p><strong>方法二：拉取远程仓库到本地新分支再进行合并（更安全）</strong></p>
+<p>从远程的 origin 仓库的 master 分支下载到本地并新建一个分支 temp</p>
+<pre><code class="language-shell">$ git fetch origin master:temp
+</code></pre>
+<p>比较master分支和temp分支的不同</p>
+<pre><code class="language-shell">$ git diff temp
+</code></pre>
+<p>合并 temp 分支到 master 分支</p>
+<pre><code class="language-shell">$ git merge temp
+</code></pre>
+<p>如果不想要 temp 分支可以删除</p>
+<pre><code class="language-shell">$ git branch -d temp
+</code></pre>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
