@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2020 DDQ.</copyright>
-    <lastBuildDate>Tue, 19 May 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>使用IntelliJIDEA将Git上传项目到Github</title>
+      <link>https://ddq233.github.io/notes/ideaj_dev_git_github/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/ideaj_dev_git_github/</guid>
+      <description>1. 环境准备
+ Intellij IDEA Git GitHub  2. 创建工程：
+ 打开 Intellij IDEA 创建自己需要的工程
+ 3. 创建本地 Git 仓库：
+ VSC &amp;ndash;&amp;gt; Import into Version Control &amp;mdash;&amp;gt; Create Git Repository&amp;hellip;
+ 文件显示颜色说明：
+ 红色：未进行 git add 操作，即：文件未被 Git 追踪。 绿色：进行了 git add 操作，未进行 git commit 操作。 蓝色：已经被 Git 追踪的文件进行了修改。 白色：进行了 git commit 操作，文件已经被 Git 追踪。 屎黄色：不被 Git 追踪，被 Git 忽略的文件。  4. git add 操作：
+ VSC &amp;mdash;&amp;gt; Git &amp;mdash;&amp;gt; Add</description>
+    </item>
     
     <item>
       <title>HTTP协议和MQTT协议的特点和适用范围</title>
