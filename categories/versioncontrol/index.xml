@@ -13,6 +13,23 @@
     
     
     <item>
+      <title>Git使用总结(2)</title>
+      <link>https://ddq233.github.io/notes/git_use_cmd_2/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_use_cmd_2/</guid>
+      <description>3. commit 到了错误分支
+撤回上一次 commit 但保留改动
+$ git reset HARD~ --soft $ git stash  将改动提交到正确的分支
+$ git checkout CORRECT_BRANCH $ git stash pop $ git add FILE $ git commit -m &amp;quot;COMMIT_MESSAGE&amp;quot;  4. commit 完了才发现还有一小处要修改
+先做好修改
+$ git add . # or add 相关文件 $ git commit --amend  然后选择要不要保留或者更改 commit message 现在的 commit 已经包含了最新作出的修改
+5. 修改上一个 commit message
+$ git commit --amend  然后可以更改 commit message
+6. 把本应在新分支上的内容 commit 到了 master</description>
+    </item>
+    
+    <item>
       <title>Git使用总结(3)</title>
       <link>https://ddq233.github.io/notes/git_use_cmd_3/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>

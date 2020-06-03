@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.github.io/tags/git/">
+  <link rel="canonical" href="https://ddq233.github.io/notes/git_use_cmd_2/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Git | DDQ的笔记</title>
+  <title>Git使用总结(2) | DDQ的笔记</title>
   
 </head>
 
@@ -170,7 +170,7 @@
       
       
       
-      <a href="/notes/" >
+      <a href="/notes/" aria-current="page">
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -196,7 +196,7 @@
       
       
       
-      <a href="/tags/" aria-current="page">
+      <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -238,55 +238,85 @@
         <div>
           
   <main id="main">
-    <h1>Git</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      Git使用总结(2)
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Jun 1, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_use_cmd_3/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git使用总结(3)
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/git/">Git</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_use_cmd_2/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git使用总结(2)
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_use_cmd_1/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git使用总结(1)
-          </a>
-        </h2>
-      </li>        
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/git_notes/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Git学习笔记
-          </a>
-        </h2>
-      </li>        
+      
+
+
+
+
+
     
-    </ul>
+
+    <p><strong>3. commit 到了错误分支</strong></p>
+<p>撤回上一次 commit 但保留改动</p>
+<pre><code class="language-shell">$ git reset HARD~ --soft
+$ git stash
+</code></pre>
+<p>将改动提交到正确的分支</p>
+<pre><code class="language-shell">$ git checkout CORRECT_BRANCH
+$ git stash pop
+$ git add FILE
+$ git commit -m &quot;COMMIT_MESSAGE&quot;
+</code></pre>
+<br>
+<p><strong>4. commit 完了才发现还有一小处要修改</strong></p>
+<p>先做好修改</p>
+<pre><code class="language-text">$ git add .  # or add 相关文件
+$ git commit --amend
+</code></pre>
+<p>然后选择要不要保留或者更改 commit message
+现在的 commit 已经包含了最新作出的修改</p>
+<br>
+<p><strong>5. 修改上一个 commit message</strong></p>
+<pre><code class="language-shell">$ git commit --amend
+</code></pre>
+<p>然后可以更改 commit message</p>
+<br>
+<p><strong>6. 把本应在新分支上的内容 commit 到了 master</strong></p>
+<p>以现有 master 的状态创建一个分支</p>
+<pre><code class="language-shell">$ git branch NEW_BRANCH
+</code></pre>
+<p>移除错误分支的 commit</p>
+<pre><code class="language-shell">$ git reset HARD~ --hard
+$ git checkout NEW_BRANCH
+</code></pre>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
