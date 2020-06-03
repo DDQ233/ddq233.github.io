@@ -96,6 +96,15 @@ $ cp /etc/apt/sources.list /etc/apt/sources.list.backup  3. 修改 sources.list 
     </item>
     
     <item>
+      <title>Git常用命令速查手册</title>
+      <link>https://ddq233.github.io/notes/git_cmd_man/</link>
+      <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_cmd_man/</guid>
+      <description>1. 初始化 # 在当前目录新建一个Git代码库 $ git init # 下载一个项目和它的整个代码历史 $ git clone [url] # 从远程仓库克隆项目到本地 $ git clone git@github.com:git[帐号名/仓库名].git  2. 配置 # 列举所有配置 $ git config -l # 为命令配置别名 $ git config --global alias.co checkout $ git config --global alias.ci commit $ git config --global alias.st status $ git config --global alias.br branch # 设置提交代码时的用户信息 $ git config [--global] user.name [name] $ git config [--global] user.email [email address]  3.</description>
+    </item>
+    
+    <item>
       <title>HTTP协议和MQTT协议的特点和适用范围</title>
       <link>https://ddq233.github.io/notes/http_mqtt_compared/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
