@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DDQ的笔记</title>
+    <title>Notes on DDQ的笔记</title>
     <link>https://ddq233.github.io/</link>
-    <description>Recent content on DDQ的笔记</description>
+    <description>Recent content in Notes on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>© 2020 DDQ.</copyright>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 31 May 2020 23:01:58 +0800</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/index.xml" rel="self" type="application/rss+xml" />
@@ -63,6 +63,16 @@ $ git branch -d temp  </description>
  文件显示颜色说明：
  红色：未进行 git add 操作，即：文件未被 Git 追踪。 绿色：进行了 git add 操作，未进行 git commit 操作。 蓝色：已经被 Git 追踪的文件进行了修改。 白色：进行了 git commit 操作，文件已经被 Git 追踪。 屎黄色：不被 Git 追踪，被 Git 忽略的文件。  4. git add 操作：
  VSC &amp;mdash;&amp;gt; Git &amp;mdash;&amp;gt; Add</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://ddq233.github.io/resume/</link>
+      <pubDate>Sun, 31 May 2020 23:01:58 +0800</pubDate>
+      
+      <guid>https://ddq233.github.io/resume/</guid>
+      <description>DDQ的笔记    Name : Mr.feng Q Q : 731845863 Email : 731845863@qq.com Job : Student Location : GuangZhou    Welcome to Cupper: An accessibility-friendly Hugo theme, ported from the original Cupper project. Here are some of its features:
+ Screen reader and keyboard accessible哈哈哈哈 Responsive Numerous shortcodes Toggleable dark theme Toggleable table of contents per blog post   &amp;ndash;&amp;gt;</description>
     </item>
     
     <item>
