@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Sun, 31 May 2020 23:01:58 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/index.xml" rel="self" type="application/rss+xml" />
     
@@ -66,12 +66,12 @@ $ git branch -d temp  </description>
     </item>
     
     <item>
-      <title></title>
+      <title>Resume</title>
       <link>https://ddq233.github.io/resume/</link>
-      <pubDate>Sun, 31 May 2020 23:01:58 +0800</pubDate>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/resume/</guid>
-      <description>DDQ的笔记    Name : Mr.feng Q Q : 731845863 Email : 731845863@qq.com Job : Student Location : GuangZhou    Welcome to Cupper: An accessibility-friendly Hugo theme, ported from the original Cupper project. Here are some of its features:
+      <description>DDQ的笔记   Name : Mr.feng Q Q : 731845863 Email : 731845863@qq.com Job : Student Location : GuangZhou    Welcome to Cupper: An accessibility-friendly Hugo theme, ported from the original Cupper project. Here are some of its features:
  Screen reader and keyboard accessible哈哈哈哈 Responsive Numerous shortcodes Toggleable dark theme Toggleable table of contents per blog post   &amp;ndash;&amp;gt;</description>
     </item>
     
