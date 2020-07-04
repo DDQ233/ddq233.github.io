@@ -183,6 +183,19 @@
       
       
       
+      <a href="/summary/" >
+        <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
+          <use xlink:href="#bookmark"></use>
+        </svg>
+        <span class="text">Summary</span>
+      </a>
+    </li>
+  
+    <li class="pattern">
+      
+      
+      
+      
       <a href="/tags/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
@@ -329,7 +342,7 @@ int main()
 </ol>
 </li>
 </ul>
-<pre><code class="language-sql">mysql -uroot -proot
+<pre><code class="language-sql">$ mysql -uroot -proot
 </code></pre>
 <ul>
 <li>
@@ -338,10 +351,14 @@ int main()
 </ol>
 </li>
 </ul>
+<p>查看 MySql 已存在的用户和匹配的地址</p>
+<pre><code class="language-sql">&gt; select user, host from mysql.user;
+</code></pre>
+<p>创建用户和匹配访问地址</p>
 <pre><code class="language-sql"># 低版本数据库
-create user '用户名'@'%' identified by '密码';
+&gt; create user '用户名'@'%' identified by '密码';
 # 高版本数据库
-create user '用户名'@'%' identified with mysql_native_password by '密码';
+&gt; create user '用户名'@'%' identified with mysql_native_password by '密码';
 </code></pre>
 <ul>
 <li>
@@ -351,9 +368,9 @@ create user '用户名'@'%' identified with mysql_native_password by '密码';
 </li>
 </ul>
 <pre><code class="language-sql"># 指定数据库
-grant all privileges on 想授权的数据库.* to '用户名'@'%';
+&gt; grant all privileges on 想授权的数据库.* to '用户名'@'%';
 # 全部数据库
-grant all privileges on *.* to '用户名'@'%';
+&gt; grant all privileges on *.* to '用户名'@'%';
 </code></pre>
 <br>
   </main>
