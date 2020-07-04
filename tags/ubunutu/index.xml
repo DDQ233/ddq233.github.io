@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ubunutu on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/tags/ubunutu/</link>
+    <description>Recent content in Ubunutu on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/tags/ubunutu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>更换Ubunutu软件源</title>
+      <link>https://ddq233.gitee.io/notes/alter_ubuntu_res_of_software/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/alter_ubuntu_res_of_software/</guid>
+      <description>0. 前言
+ 文章中使用的 Ubuntu 版本为：20.04，版本代号为：focal 每个 Ubuntu 发行版本都有自己的代号，更换软件源时需要更改版本代号  1. 查看 Ubuntu 发行版本代号
+# lsb_release -a  命令执行结果：
+No LSB modules are available. Distributor ID: Ubuntu Description: Ubuntu 20.04 LTS Release: 20.04 Codename: focal  Codename 字段后面就是 Ubunutu 的发行版本代号。Ubuntu 每个发行版本都有自己的代号，不同的版本代号是不一样的。
+2. 备份原来的软件源
+$ cp /etc/apt/sources.list /etc/apt/sources.list.backup  3. 修改 sources.list 文件
+修改后的内容：
+# 阿里云源 deb http://mirrors.aliyun.com/ubuntu/ [版本代号] main restricted universe multiverse deb http://mirrors.aliyun.com/ubuntu/ [版本代号]-security main restricted universe multiverse deb-src http://mirrors.</description>
+    </item>
+    
+  </channel>
+</rss>

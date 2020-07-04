@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BuildTools on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/categories/buildtools/</link>
+    <description>Recent content in BuildTools on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/categories/buildtools/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Maven习笔记</title>
+      <link>https://ddq233.gitee.io/notes/maven_notes/</link>
+      <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/maven_notes/</guid>
+      <description>前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具
+1. 为什么要使用 Maven ？ 为什么要使用 Maven ？它能帮助我们解决什么问题？
+(1) 轻松添加第三方 jar 包
+ 在开发过程中，同样的 jar 包会出现在不同的工程项目中，开发人员需要不停地做 jar 包的复制粘贴工作。这些操作会导致工作区中存在大量重复的文件，让工程显得很臃肿。
+ 使用 Maven 后，只需要把 jar 包保存在【仓库】中，需要用到 jar 包的工程只需要以坐标的方式简单引用一下即可。
+ 使用 Maven 的好处就是极大的节约了存储空间，让项目更轻巧，避免了重复文件太多而造成的混乱。
+(2) 解决 jar 包之间的依赖关系的问题
+ jar 包往往不是孤立存在的，有时候一个 jar 包的正常工作需要依赖另一个或多个 jar 包。而作为开发人员，不可能知道所有 jar 包之间的依赖关系并正确导入工程项目中，极大地浪费了我们导入包的时间成本，也极大地增加了学习成本。
+ 引入 Maven 后，Maven 就可以替我们自动的将当前 jar 包所依赖的其他所有 jar 包全部导入进来，无需人工参与，节约了我们大量的时间和精力。
+(3) 获取第三方 jar 包
+ 在开发过程中使用到的 jar 包种类繁多，不可能把精力都花在到互联网寻找 jar 包上面，费时费力。
+ 因此，借助 Maven 可以帮助我们解决问题。我们只需要在项目中以坐标的方式依赖一个 jar 包，Maven 就会自动从中央仓库进行下载 jar 包和这个 jar 包所依赖的其他 jar 包。</description>
+    </item>
+    
+  </channel>
+</rss>

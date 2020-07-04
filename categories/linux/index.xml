@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linux on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/categories/linux/</link>
+    <description>Recent content in Linux on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Wed, 06 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在Linux安装字体</title>
+      <link>https://ddq233.gitee.io/notes/fonts_install_in_linux/</link>
+      <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/fonts_install_in_linux/</guid>
+      <description> 在 Linux 中，字体放在 /usr/share/fonts/ 目录下，把需要安装的字体通过 SFTP 工具上传到 Linux 中，执行命令即可完成安装。
+ 开始前最好进入 root 模式，以防出现奇奇怪怪的问题。
+查看已安装的字体
+# fc-list  查看已安装的中文字体
+# fc-list:lang=zh  步骤：
+ 进入 /usr/share/fonts/ 目录，新建文件夹用来存放字体文件（*.ttf）  # cd /usr/share/fonts/ # mkdir myfonts  通过 SFTP 工具上传到刚刚新建的文件夹里面  执行安装命令  # mkfontscale # mkfontdir # fc-cache  </description>
+    </item>
+    
+  </channel>
+</rss>

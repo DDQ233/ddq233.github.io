@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SpringMVC on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/tags/springmvc/</link>
+    <description>Recent content in SpringMVC on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/tags/springmvc/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>SpringMVC项目配置文件模版</title>
+      <link>https://ddq233.gitee.io/notes/java_springmvc_cfg/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/java_springmvc_cfg/</guid>
+      <description>web.xml
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;web-app xmlns=&amp;quot;http://xmlns.jcp.org/xml/ns/javaee&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xsi:schemaLocation=&amp;quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd&amp;quot; version=&amp;quot;3.1&amp;quot; metadata-complete=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/web-app&amp;gt;  applicationContext.xml
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;beans xmlns=&amp;quot;http://www.springframework.org/schema/beans&amp;quot; xmlns:context=&amp;quot;http://www.springframework.org/schema/context&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:aop=&amp;quot;http://www.springframework.org/schema/aop&amp;quot; xmlns:tx=&amp;quot;http://www.springframework.org/schema/tx&amp;quot; xmlns:p=&amp;quot;http://www.springframework.org/schema/p&amp;quot; xmlns:util=&amp;quot;http://www.springframework.org/schema/util&amp;quot; xmlns:jdbc=&amp;quot;http://www.springframework.org/schema/jdbc&amp;quot; xmlns:cache=&amp;quot;http://www.springframework.org/schema/cache&amp;quot; xsi:schemaLocation=&amp;quot; http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.1.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd&amp;quot;&amp;gt; &amp;lt;/bean&amp;gt;  dispatcherServlet.xml
+&amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;beans xmlns=&amp;quot;http://www.springframework.org/schema/beans&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:p=&amp;quot;http://www.springframework.org/schema/p&amp;quot; xmlns:tx=&amp;quot;http://www.springframework.org/schema/tx&amp;quot; xmlns:context=&amp;quot;http://www.springframework.org/schema/context&amp;quot; xmlns:mvc=&amp;quot;http://www.springframework.org/schema/mvc&amp;quot; xsi:schemaLocation=&amp;quot;http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-4.0.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-4.0.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-4.0.xsd&amp;quot;&amp;gt; &amp;lt;/bean&amp;gt;  参考文章
+ web.xml配置模版 spring applicationContext.xml详解及模板  </description>
+    </item>
+    
+    <item>
+      <title>SpringMVC的工作流程</title>
+      <link>https://ddq233.gitee.io/notes/java_springmvc_workflow/</link>
+      <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/java_springmvc_workflow/</guid>
+      <description>Spring MVC 的工作流程（简单）：
+ 在 Spring MVC 框架汇总，Controller 替代 Servlet 来担负控制器的职责，Controller 接受请求，调用相应的 Model 进行处理，处理器完成业务处理后返回处理结果。Controller 调用相应的 View 并对处理结果进行视图渲染，最终传送响应消息到客户端。
+ Spring MVC 的工作流程（详细）：
+ 用户通过浏览器向服务器发送请求，请求会被 Spring MVC 的前端控制器 DispatcherServlet 所拦截。  DispatcherServlet 拦截到请求后，会调用 HandlerMapping 处理器映射器。  处理器映射器根据请求URL找到具体的处理器，生成处理器对象及处理器拦截器（如果有则生成）一并返回给 DispatcherServlet。  DispatcherServlet 会通过返回信息选择合适的 HandlerAdapter（处理器适配器）。  HandlerAdapter 会调用并执行 Handler（处理器），这里的处理器指的就是程序中编写的 Controller 类，也被称之为后端控制器。  Controller 执行完成后，会返回一个 ModelAndView 对象，该对象中会包含视图名或包含模型和视图名  HandlerAdapter 将 ModelAndView 对象返回给 DispatcherServlet  DispatcherServlet 会根据 ModelAndView 对象选择一个合适的 ViewReslover（视图解析器）  ViewReslover 解析后，会向DispatcherServlet中返回具体的 View（视图）  DispatcherServlet 对 View 进行渲染（即将模型数据填充至视图中）  视图渲染结果会返回给客户端浏览器显示。  </description>
+    </item>
+    
+  </channel>
+</rss>

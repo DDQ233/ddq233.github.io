@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Note on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/categories/note/</link>
+    <description>Recent content in Note on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/categories/note/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>生成 SSH Key</title>
+      <link>https://ddq233.gitee.io/notes/ssh-key_generate/</link>
+      <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/ssh-key_generate/</guid>
+      <description>0. 检查 SSH Key 是否存在
+如果有文件 id_rsa.pub 或者 id_dsa.pub 则证明已经存在了 SSH Key
+$ ls -la ~/.ssh  1. 生成新的 SSH Key
+$ ssh-keygen -t rsa -C &amp;quot;[your_email_address]&amp;quot;  2. 输入保存 SSH Key 的文件名
+一般为 id_rsa ，不建议更改，可以跳过
+$ Enter file in which to save the key (/home/ddq/.ssh/id_rsa):  3. 输入 passphrase
+$ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same passphrase again: [Type passphrase again]  4. 查看 SSH Key</description>
+    </item>
+    
+    <item>
+      <title>文献的检索、阅读和管理学习笔记</title>
+      <link>https://ddq233.gitee.io/notes/literature_learning_note/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/literature_learning_note/</guid>
+      <description>1. 看文献的5个认识  看文献是科研的基本功 变被动为主动 小处着手，放眼全部 多多交流 不要迷信文献   2. 文献检索存在的问题  不清楚不同的文献该采用怎样的检索系统 对数据库用法不了解，不太会检索 检索结果不理想，太多或太少 无法得到全文，也不知道如何去下载 对最新的文献不关注，或者不知道如何跟踪   3. 文献检索常用方法   常规法： 利用检索工具查找文献，即以主题、分类、作者等途径，通过检索工具查找
+  浏览法： 本专业或本学科相关的核心期刊，比如 Nature，每出一期就浏览阅读
+  追溯法： 查看一篇参考价值大的文献之后，以后面附的参考文献为线索查找文献
+   4. 文献筛选的要点  重点关注：最新文献、核心文献 英文为主，中文为辅 读标题摘要进行初筛，能不下载就不下载 结合全文进一步筛选 按重要性进行分级，定期回顾、清理  5. 文献阅读数量 阅读数量不是绝对的，但是量变确实可以质变
+重视文章的质量，分层次阅读
+ 6. 文献类型 中文综述 → 中文博士/硕士论文 → 英文综述 → 英文研究型文章
+ 7. 文献阅读的方法论   围绕科研课题阅读文献，围绕科研课题寻找相关知识点，形成相关的知识体系
+  目标为导向</description>
+    </item>
+    
+    <item>
+      <title>各类照片格式信息</title>
+      <link>https://ddq233.gitee.io/notes/different_picture_size/</link>
+      <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/different_picture_size/</guid>
+      <description>1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
+  2寸 3.5cm * 5.3cm 或 626像素 * 413像素
+  小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
+  身份证大头照 3.3cm * 2.2cm 或 390像素 * 260像素
+   2、证件照常见背景色为白色、红色、蓝色（RGB）   白色 R : 255 G : 255 B : 255
+  红色 R : 255 G : 0 B:0
+  蓝色 R : 67 G : 142 B : 219</description>
+    </item>
+    
+    <item>
+      <title>Mac便签说明</title>
+      <link>https://ddq233.gitee.io/notes/mac_note_direction/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/mac_note_direction/</guid>
+      <description>自定便条很容易。
+使您的便条突出显示并引起注意。
+· 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
+“便笺”有许多其他的美妙功能，包括拼写检查器、输入和输出功能以及排列和自定便条的其他方法。而且，您将在许多应用程序中找到“制作新便笺条”服务。
+有关使用“便笺”的更多信息，请查阅帮助。
+记下它！
+便笺可让您在桌面上保存便条（就像您看到的这些）。便笺条可用来草草记下提醒信息、列表或其他信息。您也可以使用便条来储存常用的文本或图形。
+· 要关闭本便条，请点按关闭按钮。
+· 要收起本便条，请连按标题栏。
+打开“便笺”时，您的当前便条会出现。</description>
+    </item>
+    
+    <item>
+      <title>总线型、星型、环状、树状、网状拓扑结构</title>
+      <link>https://ddq233.gitee.io/notes/topological_tructure/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/topological_tructure/</guid>
+      <description>总线型：
+总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。
+星型：
+星型拓扑结构是一个中心，多个分节点。它结构简单，连接方便，管理和维护都相对容易，而且扩展性强。网络延迟时间较小，传输误差低。中心无故障，一般网络没问题。中心故障，网络就出问题，同时共享能力差，通信线路利用率不高。
+环状：
+环形拓扑结构是节点形成一个闭合环。工作站少，节约设备。当然，这样就导致一个节点出问题，网络就会出问题，而且不好诊断故障。
+树型：
+树形拓扑结构从总线拓扑演变而来。形状像一棵倒置的树,顶端是树根，树根以下带分支，每个分支还可再带子分支，树根接收各站点发送的数据，然后再广播发送到全网。好扩展，容易诊断错误，但对根部要求高。
+网状：网形拓扑结构是应用最广泛的，它的优点是不受瓶颈问题和失效问题的影响，一旦线路出问题，可以做其他线路，但太复杂，成本高。</description>
+    </item>
+    
+  </channel>
+</rss>

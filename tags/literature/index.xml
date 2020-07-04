@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Literature on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/tags/literature/</link>
+    <description>Recent content in Literature on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Mon, 13 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/tags/literature/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>文献的检索、阅读和管理学习笔记</title>
+      <link>https://ddq233.gitee.io/notes/literature_learning_note/</link>
+      <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/literature_learning_note/</guid>
+      <description>1. 看文献的5个认识  看文献是科研的基本功 变被动为主动 小处着手，放眼全部 多多交流 不要迷信文献   2. 文献检索存在的问题  不清楚不同的文献该采用怎样的检索系统 对数据库用法不了解，不太会检索 检索结果不理想，太多或太少 无法得到全文，也不知道如何去下载 对最新的文献不关注，或者不知道如何跟踪   3. 文献检索常用方法   常规法： 利用检索工具查找文献，即以主题、分类、作者等途径，通过检索工具查找
+  浏览法： 本专业或本学科相关的核心期刊，比如 Nature，每出一期就浏览阅读
+  追溯法： 查看一篇参考价值大的文献之后，以后面附的参考文献为线索查找文献
+   4. 文献筛选的要点  重点关注：最新文献、核心文献 英文为主，中文为辅 读标题摘要进行初筛，能不下载就不下载 结合全文进一步筛选 按重要性进行分级，定期回顾、清理  5. 文献阅读数量 阅读数量不是绝对的，但是量变确实可以质变
+重视文章的质量，分层次阅读
+ 6. 文献类型 中文综述 → 中文博士/硕士论文 → 英文综述 → 英文研究型文章
+ 7. 文献阅读的方法论   围绕科研课题阅读文献，围绕科研课题寻找相关知识点，形成相关的知识体系
+  目标为导向</description>
+    </item>
+    
+  </channel>
+</rss>

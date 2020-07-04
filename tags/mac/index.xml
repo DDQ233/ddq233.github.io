@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/tags/mac/</link>
+    <description>Recent content in Mac on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Mac便签说明</title>
+      <link>https://ddq233.gitee.io/notes/mac_note_direction/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/mac_note_direction/</guid>
+      <description>自定便条很容易。
+使您的便条突出显示并引起注意。
+· 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
+“便笺”有许多其他的美妙功能，包括拼写检查器、输入和输出功能以及排列和自定便条的其他方法。而且，您将在许多应用程序中找到“制作新便笺条”服务。
+有关使用“便笺”的更多信息，请查阅帮助。
+记下它！
+便笺可让您在桌面上保存便条（就像您看到的这些）。便笺条可用来草草记下提醒信息、列表或其他信息。您也可以使用便条来储存常用的文本或图形。
+· 要关闭本便条，请点按关闭按钮。
+· 要收起本便条，请连按标题栏。
+打开“便笺”时，您的当前便条会出现。</description>
+    </item>
+    
+    <item>
+      <title>Mac系统快捷键</title>
+      <link>https://ddq233.gitee.io/notes/shortcut_of_mac_os/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/shortcut_of_mac_os/</guid>
+      <description>1. Mac 键盘快捷键说明 您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。
+要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用 Command-C（拷贝），请按住 Command 键并按 C 键，然后同时松开这两个键。Mac 菜单和键盘通常对某些按键使用符号，其中包括以下修饰键：
+ Command（或 Cmd）⌘ Shift ⇧ Option（或 Alt）⌥ Control（或 Ctrl）⌃ Caps Lock ⇪ Fn  在 Windows PC 专用键盘上，请用 Alt 键代替 Option 键，用 Windows 标志键代替 Command 键。
+Apple 键盘上的某些按键具有特殊符号和功能，例如显示屏亮度 、键盘亮度 、调度中心等。如果您的键盘上没有这些功能，您也许可以通过创建自己的键盘快捷键来实现其中的一些功能。要将这些键用作 F1、F2、F3 或其他标准功能键，请将它们与 Fn 键组合使用。
+2. 剪切、拷贝、粘贴和其他常用快捷键  Command-X： 剪切所选项并拷贝到剪贴板。 Command-C： 将所选项拷贝到剪贴板。这同样适用于“访达”中的文件。 Command-V： 将剪贴板的内容粘贴到当前文稿或 App 中。这同样适用于“访达”中的文件。 Command-Z： 撤销上一个命令。随后您可以按 Shift-Command-Z 来重做，从而反向执行撤销命令。在某些 App 中，您可以撤销和重做多个命令。 Command-A： 全选各项。 Command-F： 查找文稿中的项目或打开“查找”窗口。 Command-G： 再次查找：** 查找之前所找到项目出现的下一个位置。要查找出现的上一个位置，请按 Shift-Command-G。 Command-H： 隐藏最前面的 App 的窗口。要查看最前面的 App 但隐藏所有其他 App，请按 Option-Command-H。 Command-M： 将最前面的窗口最小化至“程序坞”。要最小化最前面的 App 的所有窗口，请按 Option-Command-M。 Command-O： 打开所选项，或打开一个对话框以选择要打开的文件。 Command-P： 打印当前文稿。 Command-S： 存储当前文稿。 Command-T： 打开新标签页。 Command-W： 关闭最前面的窗口。要关闭 App 的所有窗口，请按下 Option-Command-W。 Option-Command-Esc： 强制退出 App。 Command–空格键： 显示或隐藏“聚焦”搜索栏。要从“访达”窗口执行“聚焦”搜索，请按 Command–Option–空格键。（如果您使用多个输入源以便用不同的语言键入内容，这些快捷键会更改输入源而非显示“聚焦”。了解如何更改冲突的键盘快捷键。） Control-Command–空格键： 显示字符检视器，您可以从中选择表情符号和其他符号。 Control-Command-F： 全屏使用 App（如果 App 支持）。 空格键： 使用快速查看来预览所选项。 Command-Tab： 在打开的 App 中切换到下一个最近使用的 App。 Shift-Command-5： 在 macOS Mojave 或更高版本中，拍摄截屏或录制屏幕。也可以使用 Shift-Command-3 或 Shift-Command-4 来拍摄截屏。进一步了解截屏。 Shift-Command-N： 在“访达”中创建一个新文件夹。 Command-逗号 (,)： 打开最前面的 App 的偏好设置。  3.</description>
+    </item>
+    
+    <item>
+      <title>在Mac下使用Hugo搭建个人博客</title>
+      <link>https://ddq233.gitee.io/notes/hugo_in_mac/</link>
+      <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/hugo_in_mac/</guid>
+      <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
+一、实验材料  Mac OS X - v10.14.6 Homebrew (又称brew) - v2.2.11-dirty Go语言环境 - v1.14.1 Git - v2.23.0 Hugo - v0.68.3 Hugo主题：hugo-notepadium - v0.60.0 GitHub Markdown语法   二、Homebrew 安装 2.1 安装方法 2.1.1 方法一：通过官网提供的命令安装 $ /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;  在国内，这个命令通常会失败并报以下错误。
+$ curl: (7) Failed to connect to http://raw.githubusercontent.com port 443: Operation timed outOperation  2.1.2 方法二：直接从GitHub上clone文件（换源下载） 输入命令从 GitHub 或者其他源克隆 Homebrew 的项目，放在 /usr/local/Homebrew/ 目录下。
+或者
+$ git clone git@github.com:Homebrew/brew.git /usr/local/Homebrew/  或者</description>
+    </item>
+    
+  </channel>
+</rss>

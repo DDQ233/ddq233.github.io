@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>HTML on DDQ的笔记</title>
+    <link>https://ddq233.gitee.io/tags/html/</link>
+    <description>Recent content in HTML on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.gitee.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>网页元信息定义</title>
+      <link>https://ddq233.gitee.io/notes/html_meta_define/</link>
+      <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/notes/html_meta_define/</guid>
+      <description>使用 &amp;lt;meta&amp;gt; 标签可以定义网页的元信息。
+&amp;lt;meta&amp;gt; 标签位于文档的头部，&amp;lt;head&amp;gt; 标签内不包含任何内容。使用 &amp;lt;meta&amp;gt; 标签的属性可以定义与文档相关联的名称/值对。
+&amp;lt;meta&amp;gt;标签属性表
+   属性 说明     content 必须的，定义与 http-equiv 或 name 属性相关联的元信息   http-equiv 把 content 属性关联到HTTP头部，取值包括：content-type、expires、refresh、set-cookie   name 把 content 关联到一个名称，取值包括：author、description、keywords、generator、revised 等   scheme 定义用于翻译 content 属性值的格式   charset 定义文档的字符编码    示例代码：
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;!-- 设置编码 --&amp;gt; &amp;lt;meta http-equiv=&amp;quot;content-type&amp;quot; content=&amp;quot;text/html;charset=utf-8&amp;quot; /&amp;gt; &amp;lt;!-- 设置页面语言 --&amp;gt; &amp;lt;meta http-equiv=&amp;quot;content-language&amp;quot; content=&amp;quot;zh-CN&amp;quot; /&amp;gt; &amp;lt;!-- 设置页面刷新时间或跳转页面 --&amp;gt; &amp;lt;meta http-equiv=&amp;quot;refresh&amp;quot; content=&amp;quot;5; url=https://cn.</description>
+    </item>
+    
+  </channel>
+</rss>
