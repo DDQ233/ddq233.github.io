@@ -2,139 +2,139 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/</link>
+    <link>https://ddq233.gitee.io/categories/</link>
     <description>Recent content in Categories on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Summary</title>
-      <link>https://ddq233.github.io/categories/summary/</link>
+      <link>https://ddq233.gitee.io/categories/summary/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/summary/</guid>
+      <guid>https://ddq233.gitee.io/categories/summary/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Note</title>
-      <link>https://ddq233.github.io/categories/note/</link>
+      <link>https://ddq233.gitee.io/categories/note/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/note/</guid>
+      <guid>https://ddq233.gitee.io/categories/note/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Configure</title>
-      <link>https://ddq233.github.io/categories/configure/</link>
+      <link>https://ddq233.gitee.io/categories/configure/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/configure/</guid>
+      <guid>https://ddq233.gitee.io/categories/configure/</guid>
       <description></description>
     </item>
     
     <item>
       <title>VersionControl</title>
-      <link>https://ddq233.github.io/categories/versioncontrol/</link>
+      <link>https://ddq233.gitee.io/categories/versioncontrol/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/versioncontrol/</guid>
+      <guid>https://ddq233.gitee.io/categories/versioncontrol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>IOT</title>
-      <link>https://ddq233.github.io/categories/iot/</link>
+      <link>https://ddq233.gitee.io/categories/iot/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/iot/</guid>
+      <guid>https://ddq233.gitee.io/categories/iot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Web</title>
-      <link>https://ddq233.github.io/categories/web/</link>
+      <link>https://ddq233.gitee.io/categories/web/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/web/</guid>
+      <guid>https://ddq233.gitee.io/categories/web/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Database</title>
-      <link>https://ddq233.github.io/categories/database/</link>
+      <link>https://ddq233.gitee.io/categories/database/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/database/</guid>
+      <guid>https://ddq233.gitee.io/categories/database/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ProblemSet</title>
-      <link>https://ddq233.github.io/categories/problemset/</link>
+      <link>https://ddq233.gitee.io/categories/problemset/</link>
       <pubDate>Thu, 14 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/problemset/</guid>
+      <guid>https://ddq233.gitee.io/categories/problemset/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://ddq233.github.io/categories/linux/</link>
+      <link>https://ddq233.gitee.io/categories/linux/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/linux/</guid>
+      <guid>https://ddq233.gitee.io/categories/linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Java</title>
-      <link>https://ddq233.github.io/categories/java/</link>
+      <link>https://ddq233.gitee.io/categories/java/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/java/</guid>
+      <guid>https://ddq233.gitee.io/categories/java/</guid>
       <description></description>
     </item>
     
     <item>
       <title>JavaFramework</title>
-      <link>https://ddq233.github.io/categories/javaframework/</link>
+      <link>https://ddq233.gitee.io/categories/javaframework/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/javaframework/</guid>
+      <guid>https://ddq233.gitee.io/categories/javaframework/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BuildTools</title>
-      <link>https://ddq233.github.io/categories/buildtools/</link>
+      <link>https://ddq233.gitee.io/categories/buildtools/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/buildtools/</guid>
+      <guid>https://ddq233.gitee.io/categories/buildtools/</guid>
       <description></description>
     </item>
     
     <item>
       <title>HTML</title>
-      <link>https://ddq233.github.io/categories/html/</link>
+      <link>https://ddq233.gitee.io/categories/html/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/html/</guid>
+      <guid>https://ddq233.gitee.io/categories/html/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Shortcut</title>
-      <link>https://ddq233.github.io/categories/shortcut/</link>
+      <link>https://ddq233.gitee.io/categories/shortcut/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/categories/shortcut/</guid>
+      <guid>https://ddq233.gitee.io/categories/shortcut/</guid>
       <description></description>
     </item>
     

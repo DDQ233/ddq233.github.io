@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Mac on DDQ的笔记</title>
-    <link>https://ddq233.github.io/tags/mac/</link>
+    <link>https://ddq233.gitee.io/tags/mac/</link>
     <description>Recent content in Mac on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/tags/mac/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Mac便签说明</title>
-      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
+      <link>https://ddq233.gitee.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <guid>https://ddq233.gitee.io/notes/mac_note_direction/</guid>
       <description>自定便条很容易。
 使您的便条突出显示并引起注意。
 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
@@ -32,10 +32,10 @@
     
     <item>
       <title>Mac系统快捷键</title>
-      <link>https://ddq233.github.io/notes/shortcut_of_mac_os/</link>
+      <link>https://ddq233.gitee.io/notes/shortcut_of_mac_os/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/shortcut_of_mac_os/</guid>
+      <guid>https://ddq233.gitee.io/notes/shortcut_of_mac_os/</guid>
       <description>1. Mac 键盘快捷键说明 您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。
 要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用 Command-C（拷贝），请按住 Command 键并按 C 键，然后同时松开这两个键。Mac 菜单和键盘通常对某些按键使用符号，其中包括以下修饰键：
  Command（或 Cmd）⌘ Shift ⇧ Option（或 Alt）⌥ Control（或 Ctrl）⌃ Caps Lock ⇪ Fn  在 Windows PC 专用键盘上，请用 Alt 键代替 Option 键，用 Windows 标志键代替 Command 键。
@@ -45,10 +45,10 @@ Apple 键盘上的某些按键具有特殊符号和功能，例如显示屏亮�
     
     <item>
       <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
+      <link>https://ddq233.gitee.io/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
+      <guid>https://ddq233.gitee.io/notes/hugo_in_mac/</guid>
       <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
 一、实验材料  Mac OS X - v10.14.6 Homebrew (又称brew) - v2.2.11-dirty Go语言环境 - v1.14.1 Git - v2.23.0 Hugo - v0.68.3 Hugo主题：hugo-notepadium - v0.60.0 GitHub Markdown语法   二、Homebrew 安装 2.1 安装方法 2.1.1 方法一：通过官网提供的命令安装 $ /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;  在国内，这个命令通常会失败并报以下错误。
 $ curl: (7) Failed to connect to http://raw.githubusercontent.com port 443: Operation timed outOperation  2.1.2 方法二：直接从GitHub上clone文件（换源下载） 输入命令从 GitHub 或者其他源克隆 Homebrew 的项目，放在 /usr/local/Homebrew/ 目录下。

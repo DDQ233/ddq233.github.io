@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/summary/</link>
+    <link>https://ddq233.gitee.io/categories/summary/</link>
     <description>Recent content in Summary on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/summary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>SSH课程设计复盘</title>
-      <link>https://ddq233.github.io/summary/ssh_curridulum_design_summary/</link>
+      <link>https://ddq233.gitee.io/summary/ssh_curridulum_design_summary/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/ssh_curridulum_design_summary/</guid>
+      <guid>https://ddq233.gitee.io/summary/ssh_curridulum_design_summary/</guid>
       <description>一、课程设计要求 题目举例：
  华软新生注册系统的设计与实现（易） 华软教材订购系统的设计与实现（易） 华软教学管理系统的设计与实现 华软二手交易平台的设计与实现 华软图书管理系统的设计与实现 华软宿舍管理系统的设计与实现 华软课室申请系统的设计与实现 华软校园快递系统的设计与实现 华软学籍管理系统的设计与实现 计算机系资料收集系统的设计与实现（学生奖惩信息管理，学生社会实践活动管理，教师科研信息管理，教师奖惩信息管理）  具体要求：
 1. 独立完成

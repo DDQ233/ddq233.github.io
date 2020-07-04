@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on DDQ的笔记</title>
-    <link>https://ddq233.github.io/tags/note/</link>
+    <link>https://ddq233.gitee.io/tags/note/</link>
     <description>Recent content in Note on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>生成 SSH Key</title>
-      <link>https://ddq233.github.io/notes/ssh-key_generate/</link>
+      <link>https://ddq233.gitee.io/notes/ssh-key_generate/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/ssh-key_generate/</guid>
+      <guid>https://ddq233.gitee.io/notes/ssh-key_generate/</guid>
       <description>0. 检查 SSH Key 是否存在
 如果有文件 id_rsa.pub 或者 id_dsa.pub 则证明已经存在了 SSH Key
 $ ls -la ~/.ssh  1. 生成新的 SSH Key
@@ -29,10 +29,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>使用IntelliJIDEA将Git上传项目到Github</title>
-      <link>https://ddq233.github.io/notes/ideaj_dev_git_github/</link>
+      <link>https://ddq233.gitee.io/notes/ideaj_dev_git_github/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/ideaj_dev_git_github/</guid>
+      <guid>https://ddq233.gitee.io/notes/ideaj_dev_git_github/</guid>
       <description>1. 环境准备
  Intellij IDEA Git GitHub  2. 创建工程：
  打开 Intellij IDEA 创建自己需要的工程
@@ -45,10 +45,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>HTTP协议和MQTT协议的特点和适用范围</title>
-      <link>https://ddq233.github.io/notes/http_mqtt_compared/</link>
+      <link>https://ddq233.gitee.io/notes/http_mqtt_compared/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/http_mqtt_compared/</guid>
+      <guid>https://ddq233.gitee.io/notes/http_mqtt_compared/</guid>
       <description>REST/HTTP（松耦合服务调用） REST （Representational State Transfer）：
 表征状态转换，是基于HTTP协议开发的一种通信风格，目前还不是标准。
 适用范围： REST/HTTP主要为了简化互联网中的系统架构，快速实现客户端和服务器之间交互的松耦合，降低了客户端和服务器之间的交互延迟。因此适合在物联网的应用层面，通过REST开放物联网中资源，实现服务被其他应用所调用。
@@ -65,10 +65,10 @@ MQTT 在协议设计时就考虑到不同设备的计算性能的差异，所以
     
     <item>
       <title>各类照片格式信息</title>
-      <link>https://ddq233.github.io/notes/different_picture_size/</link>
+      <link>https://ddq233.gitee.io/notes/different_picture_size/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
+      <guid>https://ddq233.gitee.io/notes/different_picture_size/</guid>
       <description>1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
   2寸 3.5cm * 5.3cm 或 626像素 * 413像素
   小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
@@ -80,10 +80,10 @@ MQTT 在协议设计时就考虑到不同设备的计算性能的差异，所以
     
     <item>
       <title>Mac便签说明</title>
-      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
+      <link>https://ddq233.gitee.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <guid>https://ddq233.gitee.io/notes/mac_note_direction/</guid>
       <description>自定便条很容易。
 使您的便条突出显示并引起注意。
 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
