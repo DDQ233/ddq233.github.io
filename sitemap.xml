@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>https://ddq233.gitee.io/tags/iot/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ddq233.gitee.io/tags/ssh/</loc>
     <lastmod>2020-07-04T00:00:00+00:00</lastmod>
   </url>
@@ -39,6 +44,11 @@
   
   <url>
     <loc>https://ddq233.gitee.io/tags/</loc>
+    <lastmod>2020-07-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ddq233.gitee.io/summary/iot_curridulum_design_summary/</loc>
     <lastmod>2020-07-04T00:00:00+00:00</lastmod>
   </url>
   
@@ -319,11 +329,6 @@
   
   <url>
     <loc>https://ddq233.gitee.io/notes/druid_datasource_attr/</loc>
-    <lastmod>2020-04-20T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://ddq233.gitee.io/tags/iot/</loc>
     <lastmod>2020-04-20T00:00:00+00:00</lastmod>
   </url>
   

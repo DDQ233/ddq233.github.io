@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.gitee.io/summary/">
+  <link rel="canonical" href="https://ddq233.gitee.io/summary/iot_curridulum_design_summary/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Summaries | DDQ的笔记</title>
+  <title>物联网网关与工程实训课程设计复盘 | DDQ的笔记</title>
   
 </head>
 
@@ -183,7 +183,7 @@
       
       
       
-      <a href="/summary/" aria-current="page">
+      <a href="/summary/" >
         <svg class="bookmark-icon" aria-hidden="true" focusable="false" viewBox="0 0 40 50">
           <use xlink:href="#bookmark"></use>
         </svg>
@@ -225,33 +225,162 @@
         <div>
           
   <main id="main">
-    <h1>Summaries</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      物联网网关与工程实训课程设计复盘
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Jul 4, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.gitee.io/summary/iot_curridulum_design_summary/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            物联网网关与工程实训课程设计复盘
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.gitee.io/tags/iot/">IoT</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.gitee.io/tags/curriculumdesign/">CurriculumDesign</a>
+            </li>
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.gitee.io/tags/summary/">Summary</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://ddq233.gitee.io/summary/ssh_curridulum_design_summary/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            SSH课程设计复盘
-          </a>
-        </h2>
-      </li>        
     
-    </ul>
+    
+      
+
+  
+      <div id="toc" class="toc">
+        <h2 id="toc-heading">Table of contents</h2><nav id="TableOfContents">
+  <ul>
+    <li><a href="#一课程设计要求">一、课程设计要求</a></li>
+    <li><a href="#二题目与主题">二、题目与主题</a></li>
+    <li><a href="#三课程设计介绍">三、课程设计介绍</a></li>
+    <li><a href="#四开发过程中遇到的难题与解决办法">四、开发过程中遇到的难题与解决办法</a></li>
+  </ul>
+</nav></div>
+      <br>
+      <hr>
+      <br>
+  
+
+
+
+
+
+    
+
+    <h1 id="一课程设计要求">一、课程设计要求</h1>
+<p><strong>总体设计参考：</strong></p>
+<p><img src="IoT-Project-Framework.jpg" alt="物联网工程课程设计要求架构参考"></p>
+<br>
+<p><strong>网关部分要求：</strong></p>
+<ol>
+<li>使用 <strong>Linux</strong> 实现一个简易的物联网网关。（Linux 使用 WSL 或者 VMware虚拟机）</li>
+<li>能够从串口接收数据，终端节点可选择<strong>实物硬件</strong>、<strong>Proteus仿真</strong>、<strong>PC机上的串口调试助手</strong>。</li>
+<li>能够把串口接收的传感器数据保存到 MySql 数据库。</li>
+<li>能够把串口接收的传感器数据通过网络（TCP、UDP、MQTT等协议）发送给客户端。</li>
+<li>能够从网络（TCP、UDP、MQTT等协议）中接收数据指令并通过串口发送到终端节点驱动外设（LED灯、电机等）的工作。</li>
+<li>能够运用多线程的知识，从终端节点上行的数据处理在主线程中运行，下行的数据处理在子线程中运行。</li>
+</ol>
+<br>
+<hr>
+<h1 id="二题目与主题">二、题目与主题</h1>
+<p><strong>课程设计目的：</strong> 通过简易物联网网关的实现让学生把Linux串口编程、网络编程、数据库编程、mqtt编程、多线程编程应用于实践。</p>
+<p>课设网关代码：</p>
+<ul>
+<li><a href="https://github.com/DDQ233/linux-c-experiment.git">GitHub 链接</a></li>
+<li><a href="https://gitee.com/DDQ233/linux-c-experiment.git">Gitee 链接</a></li>
+</ul>
+<br>
+<hr>
+<h1 id="三课程设计介绍">三、课程设计介绍</h1>
+<p><strong>1. 设备选型：</strong></p>
+<ul>
+<li>底层硬件
+<ul>
+<li>Proteus仿真</li>
+<li>Arduino单片机作为MCU</li>
+<li>DHT11温湿度传感器</li>
+<li>LN298电机驱动器</li>
+<li>电机</li>
+</ul>
+</li>
+<li>中间层
+<ul>
+<li>VMware 虚拟机软件</li>
+<li>Ubuntu 20.04 64位 Linux 操作系统</li>
+</ul>
+</li>
+<li>上层应用
+<ul>
+<li>JavaWeb 项目</li>
+</ul>
+</li>
+</ul>
+<br>
+<p><strong>2. 系统架构：</strong></p>
+<p><img src="IoT-System-Framework.png" alt="Iot-System-Framework"></p>
+<br>
+<p><strong>3. 工作流程</strong></p>
+<p><strong>3.1 传感器数据传输</strong></p>
+<p><strong>a. 底层硬件采集数据发送到网关：</strong></p>
+<p>DHT11 温湿度传感器周期性采集数据，通过单总线协议，给 Arduino 单片机传输数据，单片机接收到数据以后整合成 JSON 数据格式的数据，通过串口发送给网关。</p>
+<p><img src="IoT-System-Sensor-Send-Data.png" alt="IoT-System-Sensor-Send-Data"></p>
+<br>
+<p><strong>b. 网关保存数据到云端数据库</strong></p>
+<p>网关接收从串口发送过来的 JSON 数据，把温度与湿度解析出来，保存到数据库中，然后通过 MQTT 协议在 <code>/sensor/dht11</code> 主题发布有关数据的消息。</p>
+<p><img src="IoT-System-Gateway-Send-Data.png" alt="IoT-System-Gateway-Send-Data"></p>
+<br>
+<p><strong>c. JavaWeb应用读取最新数据并展示</strong></p>
+<p>JavaWeb 应用前端页面使用 JavaScript 和 Ajax 技术，设置定时器定时请求能获取最新数据的 API ，获取数据后进行解析并刷新图表展示的数据。</p>
+<p><img src="Iot-System-Web-Get-Data.png" alt="Iot-System-Web-Get-Data"></p>
+<br>
+<p><strong>3.2 硬件设备控制</strong></p>
+<p><strong>控制设备：</strong></p>
+<p>在 JavaWeb 应用中，在请求 API 的处理中添加 MQTT 消息发布功能，在 <code>/ctrl</code> 主题上发布消息，网关收到消息并处理，通过串口往单片机发送指令，单片机解析指令控制电机。</p>
+<p><img src="IoT-System-Hardware-Control.png" alt="IoT-System-Hardware-Control"></p>
+<br>
+<hr>
+<h1 id="四开发过程中遇到的难题与解决办法">四、开发过程中遇到的难题与解决办法</h1>
+<p><strong>1. 在网关中通过串口获取到的数据不完整</strong></p>
+<p>解决办法：单片机编代码把数据整合成 JSON 数据格式的数据，数据发送的延时适当延长。</p>
+<p><strong>2. 网关使用多线程、多 MQTT 实例，出现消息发送失败的问题</strong></p>
+<p>在每一个线程中都有一个 MQTT 连接实例，当从串口接收到数据之后就往主题推送消息，但偶尔有一段时间会推送失败，原因不明，执行发送函数返回的错误代码是 -3 ，源码解释为 MQTT Client 已断开连接。</p>
+<p>解决办法：使用 while 循环，不断推送数据直到数据发送成功为止。</p>
+<br>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>
