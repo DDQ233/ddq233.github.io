@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.gitee.io/categories/summary/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java串口编程二次封装总结</title>
+      <link>https://ddq233.gitee.io/summary/java_serialport_sec_encapusulation_summary/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/summary/java_serialport_sec_encapusulation_summary/</guid>
+      <description>一、Windows10下Java串口编程环境搭建  JDK 必不可少 RXTXcomm.jar rxtxSerial.dll rxtxParallel.dll  复制 RXTXcomm.jar &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\lib\ext 复制 rxtxSerial.dll &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\bin 复制 rxtxParalled.dll &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\bin
+相关文件在 SerialPortUtil 模块下的 tools 文件夹
+项目链接：
+ GitHub - SerialPortUtil模块 Gitee - SerialPortUtil模块  二、串口编程实现流程  绑定串口参数 扫描可用串口 打开指定串口 收发数据   三、二次封装 直接贴代码：
+Operation.java
+package pers.demo.serialport; /** * @Description TO-Do * @Author DDQ * @Date 2020/6/4 10:20 */ public interface Operation { void operation(); }  SerialPortUtil.java
+package pers.demo.serialport; import com.</description>
+    </item>
     
     <item>
       <title>SSH课程设计总结</title>

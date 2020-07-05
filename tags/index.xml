@@ -7,10 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Sat, 04 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.gitee.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java</title>
+      <link>https://ddq233.gitee.io/tags/java/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/tags/java/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Serialport</title>
+      <link>https://ddq233.gitee.io/tags/serialport/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/tags/serialport/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Summary</title>
+      <link>https://ddq233.gitee.io/tags/summary/</link>
+      <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.gitee.io/tags/summary/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>CurriculumDesign</title>
@@ -36,15 +63,6 @@
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.gitee.io/tags/ssh/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Summary</title>
-      <link>https://ddq233.gitee.io/tags/summary/</link>
-      <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.gitee.io/tags/summary/</guid>
       <description></description>
     </item>
     
@@ -153,15 +171,6 @@
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.gitee.io/tags/annotation/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Java</title>
-      <link>https://ddq233.gitee.io/tags/java/</link>
-      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.gitee.io/tags/java/</guid>
       <description></description>
     </item>
     
