@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>HTML on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/html/</link>
+    <link>https://ddq233.github.io/tags/html/</link>
     <description>Recent content in HTML on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 14 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>网页元信息定义</title>
-      <link>https://ddq233.gitee.io/notes/html_meta_define/</link>
+      <link>https://ddq233.github.io/notes/html_meta_define/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/html_meta_define/</guid>
+      <guid>https://ddq233.github.io/notes/html_meta_define/</guid>
       <description>使用 &amp;lt;meta&amp;gt; 标签可以定义网页的元信息。
 &amp;lt;meta&amp;gt; 标签位于文档的头部，&amp;lt;head&amp;gt; 标签内不包含任何内容。使用 &amp;lt;meta&amp;gt; 标签的属性可以定义与文档相关联的名称/值对。
 &amp;lt;meta&amp;gt;标签属性表

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>CentOS on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/centos/</link>
+    <link>https://ddq233.github.io/tags/centos/</link>
     <description>Recent content in CentOS on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 31 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/centos/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>更换CentOS软件源</title>
-      <link>https://ddq233.gitee.io/notes/alter_centos_res_of_software/</link>
+      <link>https://ddq233.github.io/notes/alter_centos_res_of_software/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/alter_centos_res_of_software/</guid>
+      <guid>https://ddq233.github.io/notes/alter_centos_res_of_software/</guid>
       <description>前言  配置文件名：CentOS-Base.repo 配置文件目录：/etc/yum.repos.d/  方法一：直接修改配置文件 1. 进入软件源配置目录
 # cd /etc/yum.repos.d  2. 备份原来的配置文件
 # cp CentOS-Base.repo CentOS-Base.repo.backup  3. 修改配置文件
@@ -28,10 +28,10 @@
     
     <item>
       <title>CentOS 7 搭建 Nextcloud</title>
-      <link>https://ddq233.gitee.io/notes/nextcloud_in_centos7/</link>
+      <link>https://ddq233.github.io/notes/nextcloud_in_centos7/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/nextcloud_in_centos7/</guid>
+      <guid>https://ddq233.github.io/notes/nextcloud_in_centos7/</guid>
       <description>一、环境准备  CentOS 7.5 64位 LNMP  Nginx - 1.16.0 MySQL - 5.6.44 Pure-Ftpd - 1.0.49 PHP - 7.2 phpMyAdmin - 4.7   Nextcloud - 17.0.0  注意事项：
  MySQL 5.5 建议安装内存小于 1GB MySQL 5.6 建议安装内存大于 1GB MySQL 5.7 建议安装内存大于 2GB  二、安装步骤 1. 在 CentOS 安装宝塔面板
 一键安装脚本（在 root 用户下执行命令）

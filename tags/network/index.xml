@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Network on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/network/</link>
+    <link>https://ddq233.github.io/tags/network/</link>
     <description>Recent content in Network on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/network/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>总线型、星型、环状、树状、网状拓扑结构</title>
-      <link>https://ddq233.gitee.io/notes/topological_tructure/</link>
+      <link>https://ddq233.github.io/notes/topological_tructure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/topological_tructure/</guid>
+      <guid>https://ddq233.github.io/notes/topological_tructure/</guid>
       <description>总线型：
 总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。
 星型：

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Gradle on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/gradle/</link>
+    <link>https://ddq233.github.io/tags/gradle/</link>
     <description>Recent content in Gradle on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/gradle/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>修改AndroidStudio默认的Gradle软件源</title>
-      <link>https://ddq233.gitee.io/notes/as_gradle_modified_res/</link>
+      <link>https://ddq233.github.io/notes/as_gradle_modified_res/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/as_gradle_modified_res/</guid>
+      <guid>https://ddq233.github.io/notes/as_gradle_modified_res/</guid>
       <description>Android Studio 使用的构建工具是 Gradle ，而默认的软件源是 google、jcenter ，在开发过程中，下载依赖包比较慢，修改成国内源即可解决问题。
 方法：修改 build.gradle.ftl 模版文件
 1. 找到 Android Studio 的安装目录：

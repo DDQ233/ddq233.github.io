@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/notes/</link>
+    <link>https://ddq233.github.io/notes/</link>
     <description>Recent content in Notes on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sat, 20 Jun 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/notes/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>生成 SSH Key</title>
-      <link>https://ddq233.gitee.io/notes/ssh-key_generate/</link>
+      <link>https://ddq233.github.io/notes/ssh-key_generate/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/ssh-key_generate/</guid>
+      <guid>https://ddq233.github.io/notes/ssh-key_generate/</guid>
       <description>0. 检查 SSH Key 是否存在
 如果有文件 id_rsa.pub 或者 id_dsa.pub 则证明已经存在了 SSH Key
 $ ls -la ~/.ssh  1. 生成新的 SSH Key
@@ -29,10 +29,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>Git使用总结(2)</title>
-      <link>https://ddq233.gitee.io/notes/git_use_cmd_2/</link>
+      <link>https://ddq233.github.io/notes/git_use_cmd_2/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/git_use_cmd_2/</guid>
+      <guid>https://ddq233.github.io/notes/git_use_cmd_2/</guid>
       <description>3. commit 到了错误分支
 撤回上一次 commit 但保留改动
 $ git reset HARD~ --soft $ git stash  将改动提交到正确的分支
@@ -46,10 +46,10 @@ $ git commit --amend  然后可以更改 commit message
     
     <item>
       <title>Git使用总结(3)</title>
-      <link>https://ddq233.gitee.io/notes/git_use_cmd_3/</link>
+      <link>https://ddq233.github.io/notes/git_use_cmd_3/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/git_use_cmd_3/</guid>
+      <guid>https://ddq233.github.io/notes/git_use_cmd_3/</guid>
       <description>7. Git 远程分支与本地分支合并
 查看远程仓库：
 $ git remote -v  方法一：拉取远程仓库到本地直接合并
@@ -66,10 +66,10 @@ $ git branch -d temp  </description>
     
     <item>
       <title>使用IntelliJIDEA将Git上传项目到Github</title>
-      <link>https://ddq233.gitee.io/notes/ideaj_dev_git_github/</link>
+      <link>https://ddq233.github.io/notes/ideaj_dev_git_github/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/ideaj_dev_git_github/</guid>
+      <guid>https://ddq233.github.io/notes/ideaj_dev_git_github/</guid>
       <description>1. 环境准备
  Intellij IDEA Git GitHub  2. 创建工程：
  打开 Intellij IDEA 创建自己需要的工程
@@ -82,10 +82,10 @@ $ git branch -d temp  </description>
     
     <item>
       <title>更换CentOS软件源</title>
-      <link>https://ddq233.gitee.io/notes/alter_centos_res_of_software/</link>
+      <link>https://ddq233.github.io/notes/alter_centos_res_of_software/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/alter_centos_res_of_software/</guid>
+      <guid>https://ddq233.github.io/notes/alter_centos_res_of_software/</guid>
       <description>前言  配置文件名：CentOS-Base.repo 配置文件目录：/etc/yum.repos.d/  方法一：直接修改配置文件 1. 进入软件源配置目录
 # cd /etc/yum.repos.d  2. 备份原来的配置文件
 # cp CentOS-Base.repo CentOS-Base.repo.backup  3. 修改配置文件
@@ -96,10 +96,10 @@ $ git branch -d temp  </description>
     
     <item>
       <title>更换Ubunutu软件源</title>
-      <link>https://ddq233.gitee.io/notes/alter_ubuntu_res_of_software/</link>
+      <link>https://ddq233.github.io/notes/alter_ubuntu_res_of_software/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/alter_ubuntu_res_of_software/</guid>
+      <guid>https://ddq233.github.io/notes/alter_ubuntu_res_of_software/</guid>
       <description>0. 前言
  文章中使用的 Ubuntu 版本为：20.04，版本代号为：focal 每个 Ubuntu 发行版本都有自己的代号，更换软件源时需要更改版本代号  1. 查看 Ubuntu 发行版本代号
 # lsb_release -a  命令执行结果：
@@ -112,19 +112,19 @@ $ cp /etc/apt/sources.list /etc/apt/sources.list.backup  3. 修改 sources.list 
     
     <item>
       <title>Git常用命令速查手册</title>
-      <link>https://ddq233.gitee.io/notes/git_cmd_man/</link>
+      <link>https://ddq233.github.io/notes/git_cmd_man/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/git_cmd_man/</guid>
+      <guid>https://ddq233.github.io/notes/git_cmd_man/</guid>
       <description>1. 初始化 # 在当前目录新建一个Git代码库 $ git init # 下载一个项目和它的整个代码历史 $ git clone [url] # 从远程仓库克隆项目到本地 $ git clone git@github.com:git[帐号名/仓库名].git  2. 配置 # 列举所有配置 $ git config -l # 为命令配置别名 $ git config --global alias.co checkout $ git config --global alias.ci commit $ git config --global alias.st status $ git config --global alias.br branch # 设置提交代码时的用户信息 $ git config [--global] user.name [name] $ git config [--global] user.email [email address]  3.</description>
     </item>
     
     <item>
       <title>HTTP协议和MQTT协议的特点和适用范围</title>
-      <link>https://ddq233.gitee.io/notes/http_mqtt_compared/</link>
+      <link>https://ddq233.github.io/notes/http_mqtt_compared/</link>
       <pubDate>Tue, 19 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/http_mqtt_compared/</guid>
+      <guid>https://ddq233.github.io/notes/http_mqtt_compared/</guid>
       <description>REST/HTTP（松耦合服务调用） REST （Representational State Transfer）：
 表征状态转换，是基于HTTP协议开发的一种通信风格，目前还不是标准。
 适用范围： REST/HTTP主要为了简化互联网中的系统架构，快速实现客户端和服务器之间交互的松耦合，降低了客户端和服务器之间的交互延迟。因此适合在物联网的应用层面，通过REST开放物联网中资源，实现服务被其他应用所调用。
@@ -141,10 +141,10 @@ MQTT 在协议设计时就考虑到不同设备的计算性能的差异，所以
     
     <item>
       <title>会话管理</title>
-      <link>https://ddq233.gitee.io/notes/cookie_session_note/</link>
+      <link>https://ddq233.github.io/notes/cookie_session_note/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/cookie_session_note/</guid>
+      <guid>https://ddq233.github.io/notes/cookie_session_note/</guid>
       <description>一、基本概念 1. 会话： 一次会话中包含多次请求和相应
 2. 一次会话： 浏览器第一次给服务器发送请求，会话建立，知道有一方断开为止
 3. 功能： 在一次会话的范围内多次请求间，共享数据
@@ -160,10 +160,10 @@ MQTT 在协议设计时就考虑到不同设备的计算性能的差异，所以
     
     <item>
       <title>MySql Access Denied 问题的解决</title>
-      <link>https://ddq233.gitee.io/notes/mysql_access_denied_issue/</link>
+      <link>https://ddq233.github.io/notes/mysql_access_denied_issue/</link>
       <pubDate>Sun, 17 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/mysql_access_denied_issue/</guid>
+      <guid>https://ddq233.github.io/notes/mysql_access_denied_issue/</guid>
       <description>1. 问题
 机器配置：
  宿主机：Windows 10 x64 开发机：Ubuntu 20.04 MySql版本：v5.7.25-log 宿主机IP：192.168.0.107 开发机IP：192.168.0.108 MySql用户名：root MySql密码：root 连接的数据库：studytest   在做物联网网关开发作业的时候，需要在 Linux 系统用 C 语言连接 MySql 数据库。
@@ -174,10 +174,10 @@ Access denied for user &#39;root&#39;@&#39;192.</description>
     
     <item>
       <title>在Linux安装字体</title>
-      <link>https://ddq233.gitee.io/notes/fonts_install_in_linux/</link>
+      <link>https://ddq233.github.io/notes/fonts_install_in_linux/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/fonts_install_in_linux/</guid>
+      <guid>https://ddq233.github.io/notes/fonts_install_in_linux/</guid>
       <description> 在 Linux 中，字体放在 /usr/share/fonts/ 目录下，把需要安装的字体通过 SFTP 工具上传到 Linux 中，执行命令即可完成安装。
  开始前最好进入 root 模式，以防出现奇奇怪怪的问题。
 查看已安装的字体
@@ -188,10 +188,10 @@ Access denied for user &#39;root&#39;@&#39;192.</description>
     
     <item>
       <title>SpringMVC项目配置文件模版</title>
-      <link>https://ddq233.gitee.io/notes/java_springmvc_cfg/</link>
+      <link>https://ddq233.github.io/notes/java_springmvc_cfg/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/java_springmvc_cfg/</guid>
+      <guid>https://ddq233.github.io/notes/java_springmvc_cfg/</guid>
       <description>web.xml
 &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;web-app xmlns=&amp;quot;http://xmlns.jcp.org/xml/ns/javaee&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xsi:schemaLocation=&amp;quot;http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd&amp;quot; version=&amp;quot;3.1&amp;quot; metadata-complete=&amp;quot;true&amp;quot;&amp;gt; &amp;lt;/web-app&amp;gt;  applicationContext.xml
 &amp;lt;?xml version=&amp;quot;1.0&amp;quot; encoding=&amp;quot;UTF-8&amp;quot;?&amp;gt; &amp;lt;beans xmlns=&amp;quot;http://www.springframework.org/schema/beans&amp;quot; xmlns:context=&amp;quot;http://www.springframework.org/schema/context&amp;quot; xmlns:xsi=&amp;quot;http://www.w3.org/2001/XMLSchema-instance&amp;quot; xmlns:aop=&amp;quot;http://www.springframework.org/schema/aop&amp;quot; xmlns:tx=&amp;quot;http://www.springframework.org/schema/tx&amp;quot; xmlns:p=&amp;quot;http://www.springframework.org/schema/p&amp;quot; xmlns:util=&amp;quot;http://www.springframework.org/schema/util&amp;quot; xmlns:jdbc=&amp;quot;http://www.springframework.org/schema/jdbc&amp;quot; xmlns:cache=&amp;quot;http://www.springframework.org/schema/cache&amp;quot; xsi:schemaLocation=&amp;quot; http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd http://www.springframework.org/schema/jdbc http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd http://www.springframework.org/schema/cache http://www.springframework.org/schema/cache/spring-cache-3.1.xsd http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd&amp;quot;&amp;gt; &amp;lt;/bean&amp;gt;  dispatcherServlet.xml
@@ -201,10 +201,10 @@ Access denied for user &#39;root&#39;@&#39;192.</description>
     
     <item>
       <title>Spring注解解释(1)</title>
-      <link>https://ddq233.gitee.io/notes/java_spring_annotation/</link>
+      <link>https://ddq233.github.io/notes/java_spring_annotation/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/java_spring_annotation/</guid>
+      <guid>https://ddq233.github.io/notes/java_spring_annotation/</guid>
       <description>1. @Controller 该注解类型用于指示 Spring 类对实例是一个控制器，对应 SpringMVC 控制层，主要用户接受用户请求并调用 Service 层返回数据给前端页面。
 2. @RequestMapping 该注解类型用于映射一个请求或一个方法，可指定控制器内部对每一个请求的处理情况。使用时，标注在一个方法或一个类上，默认属性是 value 。
 3. @Autowired 对 Bean 的属性、属性的 setter 方法及构造方法进行标注，配合对应的注解处理器完成 Bean 的自动装配，默认是 byType 的自动装配。
@@ -219,10 +219,10 @@ Access denied for user &#39;root&#39;@&#39;192.</description>
     
     <item>
       <title>SpringMVC的工作流程</title>
-      <link>https://ddq233.gitee.io/notes/java_springmvc_workflow/</link>
+      <link>https://ddq233.github.io/notes/java_springmvc_workflow/</link>
       <pubDate>Sat, 02 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/java_springmvc_workflow/</guid>
+      <guid>https://ddq233.github.io/notes/java_springmvc_workflow/</guid>
       <description>Spring MVC 的工作流程（简单）：
  在 Spring MVC 框架汇总，Controller 替代 Servlet 来担负控制器的职责，Controller 接受请求，调用相应的 Model 进行处理，处理器完成业务处理后返回处理结果。Controller 调用相应的 View 并对处理结果进行视图渲染，最终传送响应消息到客户端。
  Spring MVC 的工作流程（详细）：
@@ -231,10 +231,10 @@ Access denied for user &#39;root&#39;@&#39;192.</description>
     
     <item>
       <title>Git使用总结(1)</title>
-      <link>https://ddq233.gitee.io/notes/git_use_cmd_1/</link>
+      <link>https://ddq233.github.io/notes/git_use_cmd_1/</link>
       <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/git_use_cmd_1/</guid>
+      <guid>https://ddq233.github.io/notes/git_use_cmd_1/</guid>
       <description>1. 初始化配置
 建仓第一步，先配置使用用户，区分不同的开发人员身份
 $ git config user.name XXXXX $ git config user.email XXXXX  2. 添加/删除远程仓库链接
@@ -248,20 +248,20 @@ $ git push origin master  </description>
     
     <item>
       <title>Java开发可能用到对Maven依赖</title>
-      <link>https://ddq233.gitee.io/notes/java_dev_maven_dependencies/</link>
+      <link>https://ddq233.github.io/notes/java_dev_maven_dependencies/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/java_dev_maven_dependencies/</guid>
+      <guid>https://ddq233.github.io/notes/java_dev_maven_dependencies/</guid>
       <description>Java开发可能用到对Maven依赖
 1. 其他依赖 1.1 单元测试 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;4.11&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  1.2 日志 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2.17&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.logging.log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.logging.log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;commons-logging&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-logging&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.3 代理 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;cglib&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cglib&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.3.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.4 Json &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-annotations&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-databind&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.5 数据库连接 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.8&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.6 整合包 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
     </item>
     
     <item>
       <title>修改AndroidStudio默认的Gradle软件源</title>
-      <link>https://ddq233.gitee.io/notes/as_gradle_modified_res/</link>
+      <link>https://ddq233.github.io/notes/as_gradle_modified_res/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/as_gradle_modified_res/</guid>
+      <guid>https://ddq233.github.io/notes/as_gradle_modified_res/</guid>
       <description>Android Studio 使用的构建工具是 Gradle ，而默认的软件源是 google、jcenter ，在开发过程中，下载依赖包比较慢，修改成国内源即可解决问题。
 方法：修改 build.gradle.ftl 模版文件
 1. 找到 Android Studio 的安装目录：
@@ -277,10 +277,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>Maven习笔记</title>
-      <link>https://ddq233.gitee.io/notes/maven_notes/</link>
+      <link>https://ddq233.github.io/notes/maven_notes/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/maven_notes/</guid>
+      <guid>https://ddq233.github.io/notes/maven_notes/</guid>
       <description>前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具
 1. 为什么要使用 Maven ？ 为什么要使用 Maven ？它能帮助我们解决什么问题？
 (1) 轻松添加第三方 jar 包
@@ -297,10 +297,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>8种常用的数据库数据源配置和相应的JDBC驱动包</title>
-      <link>https://ddq233.gitee.io/notes/spring_datasource_configure/</link>
+      <link>https://ddq233.github.io/notes/spring_datasource_configure/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/spring_datasource_configure/</guid>
+      <guid>https://ddq233.github.io/notes/spring_datasource_configure/</guid>
       <description>Spring中数据源配置格式  &amp;lt;bean id=&amp;quot;dataSource&amp;quot; class=&amp;quot;org.apache.commons.dbcp.BasicDataSource&amp;quot; destroy-method=&amp;quot;close&amp;quot;&amp;gt; &amp;lt;property name=&amp;quot;driverClass&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;url&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;username&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;password&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/bean&amp;gt;  这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。
 各种数据库及其数据源配置参数  数据库：Oracle 驱动程序：oracle.jdbc.driver.OracleDriver URL：jdbc:oracle:thin:@localhost:1521:orcl
 数据库：DB2 驱动程序：com.ibm.db2.jdbc.app.DB2Driver URL：jdbc:db2://localhost:5000/testDB
@@ -314,38 +314,38 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>Druid数据源配置属性</title>
-      <link>https://ddq233.gitee.io/notes/druid_datasource_attr/</link>
+      <link>https://ddq233.github.io/notes/druid_datasource_attr/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/druid_datasource_attr/</guid>
+      <guid>https://ddq233.github.io/notes/druid_datasource_attr/</guid>
       <description>配置 缺省值 说明     name  配置这个属性的意义在于，如果存在多个数据源，监控的时候可以通过名字来区分开来。 如果没有配置，将会生成一个名字，格式是：&amp;ldquo;DataSource-&amp;rdquo; + System.identityHashCode(this)   jdbcUrl  连接数据库的url，不同数据库不一样。例如： mysql : jdbc:mysql://10.20.153.104:3306/druid2 oracle : jdbc:oracle:thin:@10.20.149.85:1521:ocnauto   username  连接数据库的用户名   password  连接数据库的密码。如果你不希望密码直接写在配置文件中，可以使用ConfigFilter。详细看这里：https://github.com/alibaba/druid/wiki/%E4%BD%BF%E7%94%A8ConfigFilter   driverClassName 根据url自动识别 这一项可配可不配，如果不配置druid会根据url自动识别dbType，然后选择相应的driverClassName(建议配置下)   initialSize 0 初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时   maxActive 8 最大连接池数量   maxIdle 8 已经不再使用，配置了也没效果   minIdle  最小连接池数量   maxWait  获取连接时最大等待时间，单位毫秒。配置了maxWait之后，缺省启用公平锁，并发效率会有所下降，如果需要可以通过配置useUnfairLock属性为true使用非公平锁。   poolPreparedStatements false 是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。   maxOpenPreparedStatements -1 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。在Druid中，不会存在Oracle下PSCache占用内存过多的问题，可以把这个数值配置大一些，比如说100   validationQuery  用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。   testOnBorrow true 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。   testOnReturn false 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能   testWhileIdle false 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。   timeBetweenEvictionRunsMillis  有两个含义： 1) Destroy线程会检测连接的间隔时间2) testWhileIdle的判断依据，详细看testWhileIdle属性的说明   numTestsPerEvictionRun  不再使用，一个DruidDataSource只支持一个EvictionRun   minEvictableIdleTimeMillis     connectionInitSqls  物理连接初始化的时候执行的sql   exceptionSorter 根据dbType自动识别 当数据库抛出一些不可恢复的异常时，抛弃连接   filters  属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有： 监控统计用的filter:stat日志用的filter:log4j防御sql注入的filter:wall   proxyFilters  类型是List&amp;lt;com.</description>
     </item>
     
     <item>
       <title>国际化资源文件命名规则</title>
-      <link>https://ddq233.gitee.io/notes/international_res_name_rule/</link>
+      <link>https://ddq233.github.io/notes/international_res_name_rule/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/international_res_name_rule/</guid>
+      <guid>https://ddq233.github.io/notes/international_res_name_rule/</guid>
       <description>命名规则：package_语言名_国家名.properties
  中国：package_zh_CN.propertie 台湾：package_zh_TW.properties 香港：package_zh_HK.properties 美国：package_en_US.properties 英国：package_en_GB.properties 加拿大：package_en_CA.properties 澳大利亚：package_en_AU.properties 日本：package_ja_JP.properties 法国：package_fr_FR.properties   日本 : ja_JP 秘鲁 : es_PE 巴拿马 : es_PA 波斯尼亚和黑山共和国 : sr_BA 危地马拉 : es_GT 阿拉伯联合酋长国 : ar_AE 挪威 : no_NO 阿尔巴尼亚 : sq_AL 伊拉克 : ar_IQ 也门 : ar_YE 葡萄牙 : pt_PT 塞浦路斯 : el_CY 卡塔尔 : ar_QA 马其顿王国 : mk_MK 瑞士 : de_CH 美国 : en_US 芬兰 : fi_FI 马耳他 : en_MT 斯洛文尼亚 : sl_SI 斯洛伐克 : sk_SK 土耳其 : tr_TR 沙特阿拉伯 : ar_SA 英国 : en_GB 塞尔维亚及黑山 : sr_CS 新西兰 : en_NZ 挪威 : no_NO 立陶宛 : lt_LT 尼加拉瓜 : es_NI 爱尔兰 : ga_IE 比利时 : fr_BE 西班牙 : es_ES 黎巴嫩 : ar_LB 加拿大 : fr_CA 爱沙尼亚 : et_EE 科威特 : ar_KW 塞尔维亚 : sr_RS 美国 : es_US 墨西哥 : es_MX 苏丹 : ar_SD 印度尼西亚 : in_ID 乌拉圭 : es_UY 拉脱维亚 : lv_LV 巴西 : pt_BR 叙利亚 : ar_SY 多米尼加共和国 : es_DO 瑞士 : fr_CH 印度 : hi_IN 委内瑞拉 : es_VE 巴林 : ar_BH 菲律宾 : en_PH 突尼斯 : ar_TN 奥地利 : de_AT 荷兰 : nl_NL 厄瓜多尔 : es_EC 台湾地区 : zh_TW 约旦 : ar_JO 冰岛 : is_IS 哥伦比亚 : es_CO 哥斯达黎加 : es_CR 智利 : es_CL 埃及 : ar_EG 南非 : en_ZA 泰国 : th_TH 希腊 : el_GR 意大利 : it_IT 匈牙利 : hu_HU 爱尔兰 : en_IE 乌克兰 : uk_UA 波兰 : pl_PL 卢森堡 : fr_LU 比利时 : nl_BE 印度 : en_IN 西班牙 : ca_ES 摩洛哥 : ar_MA 玻利维亚 : es_BO 澳大利亚 : en_AU 新加坡 : zh_SG 萨尔瓦多 : es_SV 俄罗斯 : ru_RU 韩国 : ko_KR 阿尔及利亚 : ar_DZ 越南 : vi_VN 黑山 : sr_ME 利比亚 : ar_LY 中国 : zh_CN 台湾：zh_TW 香港 : zh_HK 白俄罗斯 : be_BY 以色列 : iw_IL 保加利亚 : bg_BG 马耳他 : mt_MT 巴拉圭 : es_PY 法国 : fr_FR 捷克共和国 : cs_CZ 瑞士 : it_CH 罗马尼亚 : ro_RO 波多黎哥 : es_PR 加拿大 : en_CA 德国 : de_DE 卢森堡 : de_LU 阿根廷 : es_AR 马来西亚 : ms_MY 克罗地亚 : hr_HR 新加坡 : en_SG 阿曼 : ar_OM 泰国 : th_TH 瑞典 : sv_SE 丹麦 : da_DK 洪都拉斯 : es_HN  </description>
     </item>
     
     <item>
       <title>物联网系统传感层的设计</title>
-      <link>https://ddq233.gitee.io/notes/iot_sensing_layer_design/</link>
+      <link>https://ddq233.github.io/notes/iot_sensing_layer_design/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/iot_sensing_layer_design/</guid>
+      <guid>https://ddq233.github.io/notes/iot_sensing_layer_design/</guid>
       <description>应用场景  智能家居   可行性分析  现状 存在问题   需求分析  体验  舒适 安全 可靠     角色分析  老人 小孩 管理者 物业   功能设计  温度自动调控 识别 语音控制   硬件架构  红外遥控 几点起 温度传感器 空气质量监测 MCU   执行标准  国际 UL、CE 行业标准 企业标准 双方约定   硬件选型  单片机STM32 温度监测传感器 空气质量传感器 识别、控制 红外传感器 继电器 电机    对传感器对一般要求：</description>
     </item>
     
     <item>
       <title>网页元信息定义</title>
-      <link>https://ddq233.gitee.io/notes/html_meta_define/</link>
+      <link>https://ddq233.github.io/notes/html_meta_define/</link>
       <pubDate>Tue, 14 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/html_meta_define/</guid>
+      <guid>https://ddq233.github.io/notes/html_meta_define/</guid>
       <description>使用 &amp;lt;meta&amp;gt; 标签可以定义网页的元信息。
 &amp;lt;meta&amp;gt; 标签位于文档的头部，&amp;lt;head&amp;gt; 标签内不包含任何内容。使用 &amp;lt;meta&amp;gt; 标签的属性可以定义与文档相关联的名称/值对。
 &amp;lt;meta&amp;gt;标签属性表
@@ -355,10 +355,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>Spring数据库编程笔记</title>
-      <link>https://ddq233.gitee.io/notes/spring_database_dev/</link>
+      <link>https://ddq233.github.io/notes/spring_database_dev/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/spring_database_dev/</guid>
+      <guid>https://ddq233.github.io/notes/spring_database_dev/</guid>
       <description>1. 什么是数据库连接池？ 数据库连接池（Connection pooling）是程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由程序动态地对池中对连接进行申请，使用，释放。
 连接数据库是一个耗时的操作，一个数据库连接对象均对应一个物理数据库连接，每次操作都打开一个物理连接，使用完都关闭，这样会造成系统性能低。
 因此，在程序初始化对时候，集中创建多个数据库连接，并把它们进行集中管理，这样可以提高系统性能。
@@ -384,10 +384,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>文献的检索、阅读和管理学习笔记</title>
-      <link>https://ddq233.gitee.io/notes/literature_learning_note/</link>
+      <link>https://ddq233.github.io/notes/literature_learning_note/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/literature_learning_note/</guid>
+      <guid>https://ddq233.github.io/notes/literature_learning_note/</guid>
       <description>1. 看文献的5个认识  看文献是科研的基本功 变被动为主动 小处着手，放眼全部 多多交流 不要迷信文献   2. 文献检索存在的问题  不清楚不同的文献该采用怎样的检索系统 对数据库用法不了解，不太会检索 检索结果不理想，太多或太少 无法得到全文，也不知道如何去下载 对最新的文献不关注，或者不知道如何跟踪   3. 文献检索常用方法   常规法： 利用检索工具查找文献，即以主题、分类、作者等途径，通过检索工具查找
   浏览法： 本专业或本学科相关的核心期刊，比如 Nature，每出一期就浏览阅读
   追溯法： 查看一篇参考价值大的文献之后，以后面附的参考文献为线索查找文献
@@ -400,10 +400,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>各类照片格式信息</title>
-      <link>https://ddq233.gitee.io/notes/different_picture_size/</link>
+      <link>https://ddq233.github.io/notes/different_picture_size/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/different_picture_size/</guid>
+      <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
       <description>1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
   2寸 3.5cm * 5.3cm 或 626像素 * 413像素
   小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
@@ -415,10 +415,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>IDEAJ下配置Maven</title>
-      <link>https://ddq233.gitee.io/notes/maven_in_ideaj/</link>
+      <link>https://ddq233.github.io/notes/maven_in_ideaj/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/maven_in_ideaj/</guid>
+      <guid>https://ddq233.github.io/notes/maven_in_ideaj/</guid>
       <description>打开设置
 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven
 修改 Maven 路径和本地仓库的路径
@@ -435,10 +435,10 @@ Maven 自动导包设置
     
     <item>
       <title>IDEAJ配置</title>
-      <link>https://ddq233.gitee.io/notes/ideaj_config/</link>
+      <link>https://ddq233.github.io/notes/ideaj_config/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/ideaj_config/</guid>
+      <guid>https://ddq233.github.io/notes/ideaj_config/</guid>
       <description>一、前言  基于 IDEAJ 2019-2 插图为已改设置 JetBrains 系列的产品应该能同样适用 Android Studio 产品基本都能够适用   二、正文 1. 主题与 IDE 字体 2. Ctrl + 鼠标滚轮放大缩小代码 3. 设置鼠标悬浮提示 4. 自动导包、导包校对  Add unambiguous imports on the fly : 自动导入不明确的结构
 Optimize imports on the fly : 自动帮我们优化导入的包
  5. 设置显示行号和方法间的分隔符 6. 忽略大小写提示 7. 设置取消单行显示文件标签 8. 设置默认的字体、字体大小、字体行间距 9. 修改类头的文档注释信息 10. 设置项目文件编码 11. 设置自动编译 12. 设置快捷键 13. 显示内存占用 14. 修改 IDEAJ 启动内存与最大内存 </description>
@@ -446,20 +446,20 @@ Optimize imports on the fly : 自动帮我们优化导入的包
     
     <item>
       <title>Maven仓库地址</title>
-      <link>https://ddq233.gitee.io/notes/maven_repository_url/</link>
+      <link>https://ddq233.github.io/notes/maven_repository_url/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/maven_repository_url/</guid>
+      <guid>https://ddq233.github.io/notes/maven_repository_url/</guid>
       <description>XML配置
 &amp;lt;!-- 阿里云仓库 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库1 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库2 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;JBoss Public Repository Group&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repository.jboss.org/nexus/content/groups/public&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库在中国的镜像 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;maven.net.cn&amp;lt;/id&amp;gt;&amp;lt;name&amp;gt;oneof the central mirrors in china&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.</description>
     </item>
     
     <item>
       <title>在Windows下配置Maven</title>
-      <link>https://ddq233.gitee.io/notes/maven_in_win/</link>
+      <link>https://ddq233.github.io/notes/maven_in_win/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/maven_in_win/</guid>
+      <guid>https://ddq233.github.io/notes/maven_in_win/</guid>
       <description>1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
 注意：
  Maven 3.3+ 版本的需要 JDK 1.7 或以上 Maven 必须安装在非中文目录下  按需选择下载即可
@@ -473,10 +473,10 @@ Optimize imports on the fly : 自动帮我们优化导入的包
     
     <item>
       <title>AndroidStudio内存设置大小</title>
-      <link>https://ddq233.gitee.io/notes/as_memory_setting/</link>
+      <link>https://ddq233.github.io/notes/as_memory_setting/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/as_memory_setting/</guid>
+      <guid>https://ddq233.github.io/notes/as_memory_setting/</guid>
       <description>步骤：
    Android Studio 的安装目录，在 bin 目录下，找到 studio64.exe.vmoptions 文件，打开。      找到↓    - Xms256m- Xmx1280m........  -Xms 是JVM启动的起始堆内存，堆内存是分配给对象的内存 -Xmx 是Java虚拟机启动时的参数，用于限制最大堆内存
    修改后重启 Android Studio      完成    </description>
@@ -484,10 +484,10 @@ Optimize imports on the fly : 自动帮我们优化导入的包
     
     <item>
       <title>CentOS 7 搭建 Nextcloud</title>
-      <link>https://ddq233.gitee.io/notes/nextcloud_in_centos7/</link>
+      <link>https://ddq233.github.io/notes/nextcloud_in_centos7/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/nextcloud_in_centos7/</guid>
+      <guid>https://ddq233.github.io/notes/nextcloud_in_centos7/</guid>
       <description>一、环境准备  CentOS 7.5 64位 LNMP  Nginx - 1.16.0 MySQL - 5.6.44 Pure-Ftpd - 1.0.49 PHP - 7.2 phpMyAdmin - 4.7   Nextcloud - 17.0.0  注意事项：
  MySQL 5.5 建议安装内存小于 1GB MySQL 5.6 建议安装内存大于 1GB MySQL 5.7 建议安装内存大于 2GB  二、安装步骤 1. 在 CentOS 安装宝塔面板
 一键安装脚本（在 root 用户下执行命令）
@@ -499,10 +499,10 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
     
     <item>
       <title>Git学习笔记</title>
-      <link>https://ddq233.gitee.io/notes/git_notes/</link>
+      <link>https://ddq233.github.io/notes/git_notes/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/git_notes/</guid>
+      <guid>https://ddq233.github.io/notes/git_notes/</guid>
       <description>一、Git 的优势  大部分操作在本地完成，不需要联网 完整性保证 尽可能添加数据而不是删除或修改数据 分支操作非常快捷流畅 与 Linux 命令全面兼容   二、Git 的结构  工作区（写代码） 暂存区（临时存储） 本地库（历史版本）   三、Git 和代码托管中心 代码托管中心的任务：维护远程库
 3.1 局域网环境下  GitLab 服务器  3.2 外网环境下  GitHub 码云   四、本地库和远程库  团队内部协作 跨团队协作  4.1 本地库初始化  $ git init
  注意：.git 目录中存放的是本地库相关的子目录和文件，不要删除，也不要胡乱修改。
@@ -511,10 +511,10 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
     
     <item>
       <title>Mac便签说明</title>
-      <link>https://ddq233.gitee.io/notes/mac_note_direction/</link>
+      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/mac_note_direction/</guid>
+      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
       <description>自定便条很容易。
 使您的便条突出显示并引起注意。
 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
@@ -529,10 +529,10 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
     
     <item>
       <title>Mac系统快捷键</title>
-      <link>https://ddq233.gitee.io/notes/shortcut_of_mac_os/</link>
+      <link>https://ddq233.github.io/notes/shortcut_of_mac_os/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/shortcut_of_mac_os/</guid>
+      <guid>https://ddq233.github.io/notes/shortcut_of_mac_os/</guid>
       <description>1. Mac 键盘快捷键说明 您可以按下某些组合键来实现通常需要鼠标、触控板或其他输入设备才能完成的操作。
 要使用键盘快捷键，请按住一个或多个修饰键，然后按快捷键的最后一个键。例如，要使用 Command-C（拷贝），请按住 Command 键并按 C 键，然后同时松开这两个键。Mac 菜单和键盘通常对某些按键使用符号，其中包括以下修饰键：
  Command（或 Cmd）⌘ Shift ⇧ Option（或 Alt）⌥ Control（或 Ctrl）⌃ Caps Lock ⇪ Fn  在 Windows PC 专用键盘上，请用 Alt 键代替 Option 键，用 Windows 标志键代替 Command 键。
@@ -542,19 +542,19 @@ Apple 键盘上的某些按键具有特殊符号和功能，例如显示屏亮�
     
     <item>
       <title>Photoshop常用快捷键</title>
-      <link>https://ddq233.gitee.io/notes/shortcut_of_photoshop/</link>
+      <link>https://ddq233.github.io/notes/shortcut_of_photoshop/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/shortcut_of_photoshop/</guid>
+      <guid>https://ddq233.github.io/notes/shortcut_of_photoshop/</guid>
       <description>1. 选择功能  全部选取 【Ctrl】+【A】 取消选择 【Ctrl】+【D】 重新选择 【Ctrl】+【Shift】+【D】 羽化选择 【Ctrl】+【Alt】+【D】 反向选择 【Ctrl】+【Shift】+【I】 路径变选区 数字键盘的【Enter】 载入选区 【Ctrl】+点按图层、路径、通道面板中的缩略图  2. 滤镜  按上次的参数再做一次上次的滤镜 【Ctrl】+【F】 退去上次所做滤镜的效果 【Ctrl】+【Shift】+【F】 重复上次所做的滤镜(可调参数) 【Ctrl】+【Alt】+【F】 选择工具(在“3D变化”滤镜中) 【V】 立方体工具(在“3D变化”滤镜中) 【M】 球体工具(在“3D变化”滤镜中) 【N】 柱体工具(在“3D变化”滤镜中) 【C】 轨迹球(在“3D变化”滤镜中) 【R】 全景相机工具(在“3D变化”滤镜中) 【E】  3. 视图操作  显示彩色通道 【Ctrl】+【~】 显示单色通道 【Ctrl】+【数字】 显示复合通道 【~】 以CMYK方式预览(开关) 【Ctrl】+【Y】 打开/关闭色域警告 【Ctrl】+【Shift】+【Y】 放大视图 【Ctrl】+【+】 缩小视图 【Ctrl】+【-】 满画布显示 【Ctrl】+【0】 实际象素显示 【Ctrl】+【Alt】+【0】 向上卷动一屏 【PageUp】 向下卷动一屏 【PageDown】 向左卷动一屏 【Ctrl】+【PageUp】 向右卷动一屏 【Ctrl】+【PageDown】 向上卷动10 个单位 【Shift】+【PageUp】 向下卷动10 个单位 【Shift】+【PageDown】 向左卷动10 个单位 【Shift】+【Ctrl】+【PageUp】 向右卷动10 个单位 【Shift】+【Ctrl】+【PageDown】 将视图移到左上角 【Home】 将视图移到右下角 【End】 显示/隐藏选择区域 【Ctrl】+【H】 显示/隐藏路径 【Ctrl】+【Shift】+【H】 显示/隐藏标尺 【Ctrl】+【R】 显示/隐藏参考线 【Ctrl】+【;】 显示/隐藏网格 【Ctrl】+【”】 贴紧参考线 【Ctrl】+【Shift】+【;】 锁定参考线 【Ctrl】+【Alt】+【;】 贴紧网格 【Ctrl】+【Shift】+【”】 显示/隐藏“画笔”面板 【F5】 显示/隐藏“颜色”面板 【F6】 显示/隐藏“图层”面板 【F7】 显示/隐藏“信息”面板 【F8】 显示/隐藏“动作”面板 【F9】 显示/隐藏所有命令面板 【TAB】 显示或隐藏工具箱以外的所有调板 【Shift】+【TAB】 文字处理(在”文字工具”对话框中) 左对齐或顶对齐 【Ctrl】+【Shift】+【L】 中对齐 【Ctrl】+【Shift】+【C】 右对齐或底对齐 【Ctrl】+【Shift】+【R】 左／右选择 1 个字符 【Shift】+【←】/【→】 下／上选择 1 行 【Shift】+【↑】/【↓】 选择所有字符 【Ctrl】+【A】 选择从插入点到鼠标点按点的字符 【Shift】加点按 左／右移动 1 个字符 【←】/【→】 下／上移动 1 行 【↑】/【↓】 左／右移动1个字 【Ctrl】+【←】/【→】 将所选文本的文字大小减小2 点象素 【Ctrl】+【Shift】+【&amp;lt;】 将所选文本的文字大小增大2 点象素 【Ctrl】+【Shift】+【&amp;gt;】 将所选文本的文字大小减小10 点象素 【Ctrl】+【Alt】+【Shift】+【&amp;lt;】 将所选文本的文字大小增大10 点象素 【Ctrl】+【Alt】+【Shift】+【&amp;gt;】 将行距减小2点象素 【Alt】+【↓】 将行距增大2点象素 【Alt】+【↑】 基线位移减小2点象素 【Shift】+【Alt】+【↓】 将基线位移增加2点象素 【Shift】+【Alt】+【↑】 将字距微调或字距调整减小20/1000ems 【Alt】+【←】 将字距微调或字距调整增加20/1000ems 【Alt】+【→】 将字距微调或字距调整减小100/1000ems 【Ctrl】+【Alt】+【←】 将字距微调或字距调整增加100/1000ems 【Ctrl】+【Alt】+【→】 设置“增效工具与暂存盘”(在预置对话框中) 【Ctrl】+【7】 设置“内存与图像高速缓存”(在预置对话框中) 【Ctrl】+【8】  4.</description>
     </item>
     
     <item>
       <title>Raspbian中国软件源</title>
-      <link>https://ddq233.gitee.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
       <description>中国科学技术大学 : http://mirrors.ustc.edu.cn/raspbian/raspbian/ 阿里云 : http://mirrors.aliyun.com/raspbian/raspbian/ 清华大学 : http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ 华中科技大学 : http://mirrors.hustunique.com/raspbian/raspbian/ 华南农业大学（华南用户） : http://mirrors.scau.edu.cn/raspbian/ 大连东软信息学院源（北方用户） : http://mirrors.neusoft.edu.cn/raspbian/raspbian/ 重庆大学源（中西部用户） : http://mirrors.cqu.edu.cn/Raspbian/raspbian/ 中山大学 已跳转至中国科学技术大学源 : http://mirror.sysu.edu.cn/raspbian/raspbian/ 新加坡国立大学 : http://mirror.nus.edu.sg/raspbian/raspbian 牛津大学 : http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian/ 韩国KAIST大学 : http://ftp.kaist.ac.kr/raspbian/raspbian/   使用说明 备份原始文件（可选步骤） $ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak$ sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bak 编辑软件源配置 1、编辑 /etc/apt/sources.list 文件（软件源），参考如下命令：
 $ sudo nano /etc/apt/sources.list 2、删除原文件所有内容，buster 系统用以下内容取代：
 deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freedeb-src http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-free 注：网址末尾的raspbian重复两次是必须的。因为Raspbian的仓库中除了APT软件源还包含其他代码。APT软件源不在仓库的根目录，而在raspbian/子目录下。</description>
@@ -562,10 +562,10 @@ deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freed
     
     <item>
       <title>总线型、星型、环状、树状、网状拓扑结构</title>
-      <link>https://ddq233.gitee.io/notes/topological_tructure/</link>
+      <link>https://ddq233.github.io/notes/topological_tructure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/topological_tructure/</guid>
+      <guid>https://ddq233.github.io/notes/topological_tructure/</guid>
       <description>总线型：
 总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。
 星型：
@@ -579,10 +579,10 @@ deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freed
     
     <item>
       <title>在Mac下使用Hugo搭建个人博客</title>
-      <link>https://ddq233.gitee.io/notes/hugo_in_mac/</link>
+      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/hugo_in_mac/</guid>
+      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
       <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
 一、实验材料  Mac OS X - v10.14.6 Homebrew (又称brew) - v2.2.11-dirty Go语言环境 - v1.14.1 Git - v2.23.0 Hugo - v0.68.3 Hugo主题：hugo-notepadium - v0.60.0 GitHub Markdown语法   二、Homebrew 安装 2.1 安装方法 2.1.1 方法一：通过官网提供的命令安装 $ /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;  在国内，这个命令通常会失败并报以下错误。
 $ curl: (7) Failed to connect to http://raw.githubusercontent.com port 443: Operation timed outOperation  2.1.2 方法二：直接从GitHub上clone文件（换源下载） 输入命令从 GitHub 或者其他源克隆 Homebrew 的项目，放在 /usr/local/Homebrew/ 目录下。

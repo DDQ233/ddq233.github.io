@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Session on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/session/</link>
+    <link>https://ddq233.github.io/tags/session/</link>
     <description>Recent content in Session on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Mon, 18 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/session/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/session/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>会话管理</title>
-      <link>https://ddq233.gitee.io/notes/cookie_session_note/</link>
+      <link>https://ddq233.github.io/notes/cookie_session_note/</link>
       <pubDate>Mon, 18 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/cookie_session_note/</guid>
+      <guid>https://ddq233.github.io/notes/cookie_session_note/</guid>
       <description>一、基本概念 1. 会话： 一次会话中包含多次请求和相应
 2. 一次会话： 浏览器第一次给服务器发送请求，会话建立，知道有一方断开为止
 3. 功能： 在一次会话的范围内多次请求间，共享数据

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>IDEAJ on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/ideaj/</link>
+    <link>https://ddq233.github.io/tags/ideaj/</link>
     <description>Recent content in IDEAJ on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Thu, 09 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/ideaj/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/ideaj/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>IDEAJ下配置Maven</title>
-      <link>https://ddq233.gitee.io/notes/maven_in_ideaj/</link>
+      <link>https://ddq233.github.io/notes/maven_in_ideaj/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/maven_in_ideaj/</guid>
+      <guid>https://ddq233.github.io/notes/maven_in_ideaj/</guid>
       <description>打开设置
 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven
 修改 Maven 路径和本地仓库的路径
@@ -34,10 +34,10 @@ Maven 自动导包设置
     
     <item>
       <title>IDEAJ配置</title>
-      <link>https://ddq233.gitee.io/notes/ideaj_config/</link>
+      <link>https://ddq233.github.io/notes/ideaj_config/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/ideaj_config/</guid>
+      <guid>https://ddq233.github.io/notes/ideaj_config/</guid>
       <description>一、前言  基于 IDEAJ 2019-2 插图为已改设置 JetBrains 系列的产品应该能同样适用 Android Studio 产品基本都能够适用   二、正文 1. 主题与 IDE 字体 2. Ctrl + 鼠标滚轮放大缩小代码 3. 设置鼠标悬浮提示 4. 自动导包、导包校对  Add unambiguous imports on the fly : 自动导入不明确的结构
 Optimize imports on the fly : 自动帮我们优化导入的包
  5. 设置显示行号和方法间的分隔符 6. 忽略大小写提示 7. 设置取消单行显示文件标签 8. 设置默认的字体、字体大小、字体行间距 9. 修改类头的文档注释信息 10. 设置项目文件编码 11. 设置自动编译 12. 设置快捷键 13. 显示内存占用 14. 修改 IDEAJ 启动内存与最大内存 </description>

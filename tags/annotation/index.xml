@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Annotation on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/tags/annotation/</link>
+    <link>https://ddq233.github.io/tags/annotation/</link>
     <description>Recent content in Annotation on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/tags/annotation/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring注解解释(1)</title>
-      <link>https://ddq233.gitee.io/notes/java_spring_annotation/</link>
+      <link>https://ddq233.github.io/notes/java_spring_annotation/</link>
       <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/java_spring_annotation/</guid>
+      <guid>https://ddq233.github.io/notes/java_spring_annotation/</guid>
       <description>1. @Controller 该注解类型用于指示 Spring 类对实例是一个控制器，对应 SpringMVC 控制层，主要用户接受用户请求并调用 Service 层返回数据给前端页面。
 2. @RequestMapping 该注解类型用于映射一个请求或一个方法，可指定控制器内部对每一个请求的处理情况。使用时，标注在一个方法或一个类上，默认属性是 value 。
 3. @Autowired 对 Bean 的属性、属性的 setter 方法及构造方法进行标注，配合对应的注解处理器完成 Bean 的自动装配，默认是 byType 的自动装配。

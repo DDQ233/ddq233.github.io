@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Java on DDQ的笔记</title>
-    <link>https://ddq233.gitee.io/categories/java/</link>
+    <link>https://ddq233.github.io/categories/java/</link>
     <description>Recent content in Java on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.gitee.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.github.io/categories/java/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Spring数据库编程笔记</title>
-      <link>https://ddq233.gitee.io/notes/spring_database_dev/</link>
+      <link>https://ddq233.github.io/notes/spring_database_dev/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.gitee.io/notes/spring_database_dev/</guid>
+      <guid>https://ddq233.github.io/notes/spring_database_dev/</guid>
       <description>1. 什么是数据库连接池？ 数据库连接池（Connection pooling）是程序启动时建立足够的数据库连接，并将这些连接组成一个连接池，由程序动态地对池中对连接进行申请，使用，释放。
 连接数据库是一个耗时的操作，一个数据库连接对象均对应一个物理数据库连接，每次操作都打开一个物理连接，使用完都关闭，这样会造成系统性能低。
 因此，在程序初始化对时候，集中创建多个数据库连接，并把它们进行集中管理，这样可以提高系统性能。
