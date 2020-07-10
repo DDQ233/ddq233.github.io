@@ -176,13 +176,12 @@ $ git branch -d temp  </description>
     </item>
     
     <item>
-      <title>Resume</title>
+      <title></title>
       <link>https://ddq233.github.io/resume/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://ddq233.github.io/resume/</guid>
-      <description>DDQ的笔记   Name : Mr.feng Q Q : 731845863 Email : 731845863@qq.com Job : Student Location : GuangZhou    Welcome to Cupper: An accessibility-friendly Hugo theme, ported from the original Cupper project. Here are some of its features:
- Screen reader and keyboard accessible哈哈哈哈 Responsive Numerous shortcodes Toggleable dark theme Toggleable table of contents per blog post   &amp;ndash;&amp;gt;</description>
+      <description>.main-title { text-align: center; } .info-1 { float: left; width: 50% } .info-3 { display: inline-block; margin-left: 15%; }  个人简历  基本信息 姓&amp;nbsp;&amp;nbsp;&amp;nbsp;名：冯 俊 祺 籍&amp;nbsp;&amp;nbsp;&amp;nbsp;贯：广东省肇庆市 电&amp;nbsp;&amp;nbsp;&amp;nbsp;话：13660952893 邮&amp;nbsp;&amp;nbsp;&amp;nbsp;箱：731845863@qq.com 博&amp;nbsp;&amp;nbsp;&amp;nbsp;客：https://ddq233.github.io/  性&amp;nbsp;&amp;nbsp;&amp;nbsp;别：男 年&amp;nbsp;&amp;nbsp;&amp;nbsp;龄：22岁 学&amp;nbsp;&amp;nbsp;&amp;nbsp;历：本科&amp;nbsp;&amp;nbsp;物联网工程 政治面貌：共青团员 求职意向：Java开发实习    专业技能  Java基础扎实，熟悉面向对象编程、I/O、集合框架、多线程，编程习惯良好。 熟练使用 MySql 数据库，熟悉基本 SQL 脚本的使用，了解 SQL 语句的调优。 熟悉常用的数据结构与算法。 熟悉常见的设计模式，有尝试通过设计模式解决问题。 熟悉 Linux 常用命令，有 Tomcat 配置 和 JavaWeb 项目部署的经验。 熟练使用 Maven 项目管理工具。 熟练使用 Git 版本控制工具。 熟练使用 Eclipse、IDEA、VSCode 开发工具。 了解 Spring、SpringMVC、MyBatis、SpringBoot开源框架的基本概念与使用方法。 了解 Redis 缓存、RabbitMQ 消息中间件、SpringCloud 微服务。 了解 RESTful、JSON、XML。 了解 HTML、CSS、JavaScript、Ajax、jQuery 前端开发技术，能看懂前端页面代码。 了解 Thymeleaf、JSP、JSTL。 了解 BootStrap、Layui、X-admin 前端框架，曾使用其开发过一些简单项目。 了解 TCP、UDP、HTTP、HTTPS 协议。 了解 C、C++、Python。    获奖情况  CET - 4 证书 全国计算机等级二级C语言证书 全国计算机等级二级C++语言证书 汽车C1驾驶证照    自我评价  热爱编程，自学能力强，平时会主动学习和了解新知识。 热情随和，富有上进心，对待事情认真负责，具有进取精神和团队精神。 善于思考，主动适应环境，积极向上，敢于挑战。    DDQ的笔记   Name : Mr.</description>
     </item>
     
     <item>
