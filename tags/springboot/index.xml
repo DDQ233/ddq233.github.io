@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SpringBoot on DDQ的笔记</title>
+    <link>https://ddq233.github.io/tags/springboot/</link>
+    <description>Recent content in SpringBoot on DDQ的笔记</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>© 2019 - 2020 DDQ.</copyright>
+    <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://ddq233.github.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>记第一次部署SpringBoot小项目到Linux</title>
+      <link>https://ddq233.github.io/summary/springboot-project-deploy/</link>
+      <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/summary/springboot-project-deploy/</guid>
+      <description>1. 项目描述
+预设一个定时任务，在每月16日中午12点定时给指定邮箱发送邮件。
+2. 项目技术栈
+ Spring Boot JavaMailSender  3. 部署过程回顾
+第一次部署：
+ 修改项目定时任务的定时时间为每分钟给指定邮箱发送一次邮件。 在服务上配置 Tomcat、JDK、Maven。 在 IDEA 上使用 Maven 命令将项目打成 war 包。 把 war 包上传到 Linux(Ubuntu) 上。 停止 apache-tomcat 服务。 把 war 包复制到 Tomcat 安装目录中的 webapps 目录里面。 开启 apache-tomcat 服务。 发现项目没有正常运行。 检查 apache-tomcat 服务是否正常运行，正常。 检查 war 包是否有正常被 Tomcat 容器识别，正常。 在 IDEA 中运行是否正常，正常。  第二次部署：
+ 决定更换打包方式，把项目打成 jar 包，因为考虑到项目太小，只需要后台运行即可，并且 SpringBoot 项目自带一个 Tomcat 容器，没必要打成 war 包。 使用 Maven 命令将项目打成 jar 包。 项目在 IDEA 中是否正常运行，正常。 运行项目 jar 包，报错， Consider defining a bean of type &amp;lsquo;org.</description>
+    </item>
+    
+  </channel>
+</rss>
