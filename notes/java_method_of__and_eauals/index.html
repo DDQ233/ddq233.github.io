@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
   <meta name="generator" content="Hugo 0.68.3" />
-  <link rel="canonical" href="https://ddq233.github.io/categories/java/">
+  <link rel="canonical" href="https://ddq233.github.io/notes/java_method_of__and_eauals/">
 
   
 
@@ -33,7 +33,7 @@
   
 
   
-  <title>Java | DDQ的笔记</title>
+  <title>Java中==操作符和equals()方法的区别 | DDQ的笔记</title>
   
 </head>
 
@@ -225,33 +225,108 @@
         <div>
           
   <main id="main">
-    <h1>Java</h1>
-    <ul class="patterns-list">
+    <h1>
+
+      Java中==操作符和equals()方法的区别
+    </h1>
+
+    <div class="date">
+      
+      
+      <strong aria-hidden="true">Publish date: </strong>Aug 5, 2020
+      
+        
+      
+    </div>
+
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/java_method_of__and_eauals/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Java中==操作符和equals()方法的区别
-          </a>
-        </h2>
-      </li>        
+      <div class="tags">
+        <strong aria-hidden="true">Tags: </strong>
+        <ul aria-label="tags">
+          
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use xlink:href="#tag"></use>
+              </svg>
+              
+              <a href="https://ddq233.github.io/tags/java/">Java</a>
+            </li>
+          
+        </ul>
+      </div>
     
-      <li>
-        <h2>
-          <a href="https://ddq233.github.io/notes/spring_database_dev/">
-            <svg class="bookmark" aria-hidden="true" viewBox="0 0 40 50" focusable="false">
-              <use xlink:href="#bookmark"></use>
-            </svg>
-            Spring数据库编程笔记
-          </a>
-        </h2>
-      </li>        
     
-    </ul>
+    
+      
+
+  
+      <div id="toc" class="toc">
+        <h2 id="toc-heading">Table of contents</h2><nav id="TableOfContents">
+  <ul>
+    <li><a href="#1-操作符和equals方法的说明">1. ==操作符和equals()方法的说明</a>
+      <ul>
+        <li><a href="#11-操作符">1.1 ==操作符</a></li>
+        <li><a href="#12-equals-方法">1.2 equals() 方法</a></li>
+      </ul>
+    </li>
+    <li><a href="#2-字符串变量">2. 字符串变量</a></li>
+  </ul>
+</nav></div>
+      <br>
+      <hr>
+      <br>
+  
+
+
+
+
+
+    
+
+    <h1 id="1-操作符和equals方法的说明">1. ==操作符和equals()方法的说明</h1>
+<h2 id="11-操作符">1.1 ==操作符</h2>
+<ol>
+<li>对于基本类型，比较的是值是否相同。</li>
+<li>对于引用类型，比较的是引用是否相同。</li>
+<li>==操作符用于比较两个引用（内存中的存放地址）是否相等，他们是否是同一个对象。</li>
+</ol>
+<h2 id="12-equals-方法">1.2 equals() 方法</h2>
+<ol>
+<li>equals() 是 java.lang.Object 类的方法。</li>
+<li>equals() 用来比较两个对象的内容是否相等。</li>
+</ol>
+<h1 id="2-字符串变量">2. 字符串变量</h1>
+<p>示例代码：</p>
+<pre><code class="language-java">1 public class Test1 {
+2     public static void main(String[] args) {
+3         String str1 = new String(&quot;abc&quot;);
+4         String str2 = new String(&quot;abc&quot;);
+5         String str3 = &quot;abc&quot;;
+6         String str4 = &quot;abc&quot;;
+7 
+8         System.out.println(str1 == str2);
+9         System.out.println(str1.equals(str2));
+10        System.out.println(str3 == str4);
+11        System.out.println(str3.equals(str4));
+12    }
+13 }
+</code></pre>
+<p>运行结果：</p>
+<pre><code class="language-text">false
+true
+true
+true
+</code></pre>
+<p>解释：</p>
+<p>因为 str1 和 str2 使用了 new String() 方法，计算机为两个变量各自分配堆内存空间，变量的内存地址不相同，而 == 操作符比较的是内存地址的值，所以 str1==str2 输出为 false。</p>
+<p>equals() 方法比较的是内容，很明显，str1 与 str2 的内容是一致的，所以 str1.equals(str2) 输出为 true。</p>
+<p>在 Java 中，使用常量值直接赋值给 String 类型的变量，内容保存在常量池当中。例如上述第5、6行代码，JVM 首先会在常量池当中查找有没有一个值为 &ldquo;abc&rdquo; 的对象，如果有，就会把它的引用返回，如果没有则在常量池中创建一个 &ldquo;abc&rdquo;。只要值相等，任何多个引用都指向同一对象。</p>
+
   </main>
+  <div id="disqus-container">
+  
+</div>
+
 
           <footer role="contentinfo">
   <div>

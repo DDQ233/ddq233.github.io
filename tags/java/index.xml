@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Java中==操作符和equals()方法的区别</title>
+      <link>https://ddq233.github.io/notes/java_method_of__and_eauals/</link>
+      <pubDate>Wed, 05 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/java_method_of__and_eauals/</guid>
+      <description>1. ==操作符和equals()方法的说明 1.1 ==操作符  对于基本类型，比较的是值是否相同。 对于引用类型，比较的是引用是否相同。 ==操作符用于比较两个引用（内存中的存放地址）是否相等，他们是否是同一个对象。  1.2 equals() 方法  equals() 是 java.lang.Object 类的方法。 equals() 用来比较两个对象的内容是否相等。  2. 字符串变量 示例代码：
+1 public class Test1 { 2 public static void main(String[] args) { 3 String str1 = new String(&amp;quot;abc&amp;quot;); 4 String str2 = new String(&amp;quot;abc&amp;quot;); 5 String str3 = &amp;quot;abc&amp;quot;; 6 String str4 = &amp;quot;abc&amp;quot;; 7 8 System.out.println(str1 == str2); 9 System.out.println(str1.equals(str2)); 10 System.out.println(str3 == str4); 11 System.out.println(str3.equals(str4)); 12 } 13 }  运行结果：</description>
+    </item>
     
     <item>
       <title>Java串口编程二次封装总结</title>
