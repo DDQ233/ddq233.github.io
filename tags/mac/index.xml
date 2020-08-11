@@ -28,6 +28,20 @@ $ sudo killall -HUP mDNSResponder  </description>
     </item>
     
     <item>
+      <title>VMare安装MacOSX10.11失败的一种解决办法</title>
+      <link>https://ddq233.github.io/notes/solution_of_mac_osx_10_11_install_failed_in_vmare/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/solution_of_mac_osx_10_11_install_failed_in_vmare/</guid>
+      <description>问题原因：
+Mac OS X 10.11 系统相对老旧，某些开发签名已过期，导致安装器检测不到有效的安装文件，系统安装失败。
+解决办法：修改时间
+进入终端，修改时间，系统安装正常。
+解决步骤：
+ 自定义分区完毕后，回到安装交互界面。 点击 实用工具 ，选择 终端 ，打开后会进入终端界面。 在命令行输入以下命令  date 122014102015.30  退出终端，需要从任务栏退出，而不是点叉叉退出。  继续跟着交互界面安装即可。  </description>
+    </item>
+    
+    <item>
       <title>Mac便签说明</title>
       <link>https://ddq233.github.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>

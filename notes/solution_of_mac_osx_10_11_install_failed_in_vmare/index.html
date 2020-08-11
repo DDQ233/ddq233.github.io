@@ -273,7 +273,32 @@
 
     
 
-    
+    <p><strong>问题原因：</strong></p>
+<p>Mac OS X 10.11 系统相对老旧，某些开发签名已过期，导致安装器检测不到有效的安装文件，系统安装失败。</p>
+<br>
+<p><strong>解决办法：修改时间</strong></p>
+<p>进入终端，修改时间，系统安装正常。</p>
+<br>
+<p><strong>解决步骤：</strong></p>
+<ol>
+<li>自定义分区完毕后，回到安装交互界面。</li>
+<li>点击 <code>实用工具</code> ，选择 <code>终端</code> ，打开后会进入终端界面。</li>
+<li>在命令行输入以下命令</li>
+</ol>
+<pre><code class="language-shell">date 122014102015.30
+</code></pre>
+<p><img src="Mac-Terminal-Modify-Date.png" alt="Mac-Terminal-Modify-Date"></p>
+<br>
+<ol start="4">
+<li>退出终端，需要从任务栏退出，而不是点叉叉退出。</li>
+</ol>
+<p><img src="Mac-Terminal-Exit.png" alt="Mac-Terminal-Exit"></p>
+<br>
+<ol start="5">
+<li>继续跟着交互界面安装即可。</li>
+</ol>
+<br>
+
   </main>
   <div id="disqus-container">
   
