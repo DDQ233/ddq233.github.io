@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Mon, 06 Jul 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac下修改hosts文件并使其生效</title>
+      <link>https://ddq233.github.io/notes/mac_hosts_modifiy/</link>
+      <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/mac_hosts_modifiy/</guid>
+      <description>注意事项
+ 尽量在修改前做备份 需要使用超级管理员模式进行编辑  1. 备份文件
+$ sudo cp /etc/hosts /etc/hosts.backup  2. 编辑文件
+$ sudo vim /etc/hosts  2.1 修改前
+## 127.0.0.1 localhost 255.255.255.255 broadcasthost ::1 localhost  2.2 修改后
+## 127.0.0.1 localhost 255.255.255.255 broadcasthost ::1 localhost 199.232.68.133 raw.githubsercontent.com 140.82.113.3 github.com 140.82.113.4 github.com 151.101.185.194 http://github.global.ssl.fastly.net/ 151.101.73.194 github.global.ssl.fastly.net/ 151.101.69.194 http://github.global.ssl.fastly.net/ 151.101.24.133 assets-cdn.github.com 151.101.196.133 avatars0.githubsercontent.com 151.101.196.133 avatars1.githubsercontent.com 219.76.4.4 github-cloud.s3.amazonaws.com  3. 使修改后的hosts文件生效
+$ sudo killall -HUP mDNSResponder  </description>
+    </item>
     
     <item>
       <title>租房小攻略</title>
