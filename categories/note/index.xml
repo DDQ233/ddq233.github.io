@@ -7,10 +7,31 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Tue, 11 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/categories/note/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>关于广州市入户与购房政策文章汇总</title>
+      <link>https://ddq233.github.io/notes/guangzhou_settle_and_house_purchase_policy/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/guangzhou_settle_and_house_purchase_policy/</guid>
+      <description>1. 系统网站  广州市来穗人员积分制服务管理信息系统  2. 意见规定   广州市人民政府关于加强我市人口调控和服务管理工作的意见
+  广州市户籍迁入管理规定 - 通知
+  广州市户籍迁入管理规定 - 政策解读
+  3. 积分入户   广州市积分制入户管理办法 - 通知
+  广州市积分入制户管理办法 - 政策解读
+  2020年广州市民办学校教师入户工作方案
+  广州市2020年家政从业人员积分制入户遴选工作
+  广州市积分制服务网上申请流程具体操作指南（图解）
+  4. 引进人才入户   广州市引进人才入户管理办法 - 通知
+  广州市引进人才入户管理办法 - 政策解读
+  广州市引进技术技能人才职业目录（2019）
+  5. 政策性入户   广州市政策性入户管理办法 - 通知
+  广州市政策性入户管理办法 - 政策解读</description>
+    </item>
     
     <item>
       <title>Mac下修改hosts文件并使其生效</title>
