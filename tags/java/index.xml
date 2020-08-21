@@ -7,10 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Wed, 05 Aug 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 20 Aug 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>VO、DO、PO、DTO等对象的概念</title>
+      <link>https://ddq233.github.io/notes/layered_structure/</link>
+      <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/layered_structure/</guid>
+      <description>VO (View Object) :
+展示层对象，通常是 Web 向模板渲染引擎传输的对象。这里的 VO 只包含前端需要展示的数据即可，对于前端不需要的数据，出于减少传输数据量大小和保护数据库结构不外泄的目的，不应该在 VO 中体现出来。通常遵守 Java Bean 规范，拥有 getter/setter 方法。
+DO (Data Object) :
+与数据库表结构一一对应，通过 DAO 层向上层传输数据对象。
+DO（Domain Object）
+领域对象，就是从现实世界中抽象出来的有形或无形的业务实体，是描述业务用例实现的对象模型。它是对业务角色和业务实体之间应该如何联系和协作以执行业务的一种抽象。
+PO (Persistent Object) :
+持久化对象，它跟持久层（关系型数据库）的数据结构形成一一对应的关系。它仅仅用于表示数据，没有任何数据操作，通常遵守 Java Bean 的规范，拥有 getter/setter 方法。
+BO (Business Object) :
+业务对象，由 Service 层输出的封装业务逻辑的对象。BO 包括了业务逻辑，常常封装了对 DAO、RPC 等的调用，可以进行 PO 与 VO/DTO 之间的转换，BO 通常位于业务层，BO 提供了基本业务单元的业务操作，在设计上属于被服务层业务流程调用的对象，一个业务流程可能需要调用多个 BO 来完成。
+AO (Application Object) :
+应用对象，在 Web 层与 Service 层之间抽象的复用对象模型，极为贴近展示层，复用度不高。
+DTO (Data Transfer Object) :
+数据传输对象，Service 或 Manager 向外传输的对象。</description>
+    </item>
     
     <item>
       <title>Java中==操作符和equals()方法的区别</title>
