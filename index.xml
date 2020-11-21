@@ -13,6 +13,19 @@
     
     
     <item>
+      <title>Ubuntu云服务软件工具部署（不完整）</title>
+      <link>https://ddq233.github.io/notes/ubuntu_web_deploy_env/</link>
+      <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/ubuntu_web_deploy_env/</guid>
+      <description>0. 前言 服务器环境：
+ 系统： Ubuntu 18.04 发行代号： bionic 软件源： 国内软件源 小工具： gcc、cmake、net-tools、wget、curl、ssh、ftp、vim、Git 软件： JDK、Apache Tomcat、Mosquitto、Maven、MySQL、Redis、Node.js、npm、Nginx、Syncthing、Python、Vue.js、Syncthing  注：配置的时候在超级管理员权限下配置
+1. 安装简单的工具和开发语言 1.1 Ubuntu 安装小工具
+安装命令：
+# apt install net-tools # apt install vim # apt install gcc # apt install cmake # apt install wget # apt install curl # apt install openssh-server # apt install openssh-client # apt install vsftpd # apt install git  1.2 Ubuntu 安装 OpenJDK 1.8</description>
+    </item>
+    
+    <item>
       <title>Linux命令速查手册</title>
       <link>https://ddq233.github.io/notes/linux_cmd_man/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
