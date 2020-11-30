@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Sat, 21 Nov 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 30 Nov 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mac应用安装参考列表</title>
+      <link>https://ddq233.github.io/notes/mac_app_list/</link>
+      <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/mac_app_list/</guid>
+      <description>1. 系统增强工具  brew wget curl vi vim  2. 系统增强应用  InsomniaX Folx Transmission The Unarchiver BindZip ForkLift Mounty Free Download Manager Magnet Alfred 4 Tencent Lemon Lite AppCleaner Pro Mouse Kap 蒲公英  3. 远程控制应用  向日葵远程控制 VNC Viewer ShareMosue ControlaxPro AirServer  4. 开发工具  Java、JDK Python Node.js Vue.js cmake Git npm Docker 网络调试助手 MQTT.fx  5. 开发应用  Terminus iTerm IntelliJ IDEA PyCharm Android Studio VMware Fusion Dash Postman Visual Studio Code Navicat Premium DBeaver rdm Xcode Wireshark Eclipse  6.</description>
+    </item>
     
     <item>
       <title>Ubuntu云服务软件工具部署（不完整）</title>
