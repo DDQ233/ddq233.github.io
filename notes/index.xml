@@ -401,6 +401,16 @@ $ git push origin master  </description>
     </item>
     
     <item>
+      <title>Git强制同步远程仓库到本地</title>
+      <link>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</guid>
+      <description>命令：
+$ git fetch --all $ git reset --hard origin/master  </description>
+    </item>
+    
+    <item>
       <title>Java开发可能用到对Maven依赖</title>
       <link>https://ddq233.github.io/notes/java_dev_maven_dependencies/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>

@@ -76,6 +76,16 @@ $ git push origin master  </description>
     </item>
     
     <item>
+      <title>Git强制同步远程仓库到本地</title>
+      <link>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</link>
+      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</guid>
+      <description>命令：
+$ git fetch --all $ git reset --hard origin/master  </description>
+    </item>
+    
+    <item>
       <title>Git学习笔记</title>
       <link>https://ddq233.github.io/notes/git_notes/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
