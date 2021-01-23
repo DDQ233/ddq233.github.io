@@ -7,10 +7,33 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Sun, 10 Jan 2021 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/notes/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Windows配置wget工具</title>
+      <link>https://ddq233.github.io/notes/wget_in_win/</link>
+      <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/wget_in_win/</guid>
+      <description>下载：
+wget 的下载网址：https://eternallybored.org/misc/wget/
+点击下载 - Windows 64位 - v1.20.3
+配置：
+把下载的可执行文件放到合适的位置，配置环境变量。本文以 C:\Program Files\wget 为例。
+  在 C 盘的 Program Files 目录下新建 wget 文件夹。
+  把下载的可执行文件放到 wget 文件夹中。
+  选择【此电脑】，右键点击，点击【属性】。
+  点击【高级系统设置】。
+  点击【高级】选项卡，点击【环境变量】。
+  在用户变量中找到【Path】，双击【Path】，会弹出窗口编辑 Path 变量。
+  点击【新建】，把 wget 的文件夹目录 C:\Program Files\wget 粘贴下去。
+  点击【确定】，点击【确定】，单击【确定】。
+  打开命令提示符（CMD），输入 wget -V 查看是否应用成功。
+  </description>
+    </item>
     
     <item>
       <title>IDEA创建SpringBoot项目出现URL错误</title>
@@ -21,6 +44,16 @@
       <description>问题：使用IDEA，通过 Spring Initializr 创建新的 SpringBoot 项目时出现以下错误。
 解决方法：更改 Initializr Service URL。
 把默认的 URL 更改为 https://start.aliyun.com/</description>
+    </item>
+    
+    <item>
+      <title>Git强制同步远程仓库到本地</title>
+      <link>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</guid>
+      <description>命令：
+$ git fetch --all $ git reset --hard origin/master  </description>
     </item>
     
     <item>
@@ -398,16 +431,6 @@ $ git remote -v  添加远程仓库地址
 $ git remote add origin [项目地址]  删除远程仓库地址
 $ git remote rm origin  向远程仓库推送代码
 $ git push origin master  </description>
-    </item>
-    
-    <item>
-      <title>Git强制同步远程仓库到本地</title>
-      <link>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</guid>
-      <description>命令：
-$ git fetch --all $ git reset --hard origin/master  </description>
     </item>
     
     <item>

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 09 Jan 2021 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://ddq233.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git强制同步远程仓库到本地</title>
+      <link>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</link>
+      <pubDate>Sat, 09 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</guid>
+      <description>命令：
+$ git fetch --all $ git reset --hard origin/master  </description>
+    </item>
     
     <item>
       <title>Git使用总结(2)</title>
@@ -73,16 +83,6 @@ $ git remote -v  添加远程仓库地址
 $ git remote add origin [项目地址]  删除远程仓库地址
 $ git remote rm origin  向远程仓库推送代码
 $ git push origin master  </description>
-    </item>
-    
-    <item>
-      <title>Git强制同步远程仓库到本地</title>
-      <link>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</link>
-      <pubDate>Fri, 01 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://ddq233.github.io/notes/git_force_sync_remote_to_local/</guid>
-      <description>命令：
-$ git fetch --all $ git reset --hard origin/master  </description>
     </item>
     
     <item>
