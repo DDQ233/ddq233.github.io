@@ -2,31 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Linux on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/linux/</link>
+    <link>https://ddq233.gitee.io/categories/linux/</link>
     <description>Recent content in Linux on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Fri, 30 Oct 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Linux命令速查手册</title>
-      <link>https://ddq233.github.io/notes/linux_cmd_man/</link>
+      <link>https://ddq233.gitee.io/notes/linux_cmd_man/</link>
       <pubDate>Fri, 30 Oct 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/linux_cmd_man/</guid>
+      <guid>https://ddq233.gitee.io/notes/linux_cmd_man/</guid>
       <description>1. 查看 Linux 系统信息 arch #显示机器的处理器架构(1) uname -m #显示机器的处理器架构(2) uname -r #显示正在使用的内核版本 dmidecode -q #显示硬件系统部件 - (SMBIOS / DMI) hdparm -i /dev/hda #罗列一个磁盘的架构特性 hdparm -tT /dev/sda #在磁盘上执行测试性读取操作 cat /proc/cpuinfo #显示CPU info的信息 cat /proc/interrupts #显示中断 cat /proc/meminfo #校验内存使用 cat /proc/swaps #显示哪些swap被使用 cat /proc/version #显示内核的版本 cat /proc/net/dev #显示网络适配器及统计 cat /proc/mounts #显示已加载的文件系统 lspci -tv #罗列PCI设备 lsusb -tv #显示USB设备   2. date 显示系统日期 cal 2007 #显示2007年的日历表 date 041217002007.00 #设置日期和时间 - 月日时分年.秒 clock -w #将时间修改保存到 BIOS   3.</description>
     </item>
     
     <item>
       <title>Linux安装字体</title>
-      <link>https://ddq233.github.io/notes/fonts_install_in_linux/</link>
+      <link>https://ddq233.gitee.io/notes/fonts_install_in_linux/</link>
       <pubDate>Wed, 06 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/fonts_install_in_linux/</guid>
+      <guid>https://ddq233.gitee.io/notes/fonts_install_in_linux/</guid>
       <description> 在 Linux 中，字体放在 /usr/share/fonts/ 目录下，把需要安装的字体通过 SFTP 工具上传到 Linux 中，执行命令即可完成安装。
  开始前最好进入 root 模式，以防出现奇奇怪怪的问题。
 查看已安装的字体

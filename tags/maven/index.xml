@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Maven on DDQ的笔记</title>
-    <link>https://ddq233.github.io/tags/maven/</link>
+    <link>https://ddq233.gitee.io/tags/maven/</link>
     <description>Recent content in Maven on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Thu, 30 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/tags/maven/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Java开发可能用到对Maven依赖</title>
-      <link>https://ddq233.github.io/notes/java_dev_maven_dependencies/</link>
+      <link>https://ddq233.gitee.io/notes/java_dev_maven_dependencies/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/java_dev_maven_dependencies/</guid>
+      <guid>https://ddq233.gitee.io/notes/java_dev_maven_dependencies/</guid>
       <description>Java开发可能用到对Maven依赖
 1. 其他依赖 1.1 单元测试 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;4.11&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  1.2 日志 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2.17&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.logging.log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.logging.log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;commons-logging&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-logging&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.3 代理 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;cglib&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cglib&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.3.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.4 Json &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-annotations&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-databind&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.5 数据库连接 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.8&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.6 整合包 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
     </item>
     
     <item>
       <title>Maven习笔记</title>
-      <link>https://ddq233.github.io/notes/maven_notes/</link>
+      <link>https://ddq233.gitee.io/notes/maven_notes/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_notes/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_notes/</guid>
       <description>前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具
 1. 为什么要使用 Maven ？ 为什么要使用 Maven ？它能帮助我们解决什么问题？
 (1) 轻松添加第三方 jar 包
@@ -44,10 +44,10 @@
     
     <item>
       <title>IDEAJ下配置Maven</title>
-      <link>https://ddq233.github.io/notes/maven_in_ideaj/</link>
+      <link>https://ddq233.gitee.io/notes/maven_in_ideaj/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_in_ideaj/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_in_ideaj/</guid>
       <description>打开设置
 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven
 修改 Maven 路径和本地仓库的路径
@@ -64,20 +64,20 @@ Maven 自动导包设置
     
     <item>
       <title>Maven仓库地址</title>
-      <link>https://ddq233.github.io/notes/maven_repository_url/</link>
+      <link>https://ddq233.gitee.io/notes/maven_repository_url/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_repository_url/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_repository_url/</guid>
       <description>XML配置
 &amp;lt;!-- 阿里云仓库 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库1 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库2 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;JBoss Public Repository Group&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repository.jboss.org/nexus/content/groups/public&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库在中国的镜像 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;maven.net.cn&amp;lt;/id&amp;gt;&amp;lt;name&amp;gt;oneof the central mirrors in china&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.</description>
     </item>
     
     <item>
       <title>Windows下配置Maven</title>
-      <link>https://ddq233.github.io/notes/maven_in_win/</link>
+      <link>https://ddq233.gitee.io/notes/maven_in_win/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_in_win/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_in_win/</guid>
       <description>1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
 注意：
  Maven 3.3+ 版本的需要 JDK 1.7 或以上 Maven 必须安装在非中文目录下  按需选择下载即可

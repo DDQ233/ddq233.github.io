@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Serialport on DDQ的笔记</title>
-    <link>https://ddq233.github.io/tags/serialport/</link>
+    <link>https://ddq233.gitee.io/tags/serialport/</link>
     <description>Recent content in Serialport on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 05 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/tags/serialport/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/tags/serialport/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Java串口编程二次封装总结</title>
-      <link>https://ddq233.github.io/summary/java_serialport_sec_encapusulation_summary/</link>
+      <link>https://ddq233.gitee.io/summary/java_serialport_sec_encapusulation_summary/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/java_serialport_sec_encapusulation_summary/</guid>
+      <guid>https://ddq233.gitee.io/summary/java_serialport_sec_encapusulation_summary/</guid>
       <description>一、Windows10下Java串口编程环境搭建  JDK 必不可少 RXTXcomm.jar rxtxSerial.dll rxtxParallel.dll  复制 RXTXcomm.jar &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\lib\ext 复制 rxtxSerial.dll &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\bin 复制 rxtxParalled.dll &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\bin
 相关文件在 SerialPortUtil 模块下的 tools 文件夹
 项目链接：

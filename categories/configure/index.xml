@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Configure on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/configure/</link>
+    <link>https://ddq233.gitee.io/categories/configure/</link>
     <description>Recent content in Configure on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Fri, 22 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/configure/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/categories/configure/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Windows配置wget工具</title>
-      <link>https://ddq233.github.io/notes/wget_in_win/</link>
+      <link>https://ddq233.gitee.io/notes/wget_in_win/</link>
       <pubDate>Fri, 22 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/wget_in_win/</guid>
+      <guid>https://ddq233.gitee.io/notes/wget_in_win/</guid>
       <description>下载：
 wget 的下载网址：https://eternallybored.org/misc/wget/
 点击下载 - Windows 64位 - v1.20.3
@@ -37,10 +37,10 @@ wget 的下载网址：https://eternallybored.org/misc/wget/
     
     <item>
       <title>IDEA创建SpringBoot项目出现URL错误</title>
-      <link>https://ddq233.github.io/notes/idea_gen_springboot_url_error/</link>
+      <link>https://ddq233.gitee.io/notes/idea_gen_springboot_url_error/</link>
       <pubDate>Sun, 10 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/idea_gen_springboot_url_error/</guid>
+      <guid>https://ddq233.gitee.io/notes/idea_gen_springboot_url_error/</guid>
       <description>问题：使用IDEA，通过 Spring Initializr 创建新的 SpringBoot 项目时出现以下错误。
 解决方法：更改 Initializr Service URL。
 把默认的 URL 更改为 https://start.aliyun.com/</description>
@@ -48,10 +48,10 @@ wget 的下载网址：https://eternallybored.org/misc/wget/
     
     <item>
       <title>Ubuntu云服务软件工具部署（不完整）</title>
-      <link>https://ddq233.github.io/notes/ubuntu_web_deploy_env/</link>
+      <link>https://ddq233.gitee.io/notes/ubuntu_web_deploy_env/</link>
       <pubDate>Sat, 21 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/ubuntu_web_deploy_env/</guid>
+      <guid>https://ddq233.gitee.io/notes/ubuntu_web_deploy_env/</guid>
       <description>0. 前言 服务器环境：
  系统： Ubuntu 18.04 发行代号： bionic 软件源： 国内软件源 小工具： gcc、cmake、net-tools、wget、curl、ssh、ftp、vim、Git 软件： JDK、Apache Tomcat、Mosquitto、Maven、MySQL、Redis、Node.js、npm、Nginx、Syncthing、Python、Vue.js、Syncthing  注：配置的时候在超级管理员权限下配置
 1. 安装简单的工具和开发语言 1.1 Ubuntu 安装小工具
@@ -61,10 +61,10 @@ wget 的下载网址：https://eternallybored.org/misc/wget/
     
     <item>
       <title>使用IntelliJIDEA将Git上传项目到Github</title>
-      <link>https://ddq233.github.io/notes/ideaj_dev_git_github/</link>
+      <link>https://ddq233.gitee.io/notes/ideaj_dev_git_github/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/ideaj_dev_git_github/</guid>
+      <guid>https://ddq233.gitee.io/notes/ideaj_dev_git_github/</guid>
       <description>1. 环境准备
  Intellij IDEA Git GitHub  2. 创建工程：
  打开 Intellij IDEA 创建自己需要的工程
@@ -77,10 +77,10 @@ wget 的下载网址：https://eternallybored.org/misc/wget/
     
     <item>
       <title>更换CentOS软件源</title>
-      <link>https://ddq233.github.io/notes/alter_centos_res_of_software/</link>
+      <link>https://ddq233.gitee.io/notes/alter_centos_res_of_software/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/alter_centos_res_of_software/</guid>
+      <guid>https://ddq233.gitee.io/notes/alter_centos_res_of_software/</guid>
       <description>前言  配置文件名：CentOS-Base.repo 配置文件目录：/etc/yum.repos.d/  方法一：直接修改配置文件 1. 进入软件源配置目录
 # cd /etc/yum.repos.d  2. 备份原来的配置文件
 # cp CentOS-Base.repo CentOS-Base.repo.backup  3. 修改配置文件
@@ -91,10 +91,10 @@ wget 的下载网址：https://eternallybored.org/misc/wget/
     
     <item>
       <title>更换Ubunutu软件源</title>
-      <link>https://ddq233.github.io/notes/alter_ubuntu_res_of_software/</link>
+      <link>https://ddq233.gitee.io/notes/alter_ubuntu_res_of_software/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/alter_ubuntu_res_of_software/</guid>
+      <guid>https://ddq233.gitee.io/notes/alter_ubuntu_res_of_software/</guid>
       <description>0. 前言
  文章中使用的 Ubuntu 版本为：20.04，版本代号为：focal 每个 Ubuntu 发行版本都有自己的代号，更换软件源时需要更改版本代号  1. 查看 Ubuntu 发行版本代号
 # lsb_release -a  命令执行结果：
@@ -107,20 +107,20 @@ $ cp /etc/apt/sources.list /etc/apt/sources.list.backup  3. 修改 sources.list 
     
     <item>
       <title>Java开发可能用到对Maven依赖</title>
-      <link>https://ddq233.github.io/notes/java_dev_maven_dependencies/</link>
+      <link>https://ddq233.gitee.io/notes/java_dev_maven_dependencies/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/java_dev_maven_dependencies/</guid>
+      <guid>https://ddq233.gitee.io/notes/java_dev_maven_dependencies/</guid>
       <description>Java开发可能用到对Maven依赖
 1. 其他依赖 1.1 单元测试 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;junit&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;junit&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;4.11&amp;lt;/version&amp;gt; &amp;lt;scope&amp;gt;test&amp;lt;/scope&amp;gt; &amp;lt;/dependency&amp;gt;  1.2 日志 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2.17&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.logging.log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.apache.logging.log4j&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;log4j-api&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.9.1&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;commons-logging&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;commons-logging&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;1.2&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.3 代理 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;cglib&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;cglib&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;3.3.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.4 Json &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-core&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-annotations&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt; &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;com.fasterxml.jackson.core&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;jackson-databind&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;2.11.0&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.5 数据库连接 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;mysql&amp;lt;/groupId&amp;gt; &amp;lt;artifactId&amp;gt;mysql-connector-java&amp;lt;/artifactId&amp;gt; &amp;lt;version&amp;gt;5.1.8&amp;lt;/version&amp;gt; &amp;lt;/dependency&amp;gt;  1.6 整合包 &amp;lt;dependency&amp;gt; &amp;lt;groupId&amp;gt;org.</description>
     </item>
     
     <item>
       <title>修改AndroidStudio默认的Gradle软件源</title>
-      <link>https://ddq233.github.io/notes/as_gradle_modified_res/</link>
+      <link>https://ddq233.gitee.io/notes/as_gradle_modified_res/</link>
       <pubDate>Thu, 30 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/as_gradle_modified_res/</guid>
+      <guid>https://ddq233.gitee.io/notes/as_gradle_modified_res/</guid>
       <description>Android Studio 使用的构建工具是 Gradle ，而默认的软件源是 google、jcenter ，在开发过程中，下载依赖包比较慢，修改成国内源即可解决问题。
 方法：修改 build.gradle.ftl 模版文件
 1. 找到 Android Studio 的安装目录：
@@ -136,10 +136,10 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>8种常用的数据库数据源配置和相应的JDBC驱动包</title>
-      <link>https://ddq233.github.io/notes/spring_datasource_configure/</link>
+      <link>https://ddq233.gitee.io/notes/spring_datasource_configure/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/spring_datasource_configure/</guid>
+      <guid>https://ddq233.gitee.io/notes/spring_datasource_configure/</guid>
       <description>Spring中数据源配置格式  &amp;lt;bean id=&amp;quot;dataSource&amp;quot; class=&amp;quot;org.apache.commons.dbcp.BasicDataSource&amp;quot; destroy-method=&amp;quot;close&amp;quot;&amp;gt; &amp;lt;property name=&amp;quot;driverClass&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;url&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;username&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;property name=&amp;quot;password&amp;quot; value=&amp;quot;&amp;quot; /&amp;gt; &amp;lt;/bean&amp;gt;  这里使用了Jakarta的DBCP开源数据库实现方案定义的数据源。
 各种数据库及其数据源配置参数  数据库：Oracle 驱动程序：oracle.jdbc.driver.OracleDriver URL：jdbc:oracle:thin:@localhost:1521:orcl
 数据库：DB2 驱动程序：com.ibm.db2.jdbc.app.DB2Driver URL：jdbc:db2://localhost:5000/testDB
@@ -153,29 +153,29 @@ C:\Program Files\Android\Android Studio\plugins\android\lib\templates\gradle-pro
     
     <item>
       <title>Druid数据源配置属性</title>
-      <link>https://ddq233.github.io/notes/druid_datasource_attr/</link>
+      <link>https://ddq233.gitee.io/notes/druid_datasource_attr/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/druid_datasource_attr/</guid>
+      <guid>https://ddq233.gitee.io/notes/druid_datasource_attr/</guid>
       <description>配置 缺省值 说明     name  配置这个属性的意义在于，如果存在多个数据源，监控的时候可以通过名字来区分开来。 如果没有配置，将会生成一个名字，格式是：&amp;ldquo;DataSource-&amp;rdquo; + System.identityHashCode(this)   jdbcUrl  连接数据库的url，不同数据库不一样。例如： mysql : jdbc:mysql://10.20.153.104:3306/druid2 oracle : jdbc:oracle:thin:@10.20.149.85:1521:ocnauto   username  连接数据库的用户名   password  连接数据库的密码。如果你不希望密码直接写在配置文件中，可以使用ConfigFilter。详细看这里：https://github.com/alibaba/druid/wiki/%E4%BD%BF%E7%94%A8ConfigFilter   driverClassName 根据url自动识别 这一项可配可不配，如果不配置druid会根据url自动识别dbType，然后选择相应的driverClassName(建议配置下)   initialSize 0 初始化时建立物理连接的个数。初始化发生在显示调用init方法，或者第一次getConnection时   maxActive 8 最大连接池数量   maxIdle 8 已经不再使用，配置了也没效果   minIdle  最小连接池数量   maxWait  获取连接时最大等待时间，单位毫秒。配置了maxWait之后，缺省启用公平锁，并发效率会有所下降，如果需要可以通过配置useUnfairLock属性为true使用非公平锁。   poolPreparedStatements false 是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。   maxOpenPreparedStatements -1 要启用PSCache，必须配置大于0，当大于0时，poolPreparedStatements自动触发修改为true。在Druid中，不会存在Oracle下PSCache占用内存过多的问题，可以把这个数值配置大一些，比如说100   validationQuery  用来检测连接是否有效的sql，要求是一个查询语句。如果validationQuery为null，testOnBorrow、testOnReturn、testWhileIdle都不会其作用。   testOnBorrow true 申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能。   testOnReturn false 归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能   testWhileIdle false 建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。   timeBetweenEvictionRunsMillis  有两个含义： 1) Destroy线程会检测连接的间隔时间2) testWhileIdle的判断依据，详细看testWhileIdle属性的说明   numTestsPerEvictionRun  不再使用，一个DruidDataSource只支持一个EvictionRun   minEvictableIdleTimeMillis     connectionInitSqls  物理连接初始化的时候执行的sql   exceptionSorter 根据dbType自动识别 当数据库抛出一些不可恢复的异常时，抛弃连接   filters  属性类型是字符串，通过别名的方式配置扩展插件，常用的插件有： 监控统计用的filter:stat日志用的filter:log4j防御sql注入的filter:wall   proxyFilters  类型是List&amp;lt;com.</description>
     </item>
     
     <item>
       <title>国际化资源文件命名规则</title>
-      <link>https://ddq233.github.io/notes/international_res_name_rule/</link>
+      <link>https://ddq233.gitee.io/notes/international_res_name_rule/</link>
       <pubDate>Mon, 20 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/international_res_name_rule/</guid>
+      <guid>https://ddq233.gitee.io/notes/international_res_name_rule/</guid>
       <description>命名规则：package_语言名_国家名.properties
  中国：package_zh_CN.propertie 台湾：package_zh_TW.properties 香港：package_zh_HK.properties 美国：package_en_US.properties 英国：package_en_GB.properties 加拿大：package_en_CA.properties 澳大利亚：package_en_AU.properties 日本：package_ja_JP.properties 法国：package_fr_FR.properties   日本 : ja_JP 秘鲁 : es_PE 巴拿马 : es_PA 波斯尼亚和黑山共和国 : sr_BA 危地马拉 : es_GT 阿拉伯联合酋长国 : ar_AE 挪威 : no_NO 阿尔巴尼亚 : sq_AL 伊拉克 : ar_IQ 也门 : ar_YE 葡萄牙 : pt_PT 塞浦路斯 : el_CY 卡塔尔 : ar_QA 马其顿王国 : mk_MK 瑞士 : de_CH 美国 : en_US 芬兰 : fi_FI 马耳他 : en_MT 斯洛文尼亚 : sl_SI 斯洛伐克 : sk_SK 土耳其 : tr_TR 沙特阿拉伯 : ar_SA 英国 : en_GB 塞尔维亚及黑山 : sr_CS 新西兰 : en_NZ 挪威 : no_NO 立陶宛 : lt_LT 尼加拉瓜 : es_NI 爱尔兰 : ga_IE 比利时 : fr_BE 西班牙 : es_ES 黎巴嫩 : ar_LB 加拿大 : fr_CA 爱沙尼亚 : et_EE 科威特 : ar_KW 塞尔维亚 : sr_RS 美国 : es_US 墨西哥 : es_MX 苏丹 : ar_SD 印度尼西亚 : in_ID 乌拉圭 : es_UY 拉脱维亚 : lv_LV 巴西 : pt_BR 叙利亚 : ar_SY 多米尼加共和国 : es_DO 瑞士 : fr_CH 印度 : hi_IN 委内瑞拉 : es_VE 巴林 : ar_BH 菲律宾 : en_PH 突尼斯 : ar_TN 奥地利 : de_AT 荷兰 : nl_NL 厄瓜多尔 : es_EC 台湾地区 : zh_TW 约旦 : ar_JO 冰岛 : is_IS 哥伦比亚 : es_CO 哥斯达黎加 : es_CR 智利 : es_CL 埃及 : ar_EG 南非 : en_ZA 泰国 : th_TH 希腊 : el_GR 意大利 : it_IT 匈牙利 : hu_HU 爱尔兰 : en_IE 乌克兰 : uk_UA 波兰 : pl_PL 卢森堡 : fr_LU 比利时 : nl_BE 印度 : en_IN 西班牙 : ca_ES 摩洛哥 : ar_MA 玻利维亚 : es_BO 澳大利亚 : en_AU 新加坡 : zh_SG 萨尔瓦多 : es_SV 俄罗斯 : ru_RU 韩国 : ko_KR 阿尔及利亚 : ar_DZ 越南 : vi_VN 黑山 : sr_ME 利比亚 : ar_LY 中国 : zh_CN 台湾：zh_TW 香港 : zh_HK 白俄罗斯 : be_BY 以色列 : iw_IL 保加利亚 : bg_BG 马耳他 : mt_MT 巴拉圭 : es_PY 法国 : fr_FR 捷克共和国 : cs_CZ 瑞士 : it_CH 罗马尼亚 : ro_RO 波多黎哥 : es_PR 加拿大 : en_CA 德国 : de_DE 卢森堡 : de_LU 阿根廷 : es_AR 马来西亚 : ms_MY 克罗地亚 : hr_HR 新加坡 : en_SG 阿曼 : ar_OM 泰国 : th_TH 瑞典 : sv_SE 丹麦 : da_DK 洪都拉斯 : es_HN  </description>
     </item>
     
     <item>
       <title>IDEAJ下配置Maven</title>
-      <link>https://ddq233.github.io/notes/maven_in_ideaj/</link>
+      <link>https://ddq233.gitee.io/notes/maven_in_ideaj/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_in_ideaj/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_in_ideaj/</guid>
       <description>打开设置
 Settings &amp;gt; Build, Execution, Deployment &amp;gt; Build Tools &amp;gt; Maven
 修改 Maven 路径和本地仓库的路径
@@ -192,10 +192,10 @@ Maven 自动导包设置
     
     <item>
       <title>IDEAJ配置</title>
-      <link>https://ddq233.github.io/notes/ideaj_config/</link>
+      <link>https://ddq233.gitee.io/notes/ideaj_config/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/ideaj_config/</guid>
+      <guid>https://ddq233.gitee.io/notes/ideaj_config/</guid>
       <description>一、前言  基于 IDEAJ 2019-2 插图为已改设置 JetBrains 系列的产品应该能同样适用 Android Studio 产品基本都能够适用   二、正文 1. 主题与 IDE 字体 2. Ctrl + 鼠标滚轮放大缩小代码 3. 设置鼠标悬浮提示 4. 自动导包、导包校对  Add unambiguous imports on the fly : 自动导入不明确的结构
 Optimize imports on the fly : 自动帮我们优化导入的包
  5. 设置显示行号和方法间的分隔符 6. 忽略大小写提示 7. 设置取消单行显示文件标签 8. 设置默认的字体、字体大小、字体行间距 9. 修改类头的文档注释信息 10. 设置项目文件编码 11. 设置自动编译 12. 设置快捷键 13. 显示内存占用 14. 修改 IDEAJ 启动内存与最大内存 </description>
@@ -203,20 +203,20 @@ Optimize imports on the fly : 自动帮我们优化导入的包
     
     <item>
       <title>Maven仓库地址</title>
-      <link>https://ddq233.github.io/notes/maven_repository_url/</link>
+      <link>https://ddq233.gitee.io/notes/maven_repository_url/</link>
       <pubDate>Thu, 09 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_repository_url/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_repository_url/</guid>
       <description>XML配置
 &amp;lt;!-- 阿里云仓库 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;alimaven&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;aliyun maven&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.aliyun.com/nexus/content/repositories/central/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库1 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo1&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo1.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库2 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;repo2&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repo2.maven.org/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;ibiblio&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;Human Readable Name for this Mirror.&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://mirrors.ibiblio.org/pub/mirrors/maven2/&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;jboss-public-repository-group&amp;lt;/id&amp;gt;&amp;lt;mirrorOf&amp;gt;central&amp;lt;/mirrorOf&amp;gt;&amp;lt;name&amp;gt;JBoss Public Repository Group&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://repository.jboss.org/nexus/content/groups/public&amp;lt;/url&amp;gt;&amp;lt;/mirror&amp;gt;&amp;lt;!-- 中央仓库在中国的镜像 --&amp;gt;&amp;lt;mirror&amp;gt;&amp;lt;id&amp;gt;maven.net.cn&amp;lt;/id&amp;gt;&amp;lt;name&amp;gt;oneof the central mirrors in china&amp;lt;/name&amp;gt;&amp;lt;url&amp;gt;http://maven.</description>
     </item>
     
     <item>
       <title>Windows下配置Maven</title>
-      <link>https://ddq233.github.io/notes/maven_in_win/</link>
+      <link>https://ddq233.gitee.io/notes/maven_in_win/</link>
       <pubDate>Wed, 08 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_in_win/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_in_win/</guid>
       <description>1. Maven 下载 官网下载地址：http://maven.apache.org/download.cgi
 注意：
  Maven 3.3+ 版本的需要 JDK 1.7 或以上 Maven 必须安装在非中文目录下  按需选择下载即可
@@ -230,10 +230,10 @@ Optimize imports on the fly : 自动帮我们优化导入的包
     
     <item>
       <title>AndroidStudio内存设置大小</title>
-      <link>https://ddq233.github.io/notes/as_memory_setting/</link>
+      <link>https://ddq233.gitee.io/notes/as_memory_setting/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/as_memory_setting/</guid>
+      <guid>https://ddq233.gitee.io/notes/as_memory_setting/</guid>
       <description>步骤：
    Android Studio 的安装目录，在 bin 目录下，找到 studio64.exe.vmoptions 文件，打开。      找到↓    - Xms256m- Xmx1280m........  -Xms 是JVM启动的起始堆内存，堆内存是分配给对象的内存 -Xmx 是Java虚拟机启动时的参数，用于限制最大堆内存
    修改后重启 Android Studio      完成    </description>
@@ -241,10 +241,10 @@ Optimize imports on the fly : 自动帮我们优化导入的包
     
     <item>
       <title>CentOS 7 搭建 Nextcloud</title>
-      <link>https://ddq233.github.io/notes/nextcloud_in_centos7/</link>
+      <link>https://ddq233.gitee.io/notes/nextcloud_in_centos7/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/nextcloud_in_centos7/</guid>
+      <guid>https://ddq233.gitee.io/notes/nextcloud_in_centos7/</guid>
       <description>一、环境准备  CentOS 7.5 64位 LNMP  Nginx - 1.16.0 MySQL - 5.6.44 Pure-Ftpd - 1.0.49 PHP - 7.2 phpMyAdmin - 4.7   Nextcloud - 17.0.0  注意事项：
  MySQL 5.5 建议安装内存小于 1GB MySQL 5.6 建议安装内存大于 1GB MySQL 5.7 建议安装内存大于 2GB  二、安装步骤 1. 在 CentOS 安装宝塔面板
 一键安装脚本（在 root 用户下执行命令）
@@ -256,10 +256,10 @@ yum install -y wget &amp;amp;&amp;amp; wget -O install.sh http://download.bt.cn/
     
     <item>
       <title>Raspbian中国软件源</title>
-      <link>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
+      <link>https://ddq233.gitee.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
+      <guid>https://ddq233.gitee.io/notes/%E9%85%8D%E7%BD%AEraspbian%E4%B8%AD%E5%9B%BD%E8%BD%AF%E4%BB%B6%E6%BA%90/</guid>
       <description>中国科学技术大学 : http://mirrors.ustc.edu.cn/raspbian/raspbian/ 阿里云 : http://mirrors.aliyun.com/raspbian/raspbian/ 清华大学 : http://mirrors.tuna.tsinghua.edu.cn/raspbian/raspbian/ 华中科技大学 : http://mirrors.hustunique.com/raspbian/raspbian/ 华南农业大学（华南用户） : http://mirrors.scau.edu.cn/raspbian/ 大连东软信息学院源（北方用户） : http://mirrors.neusoft.edu.cn/raspbian/raspbian/ 重庆大学源（中西部用户） : http://mirrors.cqu.edu.cn/Raspbian/raspbian/ 中山大学 已跳转至中国科学技术大学源 : http://mirror.sysu.edu.cn/raspbian/raspbian/ 新加坡国立大学 : http://mirror.nus.edu.sg/raspbian/raspbian 牛津大学 : http://mirror.ox.ac.uk/sites/archive.raspbian.org/archive/raspbian/ 韩国KAIST大学 : http://ftp.kaist.ac.kr/raspbian/raspbian/   使用说明 备份原始文件（可选步骤） $ sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak$ sudo cp /etc/apt/sources.list.d/raspi.list /etc/apt/sources.list.d/raspi.list.bak 编辑软件源配置 1、编辑 /etc/apt/sources.list 文件（软件源），参考如下命令：
 $ sudo nano /etc/apt/sources.list 2、删除原文件所有内容，buster 系统用以下内容取代：
 deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freedeb-src http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-free 注：网址末尾的raspbian重复两次是必须的。因为Raspbian的仓库中除了APT软件源还包含其他代码。APT软件源不在仓库的根目录，而在raspbian/子目录下。</description>
@@ -267,10 +267,10 @@ deb http://mirrors.sysu.edu.cn/raspbian/raspbian/ buster main contrib non-freed
     
     <item>
       <title>Mac下使用Hugo搭建个人博客</title>
-      <link>https://ddq233.github.io/notes/hugo_in_mac/</link>
+      <link>https://ddq233.gitee.io/notes/hugo_in_mac/</link>
       <pubDate>Sun, 05 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/hugo_in_mac/</guid>
+      <guid>https://ddq233.gitee.io/notes/hugo_in_mac/</guid>
       <description>Hugo是由Go语言实现的静态网站生成器。简单、易用、高效、易扩展、快速部署。本文章是介绍了如何在MacOS下在本地建立网站并部署。
 一、实验材料  Mac OS X - v10.14.6 Homebrew (又称brew) - v2.2.11-dirty Go语言环境 - v1.14.1 Git - v2.23.0 Hugo - v0.68.3 Hugo主题：hugo-notepadium - v0.60.0 GitHub Markdown语法   二、Homebrew 安装 2.1 安装方法 2.1.1 方法一：通过官网提供的命令安装 $ /bin/bash -c &amp;quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)&amp;quot;  在国内，这个命令通常会失败并报以下错误。
 $ curl: (7) Failed to connect to http://raw.githubusercontent.com port 443: Operation timed outOperation  2.1.2 方法二：直接从GitHub上clone文件（换源下载） 输入命令从 GitHub 或者其他源克隆 Homebrew 的项目，放在 /usr/local/Homebrew/ 目录下。

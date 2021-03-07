@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>BuildTools on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/buildtools/</link>
+    <link>https://ddq233.gitee.io/categories/buildtools/</link>
     <description>Recent content in BuildTools on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 26 Apr 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/buildtools/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/categories/buildtools/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Maven习笔记</title>
-      <link>https://ddq233.github.io/notes/maven_notes/</link>
+      <link>https://ddq233.gitee.io/notes/maven_notes/</link>
       <pubDate>Sun, 26 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/maven_notes/</guid>
+      <guid>https://ddq233.gitee.io/notes/maven_notes/</guid>
       <description>前言： 生产环境下开发不再是一个项目一个工程，而是每一个模块创建一个工程，而多个模块整合在一起就需要使用到像 Maven 这样的构建工具
 1. 为什么要使用 Maven ？ 为什么要使用 Maven ？它能帮助我们解决什么问题？
 (1) 轻松添加第三方 jar 包

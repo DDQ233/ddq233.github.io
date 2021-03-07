@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Note on DDQ的笔记</title>
-    <link>https://ddq233.github.io/categories/note/</link>
+    <link>https://ddq233.gitee.io/categories/note/</link>
     <description>Recent content in Note on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Sun, 24 Jan 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/categories/note/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/categories/note/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>wget命令总结</title>
-      <link>https://ddq233.github.io/notes/wget_cmd/</link>
+      <link>https://ddq233.gitee.io/notes/wget_cmd/</link>
       <pubDate>Sun, 24 Jan 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/wget_cmd/</guid>
+      <guid>https://ddq233.gitee.io/notes/wget_cmd/</guid>
       <description>wget命令用来从指定的URL下载文件。wget非常稳定，它在带宽很窄的情况下和不稳定网络中有很强的适应性，如果是由于网络的原因下载失败，wget会不断的尝试，直到整个文件下载完毕。如果是服务器打断下载过程，它会再次联到服务器上从停止的地方继续下载。这对从那些限定了链接时间的服务器上下载大文件非常有用。
 命令格式：
 wget [参数列表] [目标软件、网页的网址]  参数列表：
@@ -31,19 +31,19 @@ tail -f wget-log  6.</description>
     
     <item>
       <title>Mac应用安装参考列表</title>
-      <link>https://ddq233.github.io/notes/mac_app_list/</link>
+      <link>https://ddq233.gitee.io/notes/mac_app_list/</link>
       <pubDate>Mon, 30 Nov 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/mac_app_list/</guid>
+      <guid>https://ddq233.gitee.io/notes/mac_app_list/</guid>
       <description>1. 系统增强工具  brew wget curl vi vim  2. 系统增强应用  InsomniaX Folx Transmission The Unarchiver BindZip ForkLift Mounty Free Download Manager Magnet Alfred 4 Tencent Lemon Lite AppCleaner Pro Mouse Kap 蒲公英  3. 远程控制应用  向日葵远程控制 VNC Viewer ShareMosue ControlaxPro AirServer  4. 开发工具  Java、JDK Python Node.js Vue.js cmake Git npm Docker 网络调试助手 MQTT.fx  5. 开发应用  Terminus iTerm IntelliJ IDEA PyCharm Android Studio VMware Fusion Dash Postman Visual Studio Code Navicat Premium DBeaver rdm Xcode Wireshark Eclipse  6.</description>
     </item>
     
     <item>
       <title>关于广州市入户与购房政策文章汇总</title>
-      <link>https://ddq233.github.io/notes/guangzhou_settle_and_house_purchase_policy/</link>
+      <link>https://ddq233.gitee.io/notes/guangzhou_settle_and_house_purchase_policy/</link>
       <pubDate>Thu, 20 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/guangzhou_settle_and_house_purchase_policy/</guid>
+      <guid>https://ddq233.gitee.io/notes/guangzhou_settle_and_house_purchase_policy/</guid>
       <description>1. 系统网站  广州市来穗人员积分制服务管理信息系统  2. 意见规定   广州市人民政府关于加强我市人口调控和服务管理工作的意见
   广州市户籍迁入管理规定 - 通知
   广州市户籍迁入管理规定 - 政策解读
@@ -61,10 +61,10 @@ tail -f wget-log  6.</description>
     
     <item>
       <title>Mac下修改hosts文件并使其生效</title>
-      <link>https://ddq233.github.io/notes/mac_hosts_modifiy/</link>
+      <link>https://ddq233.gitee.io/notes/mac_hosts_modifiy/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/mac_hosts_modifiy/</guid>
+      <guid>https://ddq233.gitee.io/notes/mac_hosts_modifiy/</guid>
       <description>注意事项
  尽量在修改前做备份 需要使用超级管理员模式进行编辑  1. 备份文件
 $ sudo cp /etc/hosts /etc/hosts.backup  2. 编辑文件
@@ -76,10 +76,10 @@ $ sudo killall -HUP mDNSResponder  </description>
     
     <item>
       <title>VMare安装MacOSX10.11失败的一种解决办法</title>
-      <link>https://ddq233.github.io/notes/solution_of_mac_osx_10_11_install_failed_in_vmare/</link>
+      <link>https://ddq233.gitee.io/notes/solution_of_mac_osx_10_11_install_failed_in_vmare/</link>
       <pubDate>Tue, 11 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/solution_of_mac_osx_10_11_install_failed_in_vmare/</guid>
+      <guid>https://ddq233.gitee.io/notes/solution_of_mac_osx_10_11_install_failed_in_vmare/</guid>
       <description>问题原因：
 Mac OS X 10.11 系统相对老旧，某些开发签名已过期，导致安装器检测不到有效的安装文件，系统安装失败。
 解决办法：修改时间
@@ -90,10 +90,10 @@ Mac OS X 10.11 系统相对老旧，某些开发签名已过期，导致安装�
     
     <item>
       <title>租房小攻略</title>
-      <link>https://ddq233.github.io/notes/house_renting_attention/</link>
+      <link>https://ddq233.gitee.io/notes/house_renting_attention/</link>
       <pubDate>Mon, 06 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/house_renting_attention/</guid>
+      <guid>https://ddq233.gitee.io/notes/house_renting_attention/</guid>
       <description>一、租房前 1.1 合租 1.1.1 合租的人数 合租的话肯定是两个或多个人共同出资租下一套房，合租人数的多少也是要纳入考虑的范围。
 人数越多，嘈杂声也就越多，每个人的作息时间和生活习惯都不一样，对于习惯安静环境的同学们就要好好考虑清楚了。
 1.1.2 合租人的情况 需要了解的情况大概有以下几种：
@@ -120,10 +120,10 @@ Mac OS X 10.11 系统相对老旧，某些开发签名已过期，导致安装�
     
     <item>
       <title>生成 SSH Key</title>
-      <link>https://ddq233.github.io/notes/ssh-key_generate/</link>
+      <link>https://ddq233.gitee.io/notes/ssh-key_generate/</link>
       <pubDate>Sat, 20 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/ssh-key_generate/</guid>
+      <guid>https://ddq233.gitee.io/notes/ssh-key_generate/</guid>
       <description>0. 检查 SSH Key 是否存在
 如果有文件 id_rsa.pub 或者 id_dsa.pub 则证明已经存在了 SSH Key
 $ ls -la ~/.ssh  1. 生成新的 SSH Key
@@ -135,10 +135,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>文献的检索、阅读和管理学习笔记</title>
-      <link>https://ddq233.github.io/notes/literature_learning_note/</link>
+      <link>https://ddq233.gitee.io/notes/literature_learning_note/</link>
       <pubDate>Mon, 13 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/literature_learning_note/</guid>
+      <guid>https://ddq233.gitee.io/notes/literature_learning_note/</guid>
       <description>1. 看文献的5个认识  看文献是科研的基本功 变被动为主动 小处着手，放眼全部 多多交流 不要迷信文献   2. 文献检索存在的问题  不清楚不同的文献该采用怎样的检索系统 对数据库用法不了解，不太会检索 检索结果不理想，太多或太少 无法得到全文，也不知道如何去下载 对最新的文献不关注，或者不知道如何跟踪   3. 文献检索常用方法   常规法： 利用检索工具查找文献，即以主题、分类、作者等途径，通过检索工具查找
   浏览法： 本专业或本学科相关的核心期刊，比如 Nature，每出一期就浏览阅读
   追溯法： 查看一篇参考价值大的文献之后，以后面附的参考文献为线索查找文献
@@ -151,10 +151,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>各类照片格式信息</title>
-      <link>https://ddq233.github.io/notes/different_picture_size/</link>
+      <link>https://ddq233.gitee.io/notes/different_picture_size/</link>
       <pubDate>Fri, 10 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/different_picture_size/</guid>
+      <guid>https://ddq233.gitee.io/notes/different_picture_size/</guid>
       <description>1、证件照常用大小   1寸 2.5cm * 3.5cm 或 413像素 * 295像素
   2寸 3.5cm * 5.3cm 或 626像素 * 413像素
   小2寸(护照) 4.8cm * 3.3cm 或 567像素 * 390像素
@@ -166,10 +166,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>Mac便签说明</title>
-      <link>https://ddq233.github.io/notes/mac_note_direction/</link>
+      <link>https://ddq233.gitee.io/notes/mac_note_direction/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/mac_note_direction/</guid>
+      <guid>https://ddq233.gitee.io/notes/mac_note_direction/</guid>
       <description>自定便条很容易。
 使您的便条突出显示并引起注意。
 · 使用不同的字体和字体大小来格式化文本。 · 使用粗体和斜体文字样式或颜色来强调重点。 · 包括图形 ￼。
@@ -184,10 +184,10 @@ $ Enter passphrase (empty for not passphrase): [Type a assphrase] $ Enter same p
     
     <item>
       <title>总线型、星型、环状、树状、网状拓扑结构</title>
-      <link>https://ddq233.github.io/notes/topological_tructure/</link>
+      <link>https://ddq233.gitee.io/notes/topological_tructure/</link>
       <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/notes/topological_tructure/</guid>
+      <guid>https://ddq233.gitee.io/notes/topological_tructure/</guid>
       <description>总线型：
 总线拓扑结构所有设备连接到一条连接介质上。总线结构所需要的电缆数量少，线缆长度短，易于布线和维护。多个结点共用一条传输信道，信道利用率高。但不找诊断故障。
 星型：

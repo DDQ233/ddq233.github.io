@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Summary on DDQ的笔记</title>
-    <link>https://ddq233.github.io/tags/summary/</link>
+    <link>https://ddq233.gitee.io/tags/summary/</link>
     <description>Recent content in Summary on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/tags/summary/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/tags/summary/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>记第一次部署SpringBoot小项目到Linux</title>
-      <link>https://ddq233.github.io/summary/springboot-project-deploy/</link>
+      <link>https://ddq233.gitee.io/summary/springboot-project-deploy/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/springboot-project-deploy/</guid>
+      <guid>https://ddq233.gitee.io/summary/springboot-project-deploy/</guid>
       <description>1. 项目描述
 预设一个定时任务，在每月16日中午12点定时给指定邮箱发送邮件。
 2. 项目技术栈
@@ -29,10 +29,10 @@
     
     <item>
       <title>Java串口编程二次封装总结</title>
-      <link>https://ddq233.github.io/summary/java_serialport_sec_encapusulation_summary/</link>
+      <link>https://ddq233.gitee.io/summary/java_serialport_sec_encapusulation_summary/</link>
       <pubDate>Sun, 05 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/java_serialport_sec_encapusulation_summary/</guid>
+      <guid>https://ddq233.gitee.io/summary/java_serialport_sec_encapusulation_summary/</guid>
       <description>一、Windows10下Java串口编程环境搭建  JDK 必不可少 RXTXcomm.jar rxtxSerial.dll rxtxParallel.dll  复制 RXTXcomm.jar &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\lib\ext 复制 rxtxSerial.dll &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\bin 复制 rxtxParalled.dll &amp;mdash;-&amp;gt; %JAVA_HOME%\jre\bin
 相关文件在 SerialPortUtil 模块下的 tools 文件夹
 项目链接：
@@ -44,10 +44,10 @@ package pers.demo.serialport; import com.</description>
     
     <item>
       <title>SSH课程设计总结</title>
-      <link>https://ddq233.github.io/summary/ssh_curridulum_design_summary/</link>
+      <link>https://ddq233.gitee.io/summary/ssh_curridulum_design_summary/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/ssh_curridulum_design_summary/</guid>
+      <guid>https://ddq233.gitee.io/summary/ssh_curridulum_design_summary/</guid>
       <description>一、课程设计要求 题目举例：
  华软新生注册系统的设计与实现（易） 华软教材订购系统的设计与实现（易） 华软教学管理系统的设计与实现 华软二手交易平台的设计与实现 华软图书管理系统的设计与实现 华软宿舍管理系统的设计与实现 华软课室申请系统的设计与实现 华软校园快递系统的设计与实现 华软学籍管理系统的设计与实现 计算机系资料收集系统的设计与实现（学生奖惩信息管理，学生社会实践活动管理，教师科研信息管理，教师奖惩信息管理）  具体要求：
 1. 独立完成
@@ -64,10 +64,10 @@ package pers.demo.serialport; import com.</description>
     
     <item>
       <title>物联网网关与工程实训课程设计总结</title>
-      <link>https://ddq233.github.io/summary/iot_curridulum_design_summary/</link>
+      <link>https://ddq233.gitee.io/summary/iot_curridulum_design_summary/</link>
       <pubDate>Sat, 04 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/iot_curridulum_design_summary/</guid>
+      <guid>https://ddq233.gitee.io/summary/iot_curridulum_design_summary/</guid>
       <description>一、课程设计要求 总体设计参考：
 网关部分要求：
  使用 Linux 实现一个简易的物联网网关。（Linux 使用 WSL 或者 VMware虚拟机） 能够从串口接收数据，终端节点可选择实物硬件、Proteus仿真、PC机上的串口调试助手。 能够把串口接收的传感器数据保存到 MySql 数据库。 能够把串口接收的传感器数据通过网络（TCP、UDP、MQTT等协议）发送给客户端。 能够从网络（TCP、UDP、MQTT等协议）中接收数据指令并通过串口发送到终端节点驱动外设（LED灯、电机等）的工作。 能够运用多线程的知识，从终端节点上行的数据处理在主线程中运行，下行的数据处理在子线程中运行。   二、题目与主题 课程设计目的： 通过简易物联网网关的实现让学生把Linux串口编程、网络编程、数据库编程、mqtt编程、多线程编程应用于实践。

@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>SpringBoot on DDQ的笔记</title>
-    <link>https://ddq233.github.io/tags/springboot/</link>
+    <link>https://ddq233.gitee.io/tags/springboot/</link>
     <description>Recent content in SpringBoot on DDQ的笔记</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© 2019 - 2020 DDQ.</copyright>
     <lastBuildDate>Fri, 10 Jul 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://ddq233.github.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://ddq233.gitee.io/tags/springboot/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>记第一次部署SpringBoot小项目到Linux</title>
-      <link>https://ddq233.github.io/summary/springboot-project-deploy/</link>
+      <link>https://ddq233.gitee.io/summary/springboot-project-deploy/</link>
       <pubDate>Fri, 10 Jul 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://ddq233.github.io/summary/springboot-project-deploy/</guid>
+      <guid>https://ddq233.gitee.io/summary/springboot-project-deploy/</guid>
       <description>1. 项目描述
 预设一个定时任务，在每月16日中午12点定时给指定邮箱发送邮件。
 2. 项目技术栈
